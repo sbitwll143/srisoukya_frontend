@@ -58,16 +58,17 @@ background: transparent;
  } 
 
  /* New Hamburger manu */
- .container {
-  max-width: 1050px;
-  width: 90%;
+ .container-1 {
+  /* max-width: 1050px; */
+  width: 100%;
   margin: auto;
+  z-index: 12;
 }
 
 .navbar {
   width: 100%;
   box-shadow: 0 1px 4px rgb(146 161 176 / 15%);
-  padding-top: 0;
+  padding-top: 0!important;
 }
 
 .nav-container {
@@ -87,7 +88,9 @@ background: transparent;
 
 .navbar .nav-container a {
   text-decoration: none;
-  color: goldenrod;
+  background: -webkit-linear-gradient(108.08deg, #CAAC26 17.48%, #F5E590 36.87%, #B18B26 79.92%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   font-weight: 500;
   font-size: 1.5rem;
   padding: 0.7rem;
@@ -158,9 +161,9 @@ background: transparent;
 .navbar .menu-items {
   padding-top: 120px;
   /* box-shadow: 0 0 200px goldenrod; */
-  background: #0F3325;
+  background: #FAF7E9;
   height: 100vh;
-  width: 50%;
+  width: 100%;
   transform: translate(-150%);
   display: flex;
   flex-direction: column;
@@ -179,9 +182,9 @@ background: transparent;
 
 .logo {
   position: absolute;
-  top: 5px;
+  /* top: 5px; */
   right: 15px;
-  z-index: 1;
+  z-index: -1;
   
 }
 
@@ -258,18 +261,19 @@ background: transparent;
   }
 
   .booking-btn{
-    width: 236px;
-    height: 72px;
+    width: 170px;
+    height: 65px;
     background-image: linear-gradient(108.08deg, #CAAC26, #B18B26);
     color: #fff;
     top: 0;
     right: 0;
     margin-top: -40px;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
     border: none;
-    margin-right: -115px;
+    margin-right: 10px;
     border-radius: 50px;
+    
   }
   .explore-now{
     font-weight: 800;
@@ -362,7 +366,7 @@ background: transparent;
 
   .view-more{
    
-   margin-top: 120px;
+   margin-top: 60px;
   }
   .view-more-btn{
     background-image: var(--golden-gradient);
@@ -453,12 +457,12 @@ background: transparent;
 }
 
 .glimps-section{
-  margin-top: 200px;
+  margin-top: 100px;
 }
 
 .glimpse-text-align{
   margin-left: 15%;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 .vertical-2{
   border-left: 4px;
@@ -475,7 +479,8 @@ background: transparent;
 .gallery-section{
   width: 100%;
   height: 520px;
-  margin-top: 180px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 .img-size{
   width: 456px;
@@ -543,11 +548,11 @@ height: 270px;
 
 /* Health Section Start */
 .health-section{
-  margin-top: 250px;
+  margin-top: 100px;
 }
 .health-specialist{
   background-image: linear-gradient(108.08deg, rgba(202, 172, 38, 0.1) 17.48%, rgba(245, 229, 144, 0.1) 36.87%, rgba(177, 139, 38, 0.1) 79.92%);
-  height: 563px;
+  height: 700px;
   width: 100%;
   
 }
@@ -567,7 +572,7 @@ background: linear-gradient(108.08deg, #CAAC26 17.48%, #F5E590 36.87%, #B18B26 7
 }
 
 .health-section{
-  margin-top: 260px;
+  margin-top: 100px;
 }
 .health-section h2{
   background: -webkit-linear-gradient(108.08deg, #CAAC26 17.48%, #F5E590 36.87%, #B18B26 79.92%);
@@ -616,13 +621,24 @@ padding: 20px;
   width: 280px;
   height: 170px;
 }
+.track-section{
+  margin-top: 100px;
+}
+.track-section h2{
+  background: -webkit-linear-gradient(108.08deg, #CAAC26 17.48%, #F5E590 36.87%, #B18B26 79.92%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+}
 /* Track Your Order Section End */
 
 /* footer Section start */
 footer {
   background: #F9F6EC;;
   color: #000;
-  margin-top: 100px;
+  /* margin-top: 100px; */
   padding: 70px 0;
 }
 
@@ -702,5 +718,299 @@ color: rgba(34, 34, 34, 0.7);
 
  /*====================================================================================*/
 
+/* About Page Start */
+ /* Backgroud Image setup */
+ #background-images{
+  background-image:url('assets/about-page/about-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+ }
+
+ /* Who we are section start */
+ .video-size
+ {
+  height:auto;
+  width:100%;
+  overflow:hidden;
+ }
+ .video-size > video {
+  min-width: 100%;
+  min-height: 100%;
+}
+ .about-text-title{
+  font-family: 'Lato', sans-serif; 
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: rgba(34, 34, 34, 0.9);
+ }
+ .about-text-p{
+   font-family: 'Lato', sans-serif; 
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  color: rgba(34, 34, 34, 0.9);
+
+ }
+ .margin-r{
+  margin-right: 7px;
+ }
+ .about-us{
+  font-family: 'Lato', sans-serif; 
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: rgba(34, 34, 34, 0.9);
+  margin-top: 13px;
+ }
+ .who-we-are{
+  background: -webkit-linear-gradient(108.08deg, #CAAC26 17.48%, #F5E590 36.87%, #B18B26 79.92%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Lato', sans-serif; 
+  font-style: normal;
+  font-weight: 600;
+  font-size: 27px;
+  margin-top: 30px;
+  
+ }
+ .about-title{
+  font-family: 'Lato', sans-serif; 
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  color: rgba(34, 34, 34, 0.9);
+  margin-top: 80px;
+ }
+
+  /* Who we are section end */
+
+ /* Book a appoint Section Start */
+.book-btn{
+  width: 236px;
+  height: 72px;
+  background-image: var(--golden-gradient);
+  color: #fff;
+  border: none;
+  margin-top: 50px;
+  font-weight: 600;
+font-size: 24px;
+border-radius: 2px;
+ 
+}
+.book-text-color{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  background: -webkit-linear-gradient(108.08deg, #CAAC26 17.48%, #F5E590 36.87%, #B18B26 79.92%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+
+text-transform: uppercase;
+}
+input[type="text"] {
+  display: block;
+  margin: 0 auto;
+  width: 603px;
+height: 62px;
+background: #F5F5F5;
+border-radius: 5px;
+border: none;
+padding: 20px;
+}
+
+.appointment-section{
+  margin-top: 100px;
+}
+
+/* Book a appoint Section end */
+
+/* Recommanded Section Start */
+.recommand-text-align{
+  margin-left: 8%;
+  margin-bottom: 100px;
+ }
+ .recommand-heading{
+  font-size: 40px;
+  font-weight: 700;
+  background: -webkit-linear-gradient(108.08deg, #CAAC26 17.48%, #F5E590 36.87%, #B18B26 79.92%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+ }
+ .vertical {
+  border-left: 4px;
+  border-style: solid;
+  border-image: linear-gradient(108.08deg, #CAAC26 17.48%, #F5E590 36.87%, #B18B26 79.92%) 1;
+  height: 100px;
+  position:absolute;
+  left: 12%;
+}
+/* Recommanded Section End */
+/* About Page End */
+
+/*====================================================================================*/
+
+/* Why Srisoukya Ayurvedic Center Start */
+/* Backgroud Image setup */
+#background-images{
+  background-image:url('assets/why-ayurveda-page/ayurveda-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+ }
+
+ .who-we-are-section{
+  margin-top: 80px;
+}
+ .service-text-title{
+  font-family: 'Lato', sans-serif; 
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  background: -webkit-linear-gradient(108.08deg, #CAAC26 17.48%, #F5E590 36.87%, #B18B26 79.92%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ }
+ .service-text-p{
+   font-family: 'Lato', sans-serif; 
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  text-transform: capitalize;
+
+ }
+ .margin-r{
+  margin-right: 7px;
+ }
+ .about-ayurveda{
+  
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;;
+  margin-top: 37px;
+  line-height: 24px;
+ }
+ .why-ayurveda-title{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  color: rgba(34, 34, 34, 0.9);
+  margin-top: 76px;
+  
+ }
+ .about-title{
+  font-family: 'Lato', sans-serif; 
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  color: rgba(34, 34, 34, 0.9);
+  margin-top: 80px;
+ }
+
+  /* Why Ayurvedia section end */
+
+  /* Why Srisoukya section start */
+  .why-srisoukya-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 80px;
+    color: rgba(34, 34, 34, 0.9);
+  }
+  .why-srisoukya-text-title{
+    font-family: 'Lato', sans-serif; 
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: rgba(34, 34, 34, 0.9);
+  }
+  .why-srisoukya-text-p{
+    font-family: 'Lato', sans-serif; 
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13.5px;
+    line-height: 16px;
+    color: rgba(34, 34, 34, 0.9);
+  }
+  .icon-margin-right{
+    margin-right: 10px;
+  }
+/* Book a appoint Section Start */
+.book-btn{
+  width: 236px;
+  height: 72px;
+  background-image: var(--golden-gradient);
+  color: #fff;
+  border: none;
+  margin-top: 50px;
+  font-weight: 600;
+font-size: 24px;
+border-radius: 2px;
+ 
+}
+.book-text-color{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  background: -webkit-linear-gradient(108.08deg, #CAAC26 17.48%, #F5E590 36.87%, #B18B26 79.92%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+
+text-transform: uppercase;
+}
+input[type="text"] {
+  display: block;
+  margin: 0 auto;
+  width: 603px;
+height: 62px;
+background: #F5F5F5;
+border-radius: 5px;
+border: none;
+padding: 20px;
+}
+
+.appointment-section{
+  margin-top: 100px;
+}
+
+/* Book a appoint Section end */
+
+/* Image Grid System apply */
+.image-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 10px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+
+.item-1{
+   grid-row: 1 / span 1; 
+   grid-column: 1 / span 1; 
+   
+}
+.item-2{
+   grid-row: 2 / span 1; 
+   grid-column: 1 / span 1; 
+}
+.item-3{
+  grid-row: 1 / span 2;
+  grid-column: 2 / span 1;
+}
+
+/* Why Srisoukya Ayurvedic Center End */
 
    
