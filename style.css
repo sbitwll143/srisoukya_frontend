@@ -163,7 +163,7 @@ background: transparent;
   /* box-shadow: 0 0 200px goldenrod; */
   background: #FAF7E9;
   height: 100vh;
-  width: 100%;
+  width: 50%;
   transform: translate(-150%);
   display: flex;
   flex-direction: column;
@@ -261,8 +261,9 @@ background: transparent;
   }
 
   .booking-btn{
-    width: 170px;
-    height: 65px;
+    /* width: 170px;
+    height: 65px; */
+    padding: 15px 30px;
     background-image: linear-gradient(108.08deg, #CAAC26, #B18B26);
     color: #fff;
     top: 0;
@@ -284,10 +285,13 @@ background: transparent;
    /* Header section End */
 
    /* Feature Section Start */
-   .section-view{
-    margin-top: 80px;
-   
+   .section-headline-p{  
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  color: #666666;
    }
+
    .verticl-mode{
     writing-mode: vertical-lr;
     transform: rotate(180deg);
@@ -312,6 +316,7 @@ background: transparent;
     background: -webkit-linear-gradient(108.08deg, #CAAC26 17.48%, #F5E590 36.87%, #B18B26 79.92%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
    }
    .shadow-text{
     color: rgba(172, 178, 188, 0.3);
@@ -322,10 +327,10 @@ background: transparent;
     position: absolute;
    }
    .package-bg{
-    margin-left: 85%;
+    margin-left: 95%;
     right: 0;
     top: 0;
-    margin-top: -80px;
+    margin-top: -50px;
     width: 280px;
     height: 170px;
    }
@@ -353,6 +358,7 @@ background: transparent;
   justify-content: center;
   
 }
+
 .overlay-2 {
   left: 0;
   bottom: 0;
@@ -442,6 +448,7 @@ background: transparent;
   width: 100%;
   height: 600px;
   position: relative;
+  margin-top: 130px;
   
 }
 
@@ -454,6 +461,7 @@ background: transparent;
   min-height: 100%;
   width: auto;
   height: auto;
+  margin-top: 80px;
 }
 
 .glimps-section{
@@ -462,8 +470,11 @@ background: transparent;
 
 .glimpse-text-align{
   margin-left: 15%;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
 }
+/* .glimpse-text-align p{
+  margin-top: 50px;
+} */
 .vertical-2{
   border-left: 4px;
   border-style: solid;
@@ -479,8 +490,8 @@ background: transparent;
 .gallery-section{
   width: 100%;
   height: 520px;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 320px;
+  /* margin-bottom: 100px; */
 }
 .img-size{
   width: 456px;
@@ -538,9 +549,16 @@ height: 270px;
   font-size: 25px;
   font-family: 'Lato', sans-serif; 
 }
+.content-details a{
+  text-decoration: none;
+}
 
 .fadeIn-left{
   left: 20%;
+}
+.gallery-text-align{
+  margin-bottom: 80px;
+  margin-left: 15%;
 }
 
 /* Gallery Section End */
@@ -549,20 +567,25 @@ height: 270px;
 /* Health Section Start */
 .health-section{
   margin-top: 100px;
-}
-.health-specialist{
   background-image: linear-gradient(108.08deg, rgba(202, 172, 38, 0.1) 17.48%, rgba(245, 229, 144, 0.1) 36.87%, rgba(177, 139, 38, 0.1) 79.92%);
-  height: 700px;
+  height: 800px;
   width: 100%;
+  padding-top: 50px;
+ 
+ 
   
 }
-.health-specialist h5{
+
+.health-section h5{
   background: -webkit-linear-gradient(108.08deg, #CAAC26 17.48%, #F5E590 36.87%, #B18B26 79.92%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 700;
     font-size: 40px;
     text-align: center;
+}
+hr{
+  margin: 0!important;
 }
 .hr-line-bg{
   padding: 2px;
@@ -571,9 +594,7 @@ background: linear-gradient(108.08deg, #CAAC26 17.48%, #F5E590 36.87%, #B18B26 7
 
 }
 
-.health-section{
-  margin-top: 100px;
-}
+
 .health-section h2{
   background: -webkit-linear-gradient(108.08deg, #CAAC26 17.48%, #F5E590 36.87%, #B18B26 79.92%);
     -webkit-background-clip: text;
@@ -582,18 +603,25 @@ background: linear-gradient(108.08deg, #CAAC26 17.48%, #F5E590 36.87%, #B18B26 7
     font-size: 40px;
     text-align: center;
 }
-.health-section p{
-  font-weight: 400;
-  font-size: 20px;
-  font-family: 'Lato', sans-serif;
-  color: rgba(34, 34, 34, 0.68);
+
+.health-text-align{
+  margin-left: 15%;
+  margin-top: 80px;
+}
+.vertical-3{
+  border-left: 4px;
+  border-style: solid;
+  border-image: linear-gradient(108.08deg, #CAAC26 17.48%, #F5E590 36.87%, #B18B26 79.92%) 1;
+    height: 100px;
+    position:absolute;
+    left: 12%;
+    margin-top: 80px;
 }
 /* Health Section End */
 
 /* Track Your Order Section Start */
 .track-btn{
-  width: 236px;
-  height: 72px;
+ padding: 15px 30px;
   background-image: var(--golden-gradient);
   color: #fff;
   border: none;
@@ -613,17 +641,18 @@ border-radius: 5px;
 border: none;
 padding: 20px;
 }
+.track-section form{
+  margin-top: -50px;
+}
 .track-bg{
-  margin-left: 80%;
+  margin-left: 85%;
   right: 0;
   top: 0;
   margin-top: -80px;
   width: 280px;
   height: 170px;
 }
-.track-section{
-  margin-top: 100px;
-}
+
 .track-section h2{
   background: -webkit-linear-gradient(108.08deg, #CAAC26 17.48%, #F5E590 36.87%, #B18B26 79.92%);
   -webkit-background-clip: text;
@@ -631,6 +660,7 @@ padding: 20px;
   font-weight: 700;
   font-size: 40px;
   text-align: center;
+  margin-top: 80px;
 }
 /* Track Your Order Section End */
 
@@ -647,11 +677,11 @@ footer {
   color: #000;
 } 
 
-.footer-bg{
+/* .footer-bg{
   background: #F9F6EC;
-  padding-top: 65px;
-  padding-bottom: 78px;
-}
+  padding-top: 55px;
+  padding-bottom: 50px;
+} */
 footer form {
   margin-left: 20px;
   margin-top: 50px;
@@ -669,7 +699,11 @@ footer form input {
   outline: 0;
   
 }
-
+.footer-logo{
+  margin-left: -60px;
+  width: 300px;
+height: 65.65px;
+}
 footer form .submit-btn {
   background: var(--golden-gradient);
   padding: 8px 30px;
