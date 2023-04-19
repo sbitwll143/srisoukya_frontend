@@ -187,6 +187,10 @@ background: transparent;
   z-index: -1;
   
 }
+.logo-size{
+  width: 300px;
+  height: 60px;
+}
 
 .nav-container input[type="checkbox"]:checked ~ .menu-items {
   transform: translateX(0);
@@ -261,8 +265,6 @@ background: transparent;
   }
 
   .booking-btn{
-    /* width: 170px;
-    height: 65px; */
     padding: 15px 30px;
     background-image: linear-gradient(108.08deg, #CAAC26, #B18B26);
     color: #fff;
@@ -285,6 +287,10 @@ background: transparent;
    /* Header section End */
 
    /* Feature Section Start */
+   .package-img{
+    width: 450px;
+    height: 330px;
+   }
    .section-headline-p{  
   font-style: normal;
   font-weight: 500;
@@ -565,6 +571,12 @@ height: 270px;
 
 
 /* Health Section Start */
+.row.justify-content-center > .health-col {
+  flex: 0 0 14.28%;
+  max-width: 14.28%; 
+  margin-top: 30px; 
+}
+
 .health-section{
   margin-top: 100px;
   background-image: linear-gradient(108.08deg, rgba(202, 172, 38, 0.1) 17.48%, rgba(245, 229, 144, 0.1) 36.87%, rgba(177, 139, 38, 0.1) 79.92%);
@@ -665,23 +677,23 @@ padding: 20px;
 /* Track Your Order Section End */
 
 /* footer Section start */
-footer {
-  background: #F9F6EC;;
-  color: #000;
-  /* margin-top: 100px; */
-  padding: 70px 0;
-}
 
   footer a {
   text-decoration: none;
   color: #000;
 } 
-
-/* .footer-bg{
+.footer-img img{
+  width: 13px;
+  height: 11px;
+}
+.footer-img img:first-child{
+  margin-top: 5px;
+}
+.footer-bg{
   background: #F9F6EC;
   padding-top: 55px;
   padding-bottom: 50px;
-} */
+}
 footer form {
   margin-left: 20px;
   margin-top: 50px;
@@ -747,6 +759,232 @@ color: rgba(34, 34, 34, 0.7);
 }
   
 /* footer Section end */
+
+/* Responsive Design for home page start */
+@media only screen and (max-width: 992px){
+ 
+  /* Hamburger Menu start */
+  html,body {
+    /* max-width: 992px; */
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    width: 100%;
+    height: auto;
+
+  }
+.back-video{
+  display: none;
+}
+.logo-size{
+  width: 240px;
+  height: 50px;
+  margin-right: 180px;
+}
+.login-btn,
+.signup-btn {
+display: none;
+}
+.navbar .menu-items {
+  position: fixed;
+  top: 0;
+  left: 0;
+  max-width: 300px;
+  transform: translateX(-100%);
+ 
+}
+.table-img{
+  display: block;
+  width: 100%;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.logo {
+  margin-top: 10px;
+  position: absolute;
+  /* top: 5px; */
+  right: 15px;
+  z-index: -1;
+  
+}
+
+/* For package section */
+/* .feature-bg{
+  margin-left: -50px;
+} */
+.container{
+  margin: 0 auto;
+  width: 100%;
+}
+.feature-heading{
+  font-weight: 600;
+font-size: 26.442px;
+}
+.section-headline-p{
+  font-weight: 400;
+font-size: 13.221px;
+}
+.vertical {
+  border-left: 3px;
+  height: 70px;
+  left: 8%;
+  /* position:relative; */
+
+}
+.feature-text-align {
+  margin-left: 12%;
+  margin-bottom: 100px;
+}
+.package-img{
+  width: 370px;
+  height: 230px;
+} 
+.package-bg {
+  margin-left: 80%;
+  right: 0;
+  top: 0;
+  margin-top: -50px;
+  width: 130px;
+  height: 140px;
+}
+.shadow-text {
+  
+  font-size: 60px;
+  margin-left: 13%;
+  margin-top: -55px;
+  
+}
+
+/* Feature product section start */
+.carousel-item .container-sm {
+  width: 100%;
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+.carousel-item .card-size {
+  flex-basis: calc(33% - 10px);
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.carousel-item .card-size:last-child {
+  /* margin-right: 0; */
+  display: none;
+}
+
+/* new arrival */
+.tablet-responsive{
+  margin-top: 30px;
+}
+/* Gallery Section */
+
+
+.gallery-section {
+  margin-top: 225px;
+  
+}
+
+.gallery-margin {
+  margin-right: 30px;
+  margin-left: 30px;
+}
+.row.justify-content-center > .health-col {
+  flex: 0 0 22%;
+  max-width: 22%;
+  width: 100%;
+} 
+.health-section h5 {
+  font-size: 25px;
+  margin-top: 20px;
+
+}
+.health-col img{
+  width: 80px;
+  height: 80px;
+}
+.consultant-area{
+  margin-top: 30px;
+  margin-bottom: 90px;
+  /* height: auto; */
+}
+.health-section {
+  height: 855px;
+}
+.track-section h2{
+  font-size: 40px;
+    margin-top: 40px;
+}
+input[type="text"] {
+  
+  width: 374.77px;
+height: 53.27px;
+ 
+}
+.track-btn{
+  padding: 12px 25px;
+  font-size: 20px;
+}
+.tablet-device-col-1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+/* .tablet-device-col-2{
+display: flex;
+flex-direction: row;
+align-items: center;
+  justify-content: space-around;
+} */
+
+.div-1{
+  width: 12%;
+  float: left;
+ margin: 0 auto;
+}
+ .div-2{
+  width: 12%;
+  float: right;
+} 
+.footer-logo{
+  width: 350px;
+  height: 65px;
+}
+.social-icon .ri-facebook-circle-fill, .ri-youtube-fill, .ri-twitter-fill, .ri-linkedin-box-fill{
+  font-size: 40px;
+}
+ul li{
+  font-size: 20px;
+  color: rgba(34, 34, 34, 0.7);
+}
+.footer-title{
+  font-weight: 700;
+font-size: 27px;
+font-family: 'Lato', sans-serif;
+color: #222222;
+}
+.footer-img span{
+  font-size: 20px;
+  color: rgba(34, 34, 34, 0.7);
+}
+.footer-img img:first-child{
+  margin-top: 10px;
+}
+.get-touch{
+  font-weight: 600;
+font-size: 26px;
+margin-top: 20px;
+}
+form .footer-input{
+  justify-content: center;
+}
+}
+/* Responsive Design for home page end */
 
  /* Home page End */
 
@@ -903,6 +1141,7 @@ padding: 20px;
 
  .who-we-are-section{
   margin-top: 80px;
+  margin-right: 20px;
 }
  .service-text-title{
   font-family: 'Lato', sans-serif; 
@@ -956,7 +1195,7 @@ padding: 20px;
   .why-srisoukya-title{
     font-style: normal;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 35px;
     margin-top: 80px;
     color: rgba(34, 34, 34, 0.9);
   }
@@ -975,8 +1214,66 @@ padding: 20px;
     line-height: 16px;
     color: rgba(34, 34, 34, 0.9);
   }
-  .icon-margin-right{
-    margin-right: 10px;
+  .text-margin-right{
+    margin-left: 8px;
+  }
+  .text-margin-right p{
+    width: 200px;
+  }
+  .text-margin-right h5{
+    width: 300px;
+  }
+  .icon-margin-left{
+   text-align: right;
+   margin-right: 10px;
+   
+  }
+  .icon-margin-left p{
+   margin-left: 140px;
+   width: 200px;
+   
+  }
+  
+  .right-design img{
+    margin-left: 97px!important;
+    margin-top: -4px;
+  }
+  .big-logo{
+    width: 1130px;
+height: 240px;
+  }
+  .icon-margin-right-2{
+    margin-top: -40px;
+    margin-left: -12px;
+  }
+  .text-margin-right-2{
+    margin-top: -40px;
+    margin-left: 10px;
+  }
+  .text-margin-right-2 p{
+    width: 200px;
+  }
+  .text-margin-right-2 h5{
+    width: 300px;
+  }
+  .icon-margin-left-2{
+     margin-top: -50px;
+   
+    
+  }
+  .icon-margin-left-2 p{
+    margin-left: 53px;
+  }
+  .right-design-3 img{
+    margin-left: 10px!important;
+    margin-top: -4px;
+  }
+  .icon-margin-left-2 p{
+    width: 200px;
+    text-align: right;
+  }
+  .right-design-4{
+    margin-top: -40px;
   }
 /* Book a appoint Section Start */
 .book-btn{
@@ -1045,6 +1342,66 @@ padding: 20px;
   grid-column: 2 / span 1;
 }
 
+form select {
+  display: block;
+  margin: 0 auto;
+  width: 603px;
+height: 62px;
+background: #F5F5F5!important;
+border-radius: 5px;
+border: 0!important;
+padding: 20px;
+
+
+}
 /* Why Srisoukya Ayurvedic Center End */
+
+/*====================================================================================*/
+
+/* Ayurvedic Consultation Center Start */
+ /* Backgroud Image setup */
+ #consultation-background-images{
+  background-image:url('assets/ayurvedic-consultation/cosultation-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+ }
+ .consultation-content{
+  font-family: 'Lato', sans-serif; 
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: #000000;
+padding: 30px;
+ }
+ .consultation-content-bg{
+  background: #F9F6EC;
+border-radius: 0px 10px 10px 0px;
+ }
+ .consultation-section{
+  margin-top: 80px;
+  /* margin-right: 20px; */
+ }
+ .goal-img img{
+  margin-left: 50px;
+ }
+ .elements-bg{
+  background: #F9F6EC;
+  border-radius: 0px 10px 10px 0px;
+ 
+ }
+ .elements img{
+  width: 550px;
+  height: 270px;
+ }
+/* Ayurvedic Consultation Center End */
+
+
+
+
+
 
    
