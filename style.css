@@ -493,6 +493,7 @@ background: transparent;
 
 
 /* Gallery Section Start */
+
 .gallery-section{
   width: 100%;
   height: 520px;
@@ -758,233 +759,21 @@ ul li a:hover{
 color: rgba(34, 34, 34, 0.7);
 }
   
+.footer-design{
+  display: grid;
+  gap: 30px;
+  grid-template-columns : repeat(4,1fr);
+ 
+}
+.get-touch-p{
+  text-align: right;
+}
+.get-touch-footer{
+  max-width: 400px;
+}
 /* footer Section end */
 
-/* Responsive Design for home page start */
-@media only screen and (max-width: 992px){
- 
-  /* Hamburger Menu start */
-  html,body {
-    /* max-width: 992px; */
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-    width: 100%;
-    height: auto;
 
-  }
-.back-video{
-  display: none;
-}
-.logo-size{
-  width: 240px;
-  height: 50px;
-  margin-right: 180px;
-}
-.login-btn,
-.signup-btn {
-display: none;
-}
-.navbar .menu-items {
-  position: fixed;
-  top: 0;
-  left: 0;
-  max-width: 300px;
-  transform: translateX(-100%);
- 
-}
-.table-img{
-  display: block;
-  width: 100%;
-  height: auto;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-}
-.logo {
-  margin-top: 10px;
-  position: absolute;
-  /* top: 5px; */
-  right: 15px;
-  z-index: -1;
-  
-}
-
-/* For package section */
-/* .feature-bg{
-  margin-left: -50px;
-} */
-.container{
-  margin: 0 auto;
-  width: 100%;
-}
-.feature-heading{
-  font-weight: 600;
-font-size: 26.442px;
-}
-.section-headline-p{
-  font-weight: 400;
-font-size: 13.221px;
-}
-.vertical {
-  border-left: 3px;
-  height: 70px;
-  left: 8%;
-  /* position:relative; */
-
-}
-.feature-text-align {
-  margin-left: 12%;
-  margin-bottom: 100px;
-}
-.package-img{
-  width: 370px;
-  height: 230px;
-} 
-.package-bg {
-  margin-left: 80%;
-  right: 0;
-  top: 0;
-  margin-top: -50px;
-  width: 130px;
-  height: 140px;
-}
-.shadow-text {
-  
-  font-size: 60px;
-  margin-left: 13%;
-  margin-top: -55px;
-  
-}
-
-/* Feature product section start */
-.carousel-item .container-sm {
-  width: 100%;
-  display: flex;
-  /* flex-wrap: wrap; */
-}
-.carousel-item .card-size {
-  flex-basis: calc(33% - 10px);
-  margin-right: 10px;
-  margin-bottom: 10px;
-}
-.carousel-item .card-size:last-child {
-  /* margin-right: 0; */
-  display: none;
-}
-
-/* new arrival */
-.tablet-responsive{
-  margin-top: 30px;
-}
-/* Gallery Section */
-
-
-.gallery-section {
-  margin-top: 225px;
-  
-}
-
-.gallery-margin {
-  margin-right: 30px;
-  margin-left: 30px;
-}
-.row.justify-content-center > .health-col {
-  flex: 0 0 22%;
-  max-width: 22%;
-  width: 100%;
-} 
-.health-section h5 {
-  font-size: 25px;
-  margin-top: 20px;
-
-}
-.health-col img{
-  width: 80px;
-  height: 80px;
-}
-.consultant-area{
-  margin-top: 30px;
-  margin-bottom: 90px;
-  /* height: auto; */
-}
-.health-section {
-  height: 855px;
-}
-.track-section h2{
-  font-size: 40px;
-    margin-top: 40px;
-}
-input[type="text"] {
-  
-  width: 374.77px;
-height: 53.27px;
- 
-}
-.track-btn{
-  padding: 12px 25px;
-  font-size: 20px;
-}
-.tablet-device-col-1{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-/* .tablet-device-col-2{
-display: flex;
-flex-direction: row;
-align-items: center;
-  justify-content: space-around;
-} */
-
-.div-1{
-  width: 12%;
-  float: left;
- margin: 0 auto;
-}
- .div-2{
-  width: 12%;
-  float: right;
-} 
-.footer-logo{
-  width: 350px;
-  height: 65px;
-}
-.social-icon .ri-facebook-circle-fill, .ri-youtube-fill, .ri-twitter-fill, .ri-linkedin-box-fill{
-  font-size: 40px;
-}
-ul li{
-  font-size: 20px;
-  color: rgba(34, 34, 34, 0.7);
-}
-.footer-title{
-  font-weight: 700;
-font-size: 27px;
-font-family: 'Lato', sans-serif;
-color: #222222;
-}
-.footer-img span{
-  font-size: 20px;
-  color: rgba(34, 34, 34, 0.7);
-}
-.footer-img img:first-child{
-  margin-top: 10px;
-}
-.get-touch{
-  font-weight: 600;
-font-size: 26px;
-margin-top: 20px;
-}
-form .footer-input{
-  justify-content: center;
-}
-}
-/* Responsive Design for home page end */
 
  /* Home page End */
 
@@ -1399,7 +1188,508 @@ border-radius: 0px 10px 10px 0px;
  }
 /* Ayurvedic Consultation Center End */
 
+/*==================================================================================*/
 
+/* Responsive Design for home page start */
+@media only screen and (max-width: 992px){
+ 
+  /* Hamburger Menu start */
+  html,body {
+    /* max-width: 992px; */
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    width: 100%;
+    height: auto;
+
+  }
+.back-video{
+  display: none;
+}
+.logo-size{
+  width: 240px;
+  height: 50px;
+  margin-right: 180px;
+}
+.login-btn,
+.signup-btn {
+display: none;
+}
+.navbar .menu-items {
+  position: fixed;
+  top: 0;
+  left: 0;
+  max-width: 300px;
+  transform: translateX(-100%);
+ 
+}
+.table-img{
+  display: block;
+  width: 100%;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.logo {
+  margin-top: 10px;
+  position: absolute;
+  /* top: 5px; */
+  right: 15px;
+  z-index: -1;
+  
+}
+
+/* For package section */
+/* .feature-bg{
+  margin-left: -50px;
+} */
+.container{
+  margin: 0 auto;
+  width: 100%;
+}
+.feature-heading{
+  font-weight: 600;
+font-size: 26.442px;
+}
+.section-headline-p{
+  font-weight: 400;
+font-size: 13.221px;
+}
+.vertical {
+  border-left: 3px;
+  height: 70px;
+  left: 8%;
+  /* position:relative; */
+
+}
+.feature-text-align {
+  margin-left: 12%;
+  margin-bottom: 100px;
+}
+.package-img{
+  width: 370px;
+  height: 230px;
+} 
+.package-bg {
+  margin-left: 80%;
+  right: 0;
+  top: 0;
+  margin-top: -50px;
+  width: 130px;
+  height: 140px;
+}
+.shadow-text {
+  
+  font-size: 60px;
+  margin-left: 13%;
+  margin-top: -55px;
+  
+}
+
+/* Feature product section start */
+.carousel-item .container-sm {
+  width: 100%;
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+.carousel-item .card-size {
+  flex-basis: calc(33% - 10px);
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.carousel-item .card-size:last-child {
+  /* margin-right: 0; */
+  display: none;
+}
+
+/* new arrival */
+.tablet-responsive{
+  margin-top: 30px;
+}
+/* Gallery Section */
+
+
+.gallery-section {
+  margin-top: 225px;
+  
+}
+
+.gallery-margin {
+  margin-right: 30px;
+  margin-left: 30px;
+}
+.row.justify-content-center > .health-col {
+  flex: 0 0 22%;
+  max-width: 22%;
+  width: 100%;
+} 
+.health-section h5 {
+  font-size: 25px;
+  margin-top: 20px;
+
+}
+.health-col img{
+  width: 80px;
+  height: 80px;
+}
+.consultant-area{
+  margin-top: 30px;
+  margin-bottom: 90px;
+  /* height: auto; */
+}
+.health-section {
+  height: 855px;
+}
+.track-section h2{
+  font-size: 40px;
+    margin-top: 40px;
+}
+input[type="text"] {
+  
+  width: 374.77px;
+height: 53.27px;
+ 
+}
+.track-btn{
+  padding: 12px 25px;
+  font-size: 20px;
+}
+
+/* footer start */
+
+.footer-logo{
+  width: 463px;
+  height: 165px;
+  margin-bottom: 0;
+  margin-left: 5%;
+}
+/* .footer-logo p{
+  text-align: left;
+} */
+.social-icon .ri-facebook-circle-fill, .ri-youtube-fill, .ri-twitter-fill, .ri-linkedin-box-fill{
+  font-size: 40px;
+}
+ul li{
+  font-size: 20px;
+  color: rgba(34, 34, 34, 0.7);
+}
+.footer-title{
+  font-weight: 700;
+font-size: 27px;
+font-family: 'Lato', sans-serif;
+color: #222222;
+}
+.footer-img span{
+  font-size: 14px;
+  color: rgba(34, 34, 34, 0.7);
+}
+/* .footer-img img:first-child{
+  margin-top: 10px;
+} */
+.get-touch{
+  font-weight: 600;
+font-size: 20px;
+margin-top: 20px;
+}
+/* form .footer-input{
+  justify-content: center;
+} */
+
+ .footer-design{
+  display: grid;
+  grid-template-columns: 1fr; /* one column in first row */
+  grid-template-rows: auto auto auto; /* three rows */
+  gap: 10px; /* spacing between grid items */
+  /* align-items: center; */
+}
+.footer-item-1{
+  grid-row: 1 / span 1; /* first row */
+  text-align: center;
+  justify-content: start;
+  width: 400px;
+  align-items: center;
+}
+.footer-item-1 p{
+  text-align: left;
+  margin-left: 36%;
+  margin-top: -25px;
+  font-size: 20px;
+}
+.footer-item-2{
+  grid-row: 2 / span 1; /* second row */
+  grid-column: 1 / span 1; /* first column in second row */
+  margin-left: 32%;
+  align-items: center;
+ 
+}
+.footer-item-3{
+  grid-row: 1 / span 1; /* second row */
+  grid-column: 2 / span 1; /* second column in second row */
+  /* margin-right: 20%; */
+  width: 500px;
+  align-items: center;
+  margin-top: 20px;
+  
+}
+.footer-item-4{
+  grid-row: 2 / span 1; /* third row */
+  /* display: flex; */
+  justify-content: end;
+  width: 400px;
+  margin-left: -20px;
+  align-items: center;
+  
+ 
+}
+/* .item{
+  text-align: center;
+}   */
+ .social-icon{
+  margin-left: 35%;
+  margin-top: -20px;
+}  
+.social-icon li{
+  margin-right: 12px;
+}
+.footer-img span{
+  font-size: 18px;
+}
+.footer-img img:not(:first-child){
+  margin-top: -20px;
+}
+.footer-rights{
+  margin: 0 auto;
+  /* width: 800px; */
+  margin-left: 70%;
+  width: 300px;
+  margin-top: 30px;
+}
+}
+
+@media only screen and (max-width: 768px){
+  .banner-text h1{
+    font-size: 35px;
+  }
+  .banner-text h5{
+    font-size: 30px;
+  }
+  .feature-text-align{
+    margin-left: 10%;
+  }
+  .package-bg{
+   
+    /* margin-top: -50px; */
+    width: 100px;
+    height: 120px;
+  }
+  .shadow-text{
+    font-size: 50px;
+    margin-top: -45px;
+  }
+  .package-img {
+    width: 280px;
+    height: 230px;
+}
+.footer-logo{
+  width: 353px;
+  height: 145px;
+  margin-bottom: 0;
+  margin-left: -20px;
+}
+.social-icon .ri-facebook-circle-fill, .ri-youtube-fill, .ri-twitter-fill, .ri-linkedin-box-fill{
+  font-size: 30px;
+}
+.footer-img span{
+  font-size: 15px;
+  
+}
+.footer-item-1{
+  grid-row: 1 / span 1; /* first row */
+  text-align: center;
+  justify-content: start;
+  width: 300px;
+  align-items: center;
+}
+.footer-item-1 p{
+ 
+  margin-left: 25%;
+  
+  font-size: 18px;
+}
+.social-icon{
+  margin-left: 24%;
+  margin-top: -20px;
+}  
+.footer-item-3{
+  grid-row: 1 / span 1; /* second row */
+  grid-column: 2 / span 1; /* second column in second row */
+  /* margin-right: 20%; */
+  width: 400px;
+  align-items: center;
+  margin-top: 40px;
+  
+}
+.footer-item-4{
+  grid-row: 2 / span 1; /* third row */
+  /* display: flex; */
+  justify-content: end;
+  width: 300px;
+  
+  align-items: center;
+  
+}
+.footer-item-2{
+  grid-row: 2 / span 1; /* second row */
+  grid-column: 1 / span 1; /* first column in second row */
+  margin-left: 25%;
+  align-items: center;
+  width: 300px;
+ 
+}
+.footer-rights{
+  margin: 0 auto;
+  /* width: 800px; */
+  margin-left: 70%;
+  width: 300px;
+  margin-top: 30px;
+}
+/* .footer-item-4 h5{
+  margin-left: 50px;
+} */
+}
+
+@media only screen and (max-width: 576px){
+  
+  /* .footer-bg{
+    display: none;
+  } */
+  .logo-size{
+    width: 200px;
+    height: 45px;
+    margin-right: 50px;
+  }
+  .booking-btn{
+    padding: 8px 18px;
+    font-size: 12px;
+  }
+  .banner-text h1{
+    font-size: 25px;
+  }
+  .banner-text h5{
+    font-size: 22px;
+  }
+  .package-img {
+    width: 400px;
+    height: 230px;
+    
+}
+.mobile-design{
+  margin-bottom: 20px;
+}
+
+
+.carousel-item .container-sm {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.carousel-item .card-size {
+  flex-basis: calc(43% - 5px);
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+.carousel-item .card-size:nth-child(3) {
+  margin-right: 0;
+  display: none;
+}
+.new-arrival-btn{
+  width: 80px;
+  height: 25px;
+}
+.row-cols-3 > div {
+  flex: 0 0 45%;
+  max-width: 50%;
+  
+}
+.row-cols-3 > div:first-child,
+.row-cols-3 > div:last-child {
+  margin-left: 10px;
+  margin-right: 10px;}
+
+  /* .health-section{
+    margin-top: 500px;
+  } */
+  /* .content .content-overlay{
+    width: 50%;
+  } */
+  .gallery-img{
+    margin-bottom: 15px;
+  }
+
+  .consultant-area{
+    /* margin-top: 50px; */
+  }
+  /* .vertical {
+    position: fixed;
+  } */
+  .gallery-section {
+    margin-bottom: 450px;
+}
+
+.health-text-align {
+  
+    margin-top: 20px;
+}
+.vertical-3{
+  border-left: 4px;
+  height: 60px;
+  left: 12%;
+    margin-top: 25px;
+}
+
+
+.footer-item-1{
+ 
+  width: 200px;
+  align-items: center;
+}
+.footer-logo{
+  width: 273px;
+  height: 130px;
+  margin-bottom: 0;
+  margin-left: -20px;
+}
+.footer-item-3{
+  width: 180px;
+  align-items: center;
+  margin-top: 40px;
+  
+}
+.footer-item-2{
+ 
+  margin-left: 55%;
+  align-items: center;
+  width: 300px;
+ 
+}
+.footer-item-4{
+  grid-row: 3 / span 1; /* third row */
+  justify-content: center;
+  width: 300px;
+  margin-left: 25%;
+  align-items: center;
+  
+}
+.footer-rights{
+display: none;
+}
+}
+/* Responsive Design for home page end */
 
 
 
