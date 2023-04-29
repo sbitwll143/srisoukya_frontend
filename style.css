@@ -681,7 +681,7 @@ padding: 20px;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 60px;
   text-align: center;
   margin-top: 80px;
 }
@@ -705,6 +705,7 @@ margin-top: 5px;
 background: #F9F6EC;
 padding-top: 55px;
 padding-bottom: 50px;
+
 }
 footer form {
 margin-left: 20px;
@@ -828,6 +829,10 @@ max-width: 400px;
  }
  .margin-r{
   margin-right: 7px;
+ }
+ .ayurveda-img{
+  width: 70px;
+  height: 70px;
  }
  .about-us{
   font-family: 'Lato', sans-serif; 
@@ -987,6 +992,25 @@ padding: 20px;
   color: rgba(34, 34, 34, 0.9);
   margin-top: 80px;
  }
+ .service-img{
+  width: 70px;
+  height: 70px;
+ }
+ .design-margin{
+  margin-left: 23px;
+ }
+ .wrapper{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+ }
+ .column-width{
+  width: 45%;
+}
+.why-srisoukya-section{
+  margin-top: 80px;
+}
+
 
   /* Why Ayurvedia section end */
 
@@ -1004,6 +1028,9 @@ padding: 20px;
     font-weight: 700;
     font-size: 24px;
     color: rgba(34, 34, 34, 0.9);
+  }
+  .text-align{
+    text-align: right;
   }
   .why-srisoukya-text-p{
     font-family: 'Lato', sans-serif; 
@@ -1121,7 +1148,7 @@ padding: 20px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  grid-gap: 10px;
+  grid-gap: 25px;
   margin-left: 20px;
   margin-top: 20px;
 }
@@ -1225,11 +1252,12 @@ border-radius: 0px 10px 10px 0px;
 } 
 .feature-heading{
   font-weight: 700;
-font-size: 35px;
+font-size: 40px;
 }
 .section-headline-p{
-  font-weight: 400;
-font-size: 20px;
+  font-weight: 500;
+  font-size: 30px;
+}
 }
 .vertical {
   /* border-left: 4px; */
@@ -1286,7 +1314,7 @@ font-size: 20px;
   height: 720px;
  
   padding-top: 6px;
-  margin-top: 180px;
+  margin-top: 270px;
 }
 .health-text-align{
   margin-top: 100px;
@@ -1308,8 +1336,8 @@ font-size: 20px;
 }
 input[type="text"] {
   
-  width: 374.77px;
-height: 53.27px;
+  width: 603px;
+height: 62px;
  
 }
 .track-btn{
@@ -1436,7 +1464,7 @@ footer a {
 } 
 .feature-heading{
   font-weight: 700;
-font-size: 35px;
+font-size: 40px;
 }
 .section-headline-p{
   font-weight: 400;
@@ -1496,7 +1524,7 @@ font-size: 20px;
   height: 720px;
  
   padding-top: 6px;
-  margin-top: 180px;
+  margin-top: 258px;
 }
 .health-text-align{
   margin-top: 100px;
@@ -1518,8 +1546,8 @@ font-size: 20px;
 }
 input[type="text"] {
   
-  width: 374.77px;
-height: 53.27px;
+  width: 603px;
+height: 62px;
  
 }
 .track-btn{
@@ -1627,6 +1655,16 @@ footer a {
   /* footer Section end */
 }
 @media only screen and (max-width: 1200px){
+  #background-video{
+    height: 90vh;
+  }
+  #background-images{
+    height: 90vh;
+  }
+  
+  .navbar .menu-items{
+    height: 90vh;
+  }
   html,body {
     /* max-width: 992px; */
     margin: 0;
@@ -1646,7 +1684,7 @@ footer a {
 } 
 .feature-heading{
   font-weight: 700;
-font-size: 35px;
+font-size: 40px;
 }
 .section-headline-p{
   font-weight: 400;
@@ -1694,7 +1732,7 @@ font-size: 20px;
   margin-left: 30px;
 }
 .gallery-text-align {
-  margin-bottom: 21px;
+  margin-bottom: -25px;
   
 }
 .health-section {
@@ -1723,12 +1761,7 @@ font-size: 20px;
   font-size: 40px;
     margin-top: 40px;
 }
-input[type="text"] {
-  
-  width: 374.77px;
-height: 53.27px;
- 
-}
+
 .track-btn{
   padding: 12px 25px;
   font-size: 20px;
@@ -1742,9 +1775,7 @@ height: 53.27px;
   margin-bottom: 0;
   margin-left: 5%;
 }
-/* .footer-logo p{
-  text-align: left;
-} */
+
 .social-icon .ri-facebook-circle-fill, .ri-youtube-fill, .ri-twitter-fill, .ri-linkedin-box-fill{
   font-size: 40px;
 }
@@ -1794,33 +1825,48 @@ margin-top: 20px;
   margin-top: -25px;
   font-size: 20px;
 }
-.footer-item-2{
-  grid-row: 2 / span 1; /* second row */
-  grid-column: 1 / span 1; /* first column in second row */
-  margin-left: 32%;
-  align-items: center;
- 
-}
 .footer-item-3{
   grid-row: 1 / span 1; /* second row */
   grid-column: 2 / span 1; /* second column in second row */
   /* margin-right: 20%; */
-  width: 500px;
+  width: 400px;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 40px;
+  margin-left: -20%;
   
 }
 .footer-item-4{
   grid-row: 2 / span 1; /* third row */
-  /* display: flex; */
-  justify-content: end;
-  width: 400px;
-  margin-left: -20px;
-  align-items: center;
+  grid-column: 2 / span 1; /* second column in second row */
+
+  width: 320px;
   
+  align-items: right;
+   margin-left: -13%; 
+  
+}
+.get-touch-p {
+  text-align: left;
+  margin-left: 30%;
+}
+.footer-item-2{
+  grid-row: 2 / span 1; /* second row */
+  grid-column: 1 / span 1; /* first column in second row */
+  margin-left: 20%;
+  align-items: center;
+  width: 300px;
  
 }
-
+input[type="text"] {
+  width: 600px;
+  height: 65px;
+  
+}
+form select {
+  width: 600px;
+  height: 65px;
+ 
+}
  .social-icon{
   margin-left: 35%;
   margin-top: -20px;
@@ -1829,7 +1875,7 @@ margin-top: 20px;
   margin-right: 12px;
 }
 .footer-img span{
-  font-size: 18px;
+  font-size: 20px;
 }
 .footer-img img:not(:first-child){
   margin-top: -20px;
@@ -1841,8 +1887,25 @@ margin-top: 20px;
   width: 300px;
   margin-top: 30px;
 }
+.footer-input input{
+  width: 250px;
+    height: 45px;
+    margin-left: 25%;
+}
+
 }
 @media only screen and (min-width: 993px) and (max-width: 1199px){
+  #background-video{
+    height: 90vh;
+  }
+  #background-images{
+    height: 90vh;
+  }
+  
+  .navbar .menu-items{
+    height: 90vh;
+  }
+ 
   html,body {
     /* max-width: 992px; */
     margin: 0;
@@ -1862,7 +1925,7 @@ margin-top: 20px;
 } 
 .feature-heading{
   font-weight: 700;
-font-size: 35px;
+font-size: 40px;
 }
 .section-headline-p{
   font-weight: 400;
@@ -1904,9 +1967,9 @@ font-size: 20px;
   
 }
 .new-arrival-btn{
-  width: 80px;
-  height: 25px;
-  font-size: 10px;
+  width: 66px;
+    height: 25px;
+    margin-left: 8px;
 }
 
 .gallery-section {
@@ -1922,10 +1985,7 @@ font-size: 20px;
   margin-bottom: 70px;
 }
 .health-section {
-  /* margin-top: 100px; */
- 
   height: 700px;
- 
   padding-top: 6px;
   margin-top: 116px;
 }
@@ -1944,12 +2004,7 @@ font-size: 20px;
   font-size: 40px;
     margin-top: 40px;
 }
-input[type="text"] {
-  
-  width: 374.77px;
-height: 53.27px;
- 
-}
+
 .track-btn{
   padding: 12px 25px;
   font-size: 20px;
@@ -1963,9 +2018,7 @@ height: 53.27px;
   margin-bottom: 0;
   margin-left: 5%;
 }
-/* .footer-logo p{
-  text-align: left;
-} */
+
 .social-icon .ri-facebook-circle-fill, .ri-youtube-fill, .ri-twitter-fill, .ri-linkedin-box-fill{
   font-size: 40px;
 }
@@ -1983,17 +2036,13 @@ color: #222222;
   font-size: 14px;
   color: rgba(34, 34, 34, 0.7);
 }
-/* .footer-img img:first-child{
-  margin-top: 10px;
-} */
+
 .get-touch{
   font-weight: 600;
 font-size: 20px;
 margin-top: 20px;
 }
-/* form .footer-input{
-  justify-content: center;
-} */
+
 
  .footer-design{
   display: grid;
@@ -2015,33 +2064,53 @@ margin-top: 20px;
   margin-top: -25px;
   font-size: 20px;
 }
-.footer-item-2{
-  grid-row: 2 / span 1; /* second row */
-  grid-column: 1 / span 1; /* first column in second row */
-  margin-left: 32%;
-  align-items: center;
- 
-}
 .footer-item-3{
   grid-row: 1 / span 1; /* second row */
   grid-column: 2 / span 1; /* second column in second row */
   /* margin-right: 20%; */
-  width: 500px;
+  width: 400px;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 40px;
+  margin-left: -20%;
   
 }
 .footer-item-4{
   grid-row: 2 / span 1; /* third row */
-  /* display: flex; */
-  justify-content: end;
-  width: 400px;
-  margin-left: -20px;
-  align-items: center;
+  grid-column: 2 / span 1; /* second column in second row */
+
+  width: 320px;
   
+  align-items: right;
+   margin-left: -13%; 
+  
+}
+.get-touch-p {
+  text-align: left;
+  margin-left: 30%;
+}
+.footer-item-2{
+  grid-row: 2 / span 1; /* second row */
+  grid-column: 1 / span 1; /* first column in second row */
+  margin-left: 23%;
+  align-items: center;
+  width: 300px;
  
 }
-
+input[type="text"] {
+  width: 600px;
+  height: 65px;
+  
+}
+form select {
+  width: 600px;
+  height: 65px;
+ 
+}
+.footer-input input{
+  width: 250px;
+    height: 45px;
+    margin-left: 25%;
+}
  .social-icon{
   margin-left: 35%;
   margin-top: -20px;
@@ -2064,6 +2133,16 @@ margin-top: 20px;
 }
 }
 @media only screen and (max-width: 992px){
+  #background-video{
+    height: 90vh;
+  }
+  #background-images{
+    height: 90vh;
+  }
+  
+  .navbar .menu-items{
+    height: 90vh;
+  }
  
   /* Hamburger Menu start */
   html,body {
@@ -2075,11 +2154,6 @@ margin-top: 20px;
     height: auto;
 
   }
-  #background-video{
-    height: 50vh;
-  }
-
-
 .logo-size{
   width: 240px;
   height: 50px;
@@ -2097,7 +2171,9 @@ display: none;
   transform: translateX(-100%);
  
 }
-
+.gallery-text-align {
+  margin-bottom: 70px;
+}
 .logo {
   margin-top: 10px;
   position: absolute;
@@ -2113,7 +2189,7 @@ display: none;
 }
 .feature-heading{
   font-weight: 700;
-font-size: 30px;
+font-size: 40px;
 }
 .section-headline-p{
   font-weight: 600;
@@ -2131,8 +2207,8 @@ font-size: 16px;
   margin-bottom: 100px;
 }
 .package-img{
-  width: 370px;
-  height: 230px;
+  width: 380px;
+  height: 300px;
 } 
 .package-bg {
   margin-left: 80%;
@@ -2171,13 +2247,19 @@ font-size: 16px;
   margin-bottom: 10px;
 }
 .carousel-item .card-size:last-child {
-  /* margin-right: 0; */
+  
   display: none;
 }
+
 
 /* new arrival */
 .tablet-responsive{
   margin-top: 30px;
+}
+.new-arrival-btn{
+  width: 66px;
+    height: 25px;
+    margin-left: 8px;
 }
 /* Gallery Section */
 
@@ -2227,12 +2309,7 @@ font-size: 16px;
   font-size: 40px;
     margin-top: 40px;
 }
-input[type="text"] {
-  
-  width: 374.77px;
-height: 53.27px;
- 
-}
+
 .track-btn{
   padding: 12px 25px;
   font-size: 20px;
@@ -2240,7 +2317,32 @@ height: 53.27px;
 .vertical-3{
   margin-top: 67px;
 }
+/* Why Ayurvedic */
+.image-grid {
+  margin-left: 42px;
+  grid-gap: 20px;
+}
 
+.column-width{
+  width: 100%;
+  margin: 0 3px;
+}
+.wrapper{
+  display: block;
+}
+.why-ayurveda-title{
+  margin-left: 40px;
+}
+.about-ayurveda{
+  margin: 0 40px 40px 40px;
+}
+.margin-r{
+  margin-left: 40px;
+}
+
+.item{
+  width: 95%;
+}
 /* footer start */
 
 .footer-logo{
@@ -2249,9 +2351,7 @@ height: 53.27px;
   margin-bottom: 0;
   margin-left: 5%;
 }
-/* .footer-logo p{
-  text-align: left;
-} */
+
 .social-icon .ri-facebook-circle-fill, .ri-youtube-fill, .ri-twitter-fill, .ri-linkedin-box-fill{
   font-size: 40px;
 }
@@ -2269,17 +2369,13 @@ color: #222222;
   font-size: 14px;
   color: rgba(34, 34, 34, 0.7);
 }
-/* .footer-img img:first-child{
-  margin-top: 10px;
-} */
+
 .get-touch{
   font-weight: 600;
 font-size: 20px;
 margin-top: 20px;
 }
-/* form .footer-input{
-  justify-content: center;
-} */
+
 
  .footer-design{
   display: grid;
@@ -2301,33 +2397,48 @@ margin-top: 20px;
   margin-top: -25px;
   font-size: 20px;
 }
-.footer-item-2{
-  grid-row: 2 / span 1; /* second row */
-  grid-column: 1 / span 1; /* first column in second row */
-  margin-left: 32%;
-  align-items: center;
- 
-}
 .footer-item-3{
   grid-row: 1 / span 1; /* second row */
   grid-column: 2 / span 1; /* second column in second row */
   /* margin-right: 20%; */
-  width: 500px;
+  width: 400px;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 40px;
+  margin-left: -20%;
   
 }
 .footer-item-4{
   grid-row: 2 / span 1; /* third row */
-  /* display: flex; */
-  justify-content: end;
-  width: 400px;
-  margin-left: -20px;
-  align-items: center;
+  grid-column: 2 / span 1; /* second column in second row */
+
+  width: 320px;
   
+  align-items: right;
+   margin-left: -13%; 
+  
+}
+.get-touch-p {
+  text-align: left;
+  margin-left: 30%;
+}
+.footer-item-2{
+  grid-row: 2 / span 1; /* second row */
+  grid-column: 1 / span 1; /* first column in second row */
+  margin-left: 23%;
+  align-items: center;
+  width: 300px;
  
 }
-
+input[type="text"] {
+  width: 600px;
+  height: 65px;
+  
+}
+form select {
+  width: 600px;
+  height: 65px;
+ 
+}
  .social-icon{
   margin-left: 35%;
   margin-top: -20px;
@@ -2348,11 +2459,23 @@ margin-top: 20px;
   width: 300px;
   margin-top: 30px;
 }
+.footer-input input{
+  width: 250px;
+    height: 45px;
+    margin-left: 25%;
+}
 }
 
 @media only screen and (max-width: 950px){
   #background-video{
-    height: 40vh;
+    height: 90vh;
+  }
+  #background-images{
+    height: 90vh;
+  }
+  
+  .navbar .menu-items{
+    height: 90vh;
   }
   .logo-size {
     width: 220px;
@@ -2392,11 +2515,52 @@ margin-top: 20px;
 }
 .feature-heading {
   font-weight: 700;
-  font-size: 32px;
+  font-size: 35px;
+}
+input[type="text"] {
+  width: 500px;
+  height: 65px;
+  
+}
+form select {
+  width: 500px;
+  height: 65px;
+ 
+}
+.footer-input input{
+  width: 250px;
+    height: 45px;
+    margin-left: 25%;
 }
 .section-headline-p {
   font-weight: 600;
   font-size: 20px;
+}
+/* Why Ayurvedic */
+.image-grid {
+  margin-left: 42px;
+  grid-gap: 20px;
+}
+
+.column-width{
+  width: 100%;
+  margin: 0 3px;
+}
+.wrapper{
+  display: block;
+}
+.why-ayurveda-title{
+  margin-left: 40px;
+}
+.about-ayurveda{
+  margin: 0 40px 40px 40px;
+}
+.margin-r{
+  margin-left: 40px;
+}
+
+.item{
+  width: 95%;
 }
 .footer-logo{
   width: 353px;
@@ -2439,17 +2603,22 @@ margin-top: 20px;
 }
 .footer-item-4{
   grid-row: 2 / span 1; /* third row */
-  /* display: flex; */
-  justify-content: end;
-  width: 300px;
+  grid-column: 2 / span 1; /* second column in second row */
+
+  width: 320px;
   
-  align-items: center;
+  align-items: right;
+  margin-left: 8%;
   
+}
+.get-touch-p {
+  text-align: left;
+  margin-left: 30%;
 }
 .footer-item-2{
   grid-row: 2 / span 1; /* second row */
   grid-column: 1 / span 1; /* first column in second row */
-  margin-left: 25%;
+  margin-left: 23%;
   align-items: center;
   width: 300px;
  
@@ -2462,8 +2631,9 @@ margin-top: 20px;
   margin-top: 30px;
 }
 .new-arrival-btn{
-  width: 75px;
-  height: 25px;
+  width: 66px;
+    height: 25px;
+    margin-left: 8px;
 }
 .vertical{
   border-left: 3px;
@@ -2503,7 +2673,16 @@ margin-top: 0;
 }
 @media only screen and (max-width: 850px){
   #background-video{
-    height: 40vh;
+    height: 90vh;
+  }
+  #background-images{
+    height: 90vh;
+  }
+   .banner-text{
+   background-image: none;
+  } 
+  .navbar .menu-items{
+    height: 90vh;
   }
   .logo-size {
     width: 220px;
@@ -2529,9 +2708,7 @@ margin-top: 0;
     width: 100px;
     height: 120px;
   }
-  .navbar .menu-items{
-    height: 40vh;
-  }
+
   .shadow-text{
     font-size: 50px;
     margin-top: -45px;
@@ -2539,6 +2716,16 @@ margin-top: 0;
   .package-img {
     width: 300px;
     height: 230px;
+}
+input[type="text"] {
+  width: 450px;
+  height: 65px;
+  
+}
+form select {
+  width: 450px;
+  height: 65px;
+ 
 }
 .overlay-2{
   padding: 12px;
@@ -2552,7 +2739,7 @@ margin-top: 0;
 }
 .feature-heading {
   font-weight: 700;
-  font-size: 24px;
+  font-size: 34px;
 }
 .footer-logo{
   width: 353px;
@@ -2595,17 +2782,22 @@ margin-top: 0;
 }
 .footer-item-4{
   grid-row: 2 / span 1; /* third row */
-  /* display: flex; */
-  justify-content: end;
-  width: 300px;
+  grid-column: 2 / span 1; /* second column in second row */
+
+  width: 320px;
   
-  align-items: center;
+  align-items: right;
+  margin-left: 8%;
   
+}
+.get-touch-p {
+  text-align: left;
+  margin-left: 30%;
 }
 .footer-item-2{
   grid-row: 2 / span 1; /* second row */
   grid-column: 1 / span 1; /* first column in second row */
-  margin-left: 25%;
+  margin-left: 23%;
   align-items: center;
   width: 300px;
  
@@ -2621,8 +2813,9 @@ margin-top: 0;
   margin-top: 30px;
 }
 .new-arrival-btn{
-  width: 75px;
-  height: 25px;
+  width: 66px;
+    height: 25px;
+    margin-left: 8px;
 }
 .vertical{
   border-left: 3px;
@@ -2660,6 +2853,35 @@ margin-top: 0;
 
 }
 @media only screen and (max-width: 768px){
+  #background-video{
+    height: 80vh;
+  }
+  #background-images{
+    height: 80vh;
+  }
+   .banner-text{
+   background-image: none;
+  } 
+  .navbar .menu-items{
+    height: 80vh;
+  }
+  .image-grid {
+    margin-left: 42px;
+    grid-gap: 10px;
+  }
+
+  .column-width{
+    width: 100%;
+  }
+  .wrapper{
+    display: block;
+  }
+  .who-we-are-section {
+    margin-top: 40px; 
+}
+.margin-r {
+  margin-left: 6px;
+}
   .banner-text h1{
     font-size: 35px;
   }
@@ -2689,7 +2911,7 @@ margin-top: 0;
 }
 .feature-heading {
   font-weight: 700;
-  font-size: 24px;
+  font-size: 36px;
 }
 .footer-logo{
   width: 353px;
@@ -2701,7 +2923,7 @@ margin-top: 0;
   font-size: 30px;
 }
 .footer-img span{
-  font-size: 15px;
+  font-size: 17px;
   
 }
 .footer-item-1{
@@ -2716,6 +2938,13 @@ margin-top: 0;
   margin-left: 25%;
   
   font-size: 18px;
+}
+.footer-input input{
+  margin-right: 20px;
+}
+.submit-btn {
+  
+  margin-left: -32px;
 }
 .social-icon{
   margin-left: 24%;
@@ -2732,17 +2961,22 @@ margin-top: 0;
 }
 .footer-item-4{
   grid-row: 2 / span 1; /* third row */
-  /* display: flex; */
-  justify-content: end;
-  width: 300px;
+  grid-column: 2 / span 1; /* second column in second row */
+
+  width: 320px;
   
-  align-items: center;
+  align-items: right;
+  margin-left: 8%;
   
+}
+.get-touch-p {
+  text-align: left;
+  margin-left: 30%;
 }
 .footer-item-2{
   grid-row: 2 / span 1; /* second row */
   grid-column: 1 / span 1; /* first column in second row */
-  margin-left: 25%;
+  margin-left: 23%;
   align-items: center;
   width: 300px;
  
@@ -2755,8 +2989,9 @@ margin-top: 0;
   margin-top: 30px;
 }
 .new-arrival-btn{
-  width: 75px;
-  height: 25px;
+  width: 66px;
+    height: 25px;
+    margin-left: 8px;
 }
 .vertical{
   border-left: 3px;
@@ -2792,13 +3027,115 @@ margin-top: 0;
   font-size: 20px;
 }
 
+/* Why Ayurvedic */
+.about-ayurveda{
+  font-size: 14px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.why-ayurveda-title{
+  margin-top: 44px;
+  margin-left: 30px;
+}
+.ayurveda-img{
+  width: 60px;
+  height: 60px;
+  margin-left: 30px;
+ }
+ .service-text-title{
+  font-size: 14px;
+ }
+ .why-srisoukya-title{
+  display: none;
+ }
+ .service-img{
+  width: 50px;
+  height: 50px;
+ }
+ .design-margin img{
+  width: 50%;
+ }
+ .why-srisoukya-text-title{
+  font-size: 14px;
+  width: 160px;
+  text-align: left;
+ }
+ .why-srisoukya-text-p {
+  font-size: 12px;
+  width: 180px;
+ }
+ 
+  .right-design img {
+    margin-left: 126px!important;
+    margin-top: 0;
+    width: 35%;
+}
+
+.icon-margin-left{
+  text-align: right;
+  margin-left: 109px;
+}
+
+.icon-margin-left p{
+  margin-left: -44px;
+}
+.right-design-2 img{
+  
+  margin-top: 15px;
+  margin-right: 188px;
+}
+.right-design img{
+  margin-top: -3px;
+}
+.service-img-margin{
+  margin-right: 30px;
+}
+.big-logo{
+  height: 125px;
+}
+
+.right-design-3 img {
+  margin-left: -22px!important;
+  margin-top: -2px;
+  width: 165px;
+}
+
+
+.icon-margin-left-2 p {
+    margin-left: -45px;
+    width: 165px;
+    text-align: left;
+}
+.icon-margin-left-2 h5 {
+  margin-top: 12px;
+    margin-left: -45px;
+    
+}
+input[type="text"] {
+  width: 450px;
+  height: 65px;
+  
+}
+form select {
+  width: 450px;
+  height: 65px;
+ 
+}
+
 }
 
 @media only screen and (max-width: 767px){
+  #background-video{
+    height: 80vh;
+  }
+  #background-images{
+    height: 80vh;
+  }
+
+  .navbar .menu-items{
+    height: 80vh;
+  }
   
-  /* .footer-bg{
-    display: none;
-  } */
   .logo-size{
     width: 250px;
     height: 55px;
@@ -2819,17 +3156,13 @@ margin-top: 0;
     height: 350px;
     
 }
-.navbar .menu-items{
-  padding-top: 62px;
-}
+
 .navbar .nav-container a {
   font-weight: 400;
   font-size: 1.3rem;
   padding: 0.5rem;
 }
-.navbar .menu-items{
-  height: 90vh;
-}
+
 .navbar .menu-items li{
   margin-bottom: 0.1rem;
 }
@@ -2882,12 +3215,7 @@ margin-top: 0;
   margin-left: 10px;
   margin-right: 10px;}
 
-  /* .health-section{
-    margin-top: 500px;
-  } */
-  /* .content .content-overlay{
-    width: 50%;
-  } */
+  
   .gallery-img{
     margin-bottom: 15px;
   }
@@ -2895,16 +3223,7 @@ margin-top: 0;
     width: 100%;
     height: 250px;
   }
-  .consultant-area{
-    /* margin-top: 50px; */
-  }
-  /* .vertical {
-    position: fixed;
-  } */
-  /* .gallery-section {
-    margin-bottom: 85px;
-    margin-top: 300px;
-} */
+  
 
 .gallery-section {
   margin-top: 185px;
@@ -2943,32 +3262,55 @@ margin-top: 0;
   align-items: center;
 }
 .footer-logo{
-  width: 273px;
-  height: 130px;
+  width: 350px;
+  height: 150px;
   margin-bottom: 0;
-  margin-left: -20px;
+  margin-left: -40px;
 }
 .footer-item-3{
-  width: 180px;
+  width: 250px;
   align-items: center;
-  margin-top: 40px;
+  margin-top: 3px;
   
 }
 .footer-item-2{
  
-  margin-left: 55%;
+  margin-left: 34%;
   align-items: center;
-  width: 300px;
+  width: 120px;
+ 
+}
+.footer-img span {
+  font-size: 18px;
+}
+.get-touch-p {
+  text-align: left;
+  margin-left: 12%;
+}
+footer form .submit-btn {
+  width: 80%;
+}
+input[type="text"] {
+  width: 450px;
+  height: 65px;
+  
+}
+form select {
+  width: 450px;
+  height: 65px;
  
 }
 .footer-item-4{
   grid-row: 3 / span 1; /* third row */
+ 
+  grid-column: 1 / span 1; /* second column in second row */
   justify-content: center;
-  width: 300px;
-  margin-left: 25%;
+  width: 250px;
+  margin-left: 5%;
   align-items: center;
   
 }
+
 .footer-rights{
 display: none;
 }
@@ -2989,9 +3331,16 @@ display: none;
 }
 @media only screen and (max-width: 650px){
   
-  /* .footer-bg{
-    display: none;
-  } */
+  #background-video{
+    height: 80vh;
+  }
+  #background-images{
+    height: 80vh;
+  }
+
+  .navbar .menu-items{
+    height: 80vh;
+  }
   .logo-size{
     width: 200px;
     height: 45px;
@@ -3008,8 +3357,8 @@ display: none;
     font-size: 25px;
   }
   .package-img {
-    width: 100%;
-    height: 350px;
+    width: 440px;
+    height: 330px;
     
 }
 .navbar .menu-items{
@@ -3020,9 +3369,7 @@ display: none;
   font-size: 1.3rem;
   padding: 0.5rem;
 }
-.navbar .menu-items{
-  height: 90vh;
-}
+
 .navbar .menu-items li{
   margin-bottom: 0.1rem;
 }
@@ -3075,12 +3422,7 @@ display: none;
   margin-left: 10px;
   margin-right: 10px;}
 
-  /* .health-section{
-    margin-top: 500px;
-  } */
-  /* .content .content-overlay{
-    width: 50%;
-  } */
+
   .gallery-img{
     margin-bottom: 15px;
   }
@@ -3088,16 +3430,8 @@ display: none;
     width: 100%;
     height: 250px;
   }
-  .consultant-area{
-    /* margin-top: 50px; */
-  }
-  /* .vertical {
-    position: fixed;
-  } */
-  /* .gallery-section {
-    margin-bottom: 85px;
-    margin-top: 300px;
-} */
+  
+ 
 
 .gallery-section {
   margin-top: 185px;
@@ -3120,6 +3454,16 @@ display: none;
   font-size: 35px;
   
 }
+input[type="text"] {
+  width: 380px;
+  height: 65px;
+  
+}
+form select {
+  width: 380px;
+  height: 65px;
+ 
+}
 .vertical-3{
   border-left: 3px;
   height: 60px;
@@ -3135,30 +3479,43 @@ display: none;
   width: 200px;
   align-items: center;
 }
+
 .footer-logo{
-  width: 273px;
-  height: 130px;
+  width: 350px;
+  height: 150px;
   margin-bottom: 0;
-  margin-left: -20px;
+  margin-left: -40px;
 }
 .footer-item-3{
-  width: 180px;
+  width: 250px;
   align-items: center;
-  margin-top: 40px;
+  margin-top: 3px;
   
 }
 .footer-item-2{
  
-  margin-left: 55%;
+  margin-left: 34%;
   align-items: center;
-  width: 300px;
+  width: 120px;
  
+}
+.footer-img span {
+  font-size: 18px;
+}
+.get-touch-p {
+  text-align: left;
+  margin-left: 12%;
+}
+footer form .submit-btn {
+  width: 80%;
 }
 .footer-item-4{
   grid-row: 3 / span 1; /* third row */
+ 
+  grid-column: 1 / span 1; /* second column in second row */
   justify-content: center;
-  width: 300px;
-  margin-left: 25%;
+  width: 250px;
+  margin-left: 5%;
   align-items: center;
   
 }
@@ -3181,10 +3538,17 @@ display: none;
 }
 }
 @media only screen and (max-width: 600px){
+  #background-video{
+    height: 80vh;
+  }
+  #background-images{
+    height: 80vh;
+  }
+
+  .navbar .menu-items{
+    height: 80vh;
+  }
   
-  /* .footer-bg{
-    display: none;
-  } */
   .logo-size{
     width: 200px;
     height: 45px;
@@ -3201,7 +3565,7 @@ display: none;
     font-size: 25px;
   }
   .package-img {
-    width: 400px;
+    width: 440px;
     height: 330px;
     
 }
@@ -3213,9 +3577,7 @@ display: none;
   font-size: 1.3rem;
   padding: 0.5rem;
 }
-.navbar .menu-items{
-  height: 90vh;
-}
+
 .navbar .menu-items li{
   margin-bottom: 0.1rem;
 }
@@ -3259,12 +3621,7 @@ display: none;
   margin-left: 10px;
   margin-right: 10px;}
 
-  /* .health-section{
-    margin-top: 500px;
-  } */
-  /* .content .content-overlay{
-    width: 50%;
-  } */
+ 
   .gallery-img{
     margin-bottom: 15px;
   }
@@ -3272,16 +3629,7 @@ display: none;
     width: 100%;
     height: 250px;
   }
-  .consultant-area{
-    /* margin-top: 50px; */
-  }
-  /* .vertical {
-    position: fixed;
-  } */
-  /* .gallery-section {
-    margin-bottom: 85px;
-    margin-top: 300px;
-} */
+
 
 .gallery-section {
   margin-top: 185px;
@@ -3301,8 +3649,18 @@ display: none;
   margin-bottom: 55px;
 }
 .track-section h2 {
-  font-size: 35px;
+  font-size: 40px;
   
+}
+input[type="text"] {
+  width: 380px;
+  height: 65px;
+  
+}
+form select {
+  width: 380px;
+  height: 65px;
+ 
 }
 .vertical-3{
   border-left: 3px;
@@ -3318,29 +3676,41 @@ display: none;
   align-items: center;
 }
 .footer-logo{
-  width: 273px;
-  height: 130px;
+  width: 350px;
+  height: 150px;
   margin-bottom: 0;
-  margin-left: -20px;
+  margin-left: -40px;
 }
 .footer-item-3{
-  width: 180px;
+  width: 250px;
   align-items: center;
-  margin-top: 40px;
+  margin-top: 3px;
   
 }
 .footer-item-2{
  
-  margin-left: 55%;
+  margin-left: 28%;
   align-items: center;
-  width: 300px;
+  width: 120px;
  
+}
+.footer-img span {
+  font-size: 18px;
+}
+.get-touch-p {
+  text-align: left;
+  margin-left: 12%;
+}
+footer form .submit-btn {
+  width: 80%;
 }
 .footer-item-4{
   grid-row: 3 / span 1; /* third row */
+ 
+  grid-column: 1 / span 1; /* second column in second row */
   justify-content: center;
-  width: 300px;
-  margin-left: 25%;
+  width: 250px;
+  margin-left: 5%;
   align-items: center;
   
 }
@@ -3365,15 +3735,117 @@ display: none;
 
 @media only screen and (max-width: 576px){
   #background-video{
-    height: 50vh;
+    height: 70vh;
   }
+  #background-images{
+    height: 70vh;
+  }
+   .banner-text{
+   background-image: none;
+  } 
   .navbar .menu-items{
-    height: 50vh;
+    height: 70vh;
   }
+  .who-we-are-section {
+    margin-top: 40px; 
+}
+.image-grid {
+  margin-left: 27px;
+  grid-gap: 10px;
+}
+.column-width{
+  width: 100%;
+}
+.wrapper{
+  display: block;
+}
+.margin-r {
+  margin-left: 30px;
+}
+.item{
+  width: 95%;
+}
+.about-ayurveda{
+  font-size: 14px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.why-ayurveda-title{
+  margin-top: 44px;
+  margin-left: 30px;
+}
+.ayurveda-img{
+  width: 60px;
+  height: 60px;
+  margin-left: -21px;
+ }
+ .service-text-title{
+  font-size: 14px;
+ }
+ 
+ .service-img{
+  width: 50px;
+  height: 50px;
+ }
+ .design-margin img{
+  width: 50%;
+ }
+ .why-srisoukya-text-title{
+  font-size: 14px;
+  width: 160px;
+  text-align: left;
+ }
+ .why-srisoukya-text-p {
+  font-size: 12px;
+  width: 180px;
+ }
+
+ .right-design img{
+  margin-left: -30px!important;
+  margin-top: 0; 
+  width: 50%;
+}
+.icon-margin-left{
+  text-align: right;
+  margin-left: -56px;
+}
+
+.icon-margin-left p{
+  margin-left: -44px;
+}
+.right-design-2 img{
   
-  /* .footer-bg{
-    display: none;
-  } */
+  margin-top: 15px;
+  margin-right: 188px;
+}
+.right-design img{
+  margin-top: -3px;
+}
+.service-img-margin{
+  margin-right: 30px;
+}
+.big-logo{
+  height: 125px;
+}
+
+.right-design-3 img {
+  margin-left: -22px!important;
+  margin-top: -2px;
+  width: 165px;
+}
+
+
+.icon-margin-left-2 p {
+    margin-left: -45px;
+    width: 165px;
+    text-align: left;
+}
+.icon-margin-left-2 h5 {
+  margin-top: 12px;
+    margin-left: -45px;
+    
+}
+ 
   .logo-size{
     width: 200px;
     height: 45px;
@@ -3390,8 +3862,8 @@ display: none;
     font-size: 25px;
   }
   .package-img {
-    width: 427px;
-    height: 315px;
+    width: 430px;
+    height: 325px;
     
 }
 .navbar .menu-items{
@@ -3402,9 +3874,7 @@ display: none;
   font-size: 1.2rem;
   padding: 0.5rem;
 }
-.navbar .menu-items{
-  height: 45vh;
-}
+
 .navbar .menu-items li{
   margin-bottom: 0.1rem;
 }
@@ -3448,12 +3918,6 @@ display: none;
   margin-left: 10px;
   margin-right: 10px;}
 
-  /* .health-section{
-    margin-top: 500px;
-  } */
-  /* .content .content-overlay{
-    width: 50%;
-  } */
   .gallery-img{
     margin-bottom: 15px;
   }
@@ -3461,12 +3925,7 @@ display: none;
     width: 100%;
     height: 250px;
   }
-  .consultant-area{
-    /* margin-top: 50px; */
-  }
-  /* .vertical {
-    position: fixed;
-  } */
+  
   .gallery-section {
     margin-bottom: 85px;
     margin-top: 200px;
@@ -3503,31 +3962,45 @@ display: none;
   align-items: center;
 }
 .footer-logo{
-  width: 273px;
-  height: 130px;
-  margin-bottom: 0;
-  margin-left: -20px;
+  width: 300px;
+  height: 150px;
+  margin-bottom: 10px;
+  margin-left: -30px;
 }
 .footer-item-3{
-  width: 180px;
+  width: 262px;
   align-items: center;
-  margin-top: 40px;
-  
+  margin-top: -6px;
 }
+  
+
 .footer-item-2{
  
-  margin-left: 55%;
+  margin-left: 33%;
   align-items: center;
-  width: 300px;
+  width: 120px;
  
 }
 .footer-item-4{
   grid-row: 3 / span 1; /* third row */
+ 
+  grid-column: 1 / span 1; /* second column in second row */
   justify-content: center;
-  width: 300px;
-  margin-left: 25%;
+  width: 250px;
+  margin-left: 5%;
   align-items: center;
   
+}
+.get-touch-p {
+  text-align: left;
+  margin-left: 11%;
+  font-size: 18px;
+}
+.footer-img span {
+  font-size: 18px;
+}
+footer form .submit-btn {
+  width: 70%;
 }
 .footer-rights{
 display: none;
@@ -3546,9 +4019,144 @@ display: none;
 .gallery-text-align{
   margin-bottom: 58px;
 }
+input[type="text"] {
+  width: 370px;
+  height: 65px;
+  
+}
+form select {
+  width: 370px;
+  height: 65px;
+ 
+}
+.footer-input input{
+  width: 300px;
+    height: 65px;
+}
 }
 
 @media only screen and (max-width: 520px){
+  #background-video{
+    height: 70vh;
+  }
+  #background-images{
+    height: 70vh;
+  }
+   .banner-text{
+   background-image: none;
+  } 
+  .navbar .menu-items{
+    height: 70vh;
+  }
+  .who-we-are-section {
+    margin-top: 40px; 
+}
+.image-grid {
+  margin-left: 27px;
+  grid-gap: 10px;
+}
+.column-width{
+  width: 100%;
+}
+.wrapper{
+  display: block;
+}
+.margin-r {
+  margin-left: 30px;
+}
+.item{
+  width: 95%;
+}
+.about-ayurveda{
+  font-size: 14px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.why-ayurveda-title{
+  margin-top: 44px;
+  margin-left: 30px;
+}
+.ayurveda-img{
+  width: 60px;
+  height: 60px;
+  margin-left: -21px;
+ }
+ .service-text-title{
+  font-size: 14px;
+ }
+ 
+ .service-img{
+  width: 45px;
+  height: 45px;
+ }
+ .design-margin img{
+  width: 50%;
+ }
+ .why-srisoukya-text-title{
+  font-size: 14px;
+  width: 155px;
+  text-align: left;
+ }
+ .text-margin-right-2 h5 {
+  width: 292px;
+}
+ .why-srisoukya-text-p {
+  font-size: 12px;
+  width: 180px;
+ }
+
+ .right-design img{
+  margin-left: -30px!important;
+  margin-top: 0; 
+  width: 50%;
+}
+.icon-margin-left{
+  text-align: right;
+  margin-left: -56px;
+}
+
+.icon-margin-left p{
+  margin-left: -44px;
+}
+.right-design-2 img{
+  
+  margin-top: 15px;
+  margin-right: 188px;
+}
+.right-design img{
+  margin-top: -3px;
+}
+.service-img-margin{
+  margin-right: 30px;
+}
+.text-margin-right h5 {
+  width: 284px;
+}
+.big-logo{
+  height: 110px;
+}
+.icon-margin-right-2 {
+  margin-top: -56px;
+  margin-left: -8px;
+}
+
+.right-design-3 img {
+  margin-left: -22px!important;
+  margin-top: -2px;
+  width: 165px;
+}
+
+
+.icon-margin-left-2 p {
+    margin-left: -45px;
+    width: 165px;
+    text-align: left;
+}
+.icon-margin-left-2 h5 {
+  margin-top: 12px;
+    margin-left: -45px;
+    
+}
   .logo-size {
     width: 190px;
     height: 50px;
@@ -3562,17 +4170,13 @@ display: none;
   height: 22px;
   width: 29px;
 }
-.navbar .menu-items{
-  padding-top: 62px;
-}
+
 .navbar .nav-container a {
   font-weight: 400;
   font-size: 1.1rem;
   padding: 0.5rem;
 }
-.navbar .menu-items{
-  height: 80vh;
-}
+
 .navbar .menu-items li{
   margin-bottom: 0.1rem;
 }
@@ -3590,11 +4194,11 @@ display: none;
 }
 .feature-heading {
   font-weight: 700;
-  font-size: 25px;
+  font-size: 28px;
 }
   .package-img {
-    width: 380px;
-    height: 250px;
+    width: 420px;
+    height: 325px;
   }
   .shadow-text {
     font-size: 50px;
@@ -3623,8 +4227,7 @@ display: none;
   }
   .carousel-item .container-sm {
     width: 100%;
-    /* display: flex; */
-    /* flex-wrap: wrap; */
+   
   }
   .carousel-item .card-size {
     flex-basis: calc(90% - 5px);
@@ -3698,9 +4301,13 @@ display: none;
     margin: 0 auto;
   }
   input[type="text"] {
+    width: 330px;
+    height: 45px;
     
-    width: 250px;
-  height: 45px;
+  }
+  form select {
+    width: 330px;
+    height: 45px;
    
   }
   .track-btn{
@@ -3718,25 +4325,26 @@ display: none;
     align-items: center;
   }
   .footer-logo{
-    width: 200px;
-    height: 100px;
+    width: 250px;
+    height: 130px;
     margin-bottom: 10px;
-    margin-left: -50px;
+    margin-left: -40px;
   }
   .footer-item-3{
-    width: 90px;
+    width: 116px;
     align-items: center;
     margin-top: 30px;
     
   }
-  .footer-item-2{
+  
+.footer-item-2{
    
-    margin-left: 10%;
+    margin-left: 17%;
     align-items: center;
     width: 120px;
    
   }
-  .footer-item-4{
+ .footer-item-4{
     grid-row: 3 / span 1; /* third row */
    
     grid-column: 1 / span 1; /* second column in second row */
@@ -3750,7 +4358,7 @@ display: none;
    
     margin-left: 13%;
     
-    font-size: 12px;
+    font-size: 16px;
   }
   .social-icon{
     margin-left: 12%;
@@ -3758,14 +4366,14 @@ display: none;
   }  
   
   .social-icon .ri-facebook-circle-fill, .ri-youtube-fill, .ri-twitter-fill, .ri-linkedin-box-fill{
-    font-size: 25px;
+    font-size: 30px;
   }
   .footer-img span{
-    font-size: 12px;
+    font-size: 16px;
     
   }
   ul li{
-    font-size: 12px;
+    font-size: 16px;
   }
   .footer-title {
     font-weight: 700;
@@ -3776,21 +4384,16 @@ display: none;
     font-weight: 600;
     font-size: 16px;
     margin-top: 10px;
-    text-align: center;
+    text-align: left;
+    margin-left: 10px;
   }
   .get-touch-p {
-    text-align: center;
-    font-size: 12px;
+    text-align: left;
+    font-size: 16px;
+    margin-left: 10px;
   }
-  input[type="text"] {
-    width: 200px;
-    height: 45px;
-    /* margin-left: -17%; */
-    
-  }
-  /* .footer-input{
-    align-items: start;
-  } */
+
+
   footer form .submit-btn{
     padding: 6px 20px;
     font-size: 12px;
@@ -3801,9 +4404,7 @@ display: none;
     padding-top: 2px;
     padding-bottom: 35px;
   }
-  /* .fot-input{
-    margin-left: 15%;
-  } */
+
   .footer-input{
     display: flex;
     align-items: center;
@@ -3814,6 +4415,136 @@ display: none;
   }
 }
 @media only screen and (max-width: 490px){
+  #background-video{
+    height: 70vh;
+  }
+  #background-images{
+    height: 70vh;
+  }
+   .banner-text{
+   background-image: none;
+  } 
+  .navbar .menu-items{
+    height: 70vh;
+  }
+  .who-we-are-section {
+    margin-top: 40px; 
+}
+.image-grid {
+  margin-left: 27px;
+  grid-gap: 10px;
+}
+.column-width{
+  width: 100%;
+}
+.wrapper{
+  display: block;
+}
+.margin-r {
+  margin-left: 30px;
+}
+.item{
+  width: 95%;
+}
+.about-ayurveda{
+  font-size: 14px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.why-ayurveda-title{
+  margin-top: 44px;
+  margin-left: 30px;
+}
+.ayurveda-img{
+  width: 60px;
+  height: 60px;
+  margin-left: -21px;
+ }
+ .service-text-title{
+  font-size: 14px;
+ }
+ 
+ .service-img{
+  width: 45px;
+  height: 45px;
+ }
+ .design-margin img{
+  width: 48%;
+  margin-top: -7px;
+ }
+ .why-srisoukya-text-title{
+  font-size: 12px;
+  width: 135px;
+  text-align: left;
+ }
+ .text-margin-right-2 h5 {
+  width: 292px;
+}
+ .why-srisoukya-text-p {
+  font-size: 12px;
+  width: 180px;
+ }
+
+ .right-design img{
+  margin-left: -30px!important;
+  margin-top: 0; 
+  width: 50%;
+}
+.icon-margin-left{
+  text-align: right;
+  margin-left: -56px;
+}
+
+.icon-margin-left p{
+  margin-left: -68px;
+  font-size: 12px;
+}
+.right-design-2 img{
+  
+  margin-top: 22px;
+  margin-right: 168px;
+}
+.right-design img{
+  margin-top: -3px;
+}
+.service-img-margin{
+  margin-right: 30px;
+}
+.text-margin-right h5 {
+  width: 284px;
+}
+.big-logo{
+  height: 110px;
+}
+.icon-margin-right-2 {
+  margin-top: -56px;
+  margin-left: 0px;
+}
+
+.right-design-3 img {
+  margin-left: -22px!important;
+  margin-top: -2px;
+  width: 128px;
+}
+
+
+.icon-margin-left-2 p {
+    margin-left: -91px;
+    width: 165px;
+    text-align: right;
+    margin-right: 10px;
+}
+.icon-margin-left-2 h5 {
+  margin-top: 12px;
+    margin-left: -61px;
+    
+}
+
+.right-design img {
+  margin-left: -26px!important;
+  margin-top: -5px;
+  width: 48%;
+}
   .logo-size {
     width: 170px;
     height: 40px;
@@ -3827,17 +4558,13 @@ display: none;
   height: 22px;
   width: 29px;
 }
-.navbar .menu-items{
-  padding-top: 60px;
-}
+
 .navbar .nav-container a {
   font-weight: 400;
   font-size: 1.2rem;
   padding: 0.5rem;
 }
-.navbar .menu-items{
-  height: 80vh;
-}
+
 .navbar .menu-items li{
   margin-bottom: 0.1rem;
 }
@@ -3855,11 +4582,11 @@ display: none;
 }
 .feature-heading {
   font-weight: 700;
-  font-size: 22px;
+  font-size: 25px;
 }
   .package-img {
-    width: 350px;
-    height: 250px;
+    width: 400px;
+    height: 300px;
   }
   .shadow-text {
     font-size: 40px;
@@ -3888,8 +4615,7 @@ display: none;
   }
   .carousel-item .container-sm {
     width: 100%;
-    /* display: flex; */
-    /* flex-wrap: wrap; */
+    
   }
   .carousel-item .card-size {
     flex-basis: calc(90% - 5px);
@@ -3906,7 +4632,7 @@ display: none;
   }
   .glimps-section {
     margin-top: 28px;
-    /* height: 70vh; */
+    
   }
   .glimpse-video-section{
     height: 566px;
@@ -3962,12 +4688,7 @@ display: none;
     text-align: center;
     margin: 0 auto;
   }
-  input[type="text"] {
-    
-    width: 250px;
-  height: 45px;
-   
-  }
+ 
   .track-btn{
     padding: 10px 20px;
     font-size: 16px;
@@ -3976,6 +4697,16 @@ display: none;
   .track-bg{
     margin-top: -100px;
   }
+  input[type="text"] {
+    width: 320px;
+    height: 45px;
+    
+  }
+  form select {
+    width: 320px;
+    height: 45px;
+   
+  }
   
   .footer-item-1{
    
@@ -3983,25 +4714,25 @@ display: none;
     align-items: center;
   }
   .footer-logo{
-    width: 200px;
-    height: 100px;
+    width: 230px;
+    height: 120px;
     margin-bottom: 10px;
     margin-left: -50px;
   }
   .footer-item-3{
-    width: 90px;
+    width: 116px;
     align-items: center;
     margin-top: 30px;
     
   }
-  .footer-item-2{
+.footer-item-2{
    
     margin-left: 10%;
     align-items: center;
     width: 120px;
    
   }
-  .footer-item-4{
+ .footer-item-4{
     grid-row: 3 / span 1; /* third row */
    
     grid-column: 1 / span 1; /* second column in second row */
@@ -4041,21 +4772,13 @@ display: none;
     font-weight: 600;
     font-size: 16px;
     margin-top: 10px;
-    text-align: center;
+    text-align: left;
   }
   .get-touch-p {
-    text-align: center;
+    text-align: left;
     font-size: 12px;
   }
-  input[type="text"] {
-    width: 200px;
-    height: 45px;
-    /* margin-left: -17%; */
-    
-  }
-  /* .footer-input{
-    align-items: start;
-  } */
+
   footer form .submit-btn{
     padding: 6px 20px;
     font-size: 12px;
@@ -4066,9 +4789,7 @@ display: none;
     padding-top: 2px;
     padding-bottom: 35px;
   }
-  /* .fot-input{
-    margin-left: 15%;
-  } */
+
   .footer-input{
     display: flex;
     align-items: center;
@@ -4080,6 +4801,137 @@ display: none;
 }
 
 @media only screen and (max-width: 480px){
+  #background-video{
+    height: 70vh;
+  }
+  #background-images{
+    height: 70vh;
+  }
+   .banner-text{
+   background-image: none;
+  } 
+  .navbar .menu-items{
+    height: 70vh;
+  }
+  .who-we-are-section {
+    margin-top: 40px; 
+}
+.image-grid {
+  margin-left: 27px;
+  grid-gap: 10px;
+}
+.column-width{
+  width: 100%;
+}
+.wrapper{
+  display: block;
+}
+.margin-r {
+  margin-left: 30px;
+}
+.item{
+  width: 95%;
+}
+.about-ayurveda{
+  font-size: 14px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.why-ayurveda-title{
+  margin-top: 44px;
+  margin-left: 30px;
+}
+.ayurveda-img{
+  width: 60px;
+  height: 60px;
+  margin-left: -21px;
+ }
+ .service-text-title{
+  font-size: 14px;
+ }
+ 
+ .service-img{
+  width: 45px;
+  height: 45px;
+ }
+ .design-margin img{
+  width: 48%;
+  margin-top: -7px;
+ }
+ .why-srisoukya-text-title{
+  font-size: 12px;
+  width: 132px;
+  text-align: left;
+ }
+ .text-margin-right-2 h5 {
+  width: 292px;
+}
+ .why-srisoukya-text-p {
+  font-size: 12px;
+  width: 180px;
+ }
+
+ .right-design img{
+  margin-left: -30px!important;
+  margin-top: 0; 
+  width: 50%;
+}
+.icon-margin-left{
+  text-align: right;
+  margin-left: -56px;
+}
+
+.icon-margin-left p{
+  margin-left: -47px;
+  font-size: 11px;
+  width: 180px;
+}
+.right-design-2 img{
+  
+  margin-top: 22px;
+  margin-right: 168px;
+}
+.right-design img{
+  margin-top: -3px;
+}
+.service-img-margin{
+  margin-right: 30px;
+}
+.text-margin-right h5 {
+  width: 266px;
+}
+.big-logo{
+  height: 100px;
+}
+.icon-margin-right-2 {
+  margin-top: -56px;
+  margin-left: 0px;
+}
+
+.right-design-3 img {
+  margin-left: -35px!important;
+  margin-top: -2px;
+  width: 128px;
+}
+
+
+.icon-margin-left-2 p {
+    margin-left: -112px;
+    width: 165px;
+    text-align: right;
+    margin-right: 10px;
+}
+.icon-margin-left-2 h5 {
+  margin-top: 12px;
+    margin-left: -79px;
+    
+}
+
+.right-design img {
+  margin-left: -26px!important;
+  margin-top: -5px;
+  width: 48%;
+}
   .logo-size {
     width: 170px;
     height: 40px;
@@ -4101,9 +4953,7 @@ display: none;
   font-size: 1.2rem;
   padding: 0.5rem;
 }
-.navbar .menu-items{
-  height: 80vh;
-}
+
 .navbar .menu-items li{
   margin-bottom: 0.1rem;
 }
@@ -4121,11 +4971,11 @@ display: none;
 }
 .feature-heading {
   font-weight: 700;
-  font-size: 22px;
+  font-size: 25px;
 }
   .package-img {
-    width: 350px;
-    height: 250px;
+    width: 387px;
+    height: 270px;
   }
   .shadow-text {
     font-size: 40px;
@@ -4228,12 +5078,7 @@ display: none;
     text-align: center;
     margin: 0 auto;
   }
-  input[type="text"] {
-    
-    width: 250px;
-  height: 45px;
-   
-  }
+ 
   .track-btn{
     padding: 10px 20px;
     font-size: 16px;
@@ -4307,21 +5152,25 @@ display: none;
     font-weight: 600;
     font-size: 16px;
     margin-top: 10px;
-    text-align: center;
+    text-align: left;
   }
   .get-touch-p {
-    text-align: center;
+    text-align: left;
     font-size: 12px;
   }
+ 
   input[type="text"] {
-    width: 200px;
+    width: 300px;
     height: 45px;
-    /* margin-left: -17%; */
     
   }
-  /* .footer-input{
-    align-items: start;
-  } */
+  form select {
+    width: 300px;
+    height: 45px;
+   
+  }
+
+
   footer form .submit-btn{
     padding: 6px 20px;
     font-size: 12px;
@@ -4332,9 +5181,7 @@ display: none;
     padding-top: 2px;
     padding-bottom: 35px;
   }
-  /* .fot-input{
-    margin-left: 15%;
-  } */
+
   .footer-input{
     display: flex;
     align-items: center;
@@ -4343,11 +5190,176 @@ display: none;
     margin-top: -25px;
     
   }
+  .footer-item-1{
+   
+    width: 200px;
+    align-items: center;
+  }
+
+  .footer-logo{
+    width: 200px;
+    height: 100px;
+    margin-bottom: 10px;
+    margin-left: -50px;
+  }
+.footer-item-3{
+    width: 116px;
+    align-items: center;
+    margin-top: 30px;
+    
+  }
+.footer-item-2{
+   
+    margin-left: 10%;
+    align-items: center;
+    width: 120px;
+   
+  }
+ .footer-item-4{
+    grid-row: 3 / span 1; /* third row */
+   
+    grid-column: 1 / span 1; /* second column in second row */
+    justify-content: center;
+    width: 250px;
+    margin-left: 5%;
+    align-items: center;
+    
+  }
 }
 @media only screen and (max-width: 420px){
   #background-video{
-    height: 42vh;
+    height: 50vh;
   }
+  #background-images{
+    height: 50vh;
+  }
+   .banner-text{
+   background-image: none;
+  } 
+  .navbar .menu-items{
+    height: 50vh;
+  }
+  .who-we-are-section {
+    margin-top: 40px; 
+}
+.image-grid {
+  margin-left: 27px;
+  grid-gap: 10px;
+}
+.column-width{
+  width: 100%;
+}
+.wrapper{
+  display: block;
+}
+.margin-r {
+  margin-left: 30px;
+}
+.item{
+  width: 95%;
+}
+.about-ayurveda{
+  font-size: 14px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.why-ayurveda-title{
+  margin-top: 44px;
+  margin-left: 30px;
+}
+.ayurveda-img{
+  width: 60px;
+  height: 60px;
+  margin-left: -21px;
+ }
+ .service-text-title{
+  font-size: 14px;
+ }
+ 
+ .service-img{
+  width: 45px;
+  height: 45px;
+ }
+ .design-margin img{
+  width: 48%;
+  margin-top: -7px;
+ }
+ .why-srisoukya-text-title{
+  font-size: 12px;
+  width: 132px;
+  text-align: left;
+ }
+ .text-margin-right-2 h5 {
+  width: 292px;
+}
+ .why-srisoukya-text-p {
+  font-size: 12px;
+  width: 180px;
+ }
+
+ .right-design img{
+  margin-left: -83px!important;
+  margin-top: -8px; 
+  width: 58%;
+}
+.icon-margin-left{
+  text-align: right;
+  margin-left: -109px;
+}
+
+.icon-margin-left p{
+  margin-left: -6px;
+  font-size: 11px;
+  width: 135px;
+}
+.right-design-2 img{
+  
+  margin-top: 22px;
+  margin-right: 168px;
+}
+
+.service-img-margin{
+  margin-right: 30px;
+}
+.text-margin-right h5 {
+  width: 266px;
+}
+.big-logo{
+  height: 100px;
+}
+.text-margin-right-2 p {
+  width: 144px;
+}
+.icon-margin-right-2 {
+  margin-top: -56px;
+  margin-left: 0px;
+}
+
+.right-design-3 img {
+  margin-left: -99px!important;
+  margin-top: -2px;
+  width: 128px;
+}
+.right-design-4 {
+  margin-top: -25px;
+  margin-left: -10px;
+}
+
+.icon-margin-left-2 p {
+    margin-left: -145px;
+    width: 136px;
+    text-align: right;
+    margin-right: 10px;
+}
+.icon-margin-left-2 h5 {
+  margin-top: 14px;
+    margin-left: -124px;
+    
+}
+.text-margin-right p {
+  width: 139px;
+}
+
   .package-img {
     width: 320px;
     height: 240px;
@@ -4359,15 +5371,219 @@ display: none;
   .card-img-top {
     height: 350px;
   }
-  .navbar .menu-items{
-    height: 42vh;
+  .footer-logo{
+    width: 200px;
+    height: 100px;
+    margin-bottom: 10px;
+    margin-left: -50px;
   }
+  footer form .submit-btn{
+    padding: 6px 20px;
+    font-size: 12px;
+   
+  }
+
+  .footer-input{
+    display: flex;
+    align-items: center;
+   
+    margin-left: -15%;
+    margin-top: -25px;
+    
+  }
+  .get-touch {
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: left;
+  }
+  .get-touch-p {
+    text-align: left;
+    font-size: 12px;
+  }
+  input[type="text"] {
+    width: 250px;
+    height: 45px;
+    
+  }
+  form select {
+    width: 250px;
+    height: 45px;
+   
+  }
+  .footer-item-1{
+    width: 200px;
+    align-items: center;
+  }
+  .footer-item-3{
+    width: 116px;
+    align-items: center;
+    margin-top: 30px;
+    
+  }
+  .footer-item-2{
+   
+    margin-left: 10%;
+    align-items: center;
+    width: 120px;
+   
+  }
+  .footer-item-4{
+    grid-row: 3 / span 1; /* third row */
+   
+    grid-column: 1 / span 1; /* second column in second row */
+    justify-content: center;
+    width: 250px;
+    margin-left: 5%;
+    align-items: center;
+    
+  }
+
+  .footer-input input{
+    width: 200px;
+      height: 45px;
+      margin-left: 10px;
+  }
+
 }
 
 @media only screen and (max-width: 400px){
   #background-video{
-    height: 42vh;
+    height: 60vh;
   }
+  #background-images{
+    height: 60vh;
+  }
+   .banner-text{
+   background-image: none;
+  } 
+  .navbar .menu-items{
+    height: 60vh;
+  }
+  .who-we-are-section {
+    margin-top: 40px; 
+}
+.image-grid {
+  margin-left: 27px;
+  grid-gap: 10px;
+}
+.column-width{
+  width: 100%;
+}
+.wrapper{
+  display: block;
+}
+.margin-r {
+  margin-left: 30px;
+}
+.item{
+  width: 95%;
+}
+.about-ayurveda{
+  font-size: 14px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.why-ayurveda-title{
+  margin-top: 44px;
+  margin-left: 30px;
+}
+.ayurveda-img{
+  width: 50px;
+  height: 50px;
+  margin-left: -21px;
+ }
+ .service-text-title{
+  font-size: 12px;
+ }
+ .service-text-p{
+  font-size: 10px;
+ }
+ 
+ .service-img{
+  width: 45px;
+  height: 45px;
+ }
+ .design-margin img{
+  width: 48%;
+  margin-top: -7px;
+ }
+ .why-srisoukya-text-title{
+  font-size: 12px;
+  width: 132px;
+  text-align: left;
+ }
+ .text-margin-right-2 h5 {
+  width: 292px;
+}
+ .why-srisoukya-text-p {
+  font-size: 10px;
+  width: 180px;
+ }
+
+ .right-design img{
+  margin-left: -83px!important;
+  margin-top: -1px; 
+  width: 58%;
+}
+.icon-margin-left{
+  text-align: right;
+  margin-left: -109px;
+}
+
+.icon-margin-left p{
+  margin-left: -12px;
+  font-size: 10px;
+  width: 135px;
+}
+.right-design-2 img{
+  
+  margin-top: 22px;
+  margin-right: 152px;
+  margin-left: -12px;
+}
+
+.service-img-margin{
+  margin-right: 30px;
+}
+.text-margin-right h5 {
+  width: 266px;
+}
+.big-logo{
+  height: 90px;
+}
+.text-margin-right-2 p {
+  width: 144px;
+}
+.icon-margin-right-2 {
+  margin-top: -56px;
+  margin-left: 0px;
+}
+
+.right-design-3 img {
+  margin-left: -112px!important;
+  margin-top: -2px;
+  width: 128px;
+}
+.right-design-4 {
+  margin-top: -25px;
+  margin-left: -10px;
+}
+
+.icon-margin-left-2 p {
+    margin-left: -145px;
+    width: 136px;
+    text-align: right;
+    margin-right: 10px;
+}
+.icon-margin-left-2 h5 {
+  margin-top: 14px;
+    margin-left: -142px;
+    
+}
+.text-margin-right p {
+  width: 139px;
+}
   .package-img {
     width: 310px;
     height: 240px;
@@ -4385,17 +5601,13 @@ display: none;
   height: 22px;
   width: 29px;
 }
-.navbar .menu-items{
-  padding-top: 60px;
-}
+
 .navbar .nav-container a {
   font-weight: 400;
   font-size: 1.2rem;
   padding: 0.5rem;
 }
-.navbar .menu-items{
-  height: 42vh;
-}
+
 .navbar .menu-items li{
   margin-bottom: 0.1rem;
 }
@@ -4440,8 +5652,7 @@ display: none;
   }
   .carousel-item .container-sm {
     width: 100%;
-    /* display: flex; */
-    /* flex-wrap: wrap; */
+    
   }
   .carousel-item .card-size {
     flex-basis: calc(90% - 5px);
@@ -4458,7 +5669,7 @@ display: none;
   }
   .glimps-section {
     margin-top: 28px;
-    /* height: 70vh; */
+    
   }
   .glimpse-video-section{
     height: 566px;
@@ -4514,12 +5725,7 @@ display: none;
     text-align: center;
     margin: 0 auto;
   }
-  input[type="text"] {
-    
-    width: 250px;
-  height: 45px;
-   
-  }
+
   .track-btn{
     padding: 8px 17px;
     font-size: 14px;
@@ -4541,7 +5747,7 @@ display: none;
     margin-left: -50px;
   }
   .footer-item-3{
-    width: 90px;
+    width: 116px;
     align-items: center;
     margin-top: 30px;
     
@@ -4593,21 +5799,24 @@ display: none;
     font-weight: 600;
     font-size: 16px;
     margin-top: 10px;
-    text-align: center;
+    text-align: left;
   }
   .get-touch-p {
-    text-align: center;
+    text-align: left;
     font-size: 12px;
   }
   input[type="text"] {
-    width: 200px;
+    width: 250px;
     height: 45px;
-    /* margin-left: -17%; */
     
   }
-  /* .footer-input{
-    align-items: start;
-  } */
+  form select {
+    width: 250px;
+    height: 45px;
+   
+  }
+
+
   footer form .submit-btn{
     padding: 6px 20px;
     font-size: 12px;
@@ -4618,9 +5827,7 @@ display: none;
     padding-top: 2px;
     padding-bottom: 35px;
   }
-  /* .fot-input{
-    margin-left: 15%;
-  } */
+  
   .footer-input{
     display: flex;
     align-items: center;
@@ -4629,12 +5836,150 @@ display: none;
     margin-top: -25px;
     
   }
+  .footer-input input{
+    width: 200px;
+      height: 45px;
+      margin-left: 10px;
+  }
 }
 
 @media only screen and (max-width: 375px){
   #background-video{
-    height: 50vh;
+    height: 60vh;
   }
+  #background-images{
+    height: 60vh;
+  }
+   .banner-text{
+   background-image: none;
+  } 
+  .navbar .menu-items{
+    height: 60vh;
+  }
+  .who-we-are-section {
+    margin-top: 40px; 
+}
+.image-grid {
+  margin-left: 27px;
+  grid-gap: 10px;
+}
+.column-width{
+  width: 100%;
+}
+.wrapper{
+  display: block;
+}
+.margin-r {
+  margin-left: 30px;
+}
+.item{
+  width: 95%;
+}
+.about-ayurveda{
+  font-size: 14px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.why-ayurveda-title{
+  margin-top: 44px;
+  margin-left: 30px;
+}
+.ayurveda-img{
+  width: 50px;
+  height: 50px;
+  margin-left: -21px;
+ }
+ .service-text-title{
+  font-size: 12px;
+ }
+ .service-text-p{
+  font-size: 10px;
+ }
+ 
+ .service-img{
+  width: 45px;
+  height: 45px;
+ }
+ .design-margin img{
+  width: 38%;
+  margin-top: -1px;
+ }
+ .why-srisoukya-text-title{
+  font-size: 12px;
+  width: 135px;
+  text-align: left;
+ }
+ .text-margin-right-2 h5 {
+  width: 292px;
+}
+ .why-srisoukya-text-p {
+  font-size: 10px;
+  width: 180px;
+ }
+
+ .right-design img{
+  margin-left: -96px!important;
+  margin-top: -1px; 
+  width: 58%;
+}
+.icon-margin-left{
+  text-align: right;
+  margin-left: -109px;
+}
+
+.icon-margin-left p{
+  margin-left: -12px;
+  font-size: 10px;
+  width: 112px;
+}
+.right-design-2 img{
+  
+  margin-top: 22px;
+  margin-right: 152px;
+  margin-left: -41px;
+}
+
+.service-img-margin{
+  margin-right: 30px;
+}
+.text-margin-right h5 {
+  width: 266px;
+}
+.big-logo{
+  height: 90px;
+}
+.text-margin-right-2 p {
+  width: 122px;
+}
+.icon-margin-right-2 {
+  margin-top: -35px;
+  margin-left: 0px;
+}
+
+.right-design-3 img {
+  margin-left: -137px!important;
+  margin-top: -2px;
+  width: 128px;
+}
+.right-design-4 {
+  margin-top: -18px;
+  margin-left: -34px;
+}
+
+.icon-margin-left-2 p {
+    margin-left: -145px;
+    width: 108px;
+    text-align: right;
+    margin-right: 10px;
+}
+.icon-margin-left-2 h5 {
+  margin-top: 14px;
+    margin-left: -142px;
+    
+}
+.text-margin-right p {
+  width: 98px;
+}
   .logo-size {
     width: 160px;
     height: 35px;
@@ -4648,17 +5993,13 @@ display: none;
   height: 22px;
   width: 29px;
 }
-.navbar .menu-items{
-  padding-top: 60px;
-}
+
 .navbar .nav-container a {
   font-weight: 400;
   font-size: 1.2rem;
   padding: 0.5rem;
 }
-.navbar .menu-items{
-  height: 50vh;
-}
+
 .navbar .menu-items li{
   margin-bottom: 0.1rem;
 }
@@ -4780,12 +6121,7 @@ display: none;
     text-align: center;
     margin: 0 auto;
   }
-  input[type="text"] {
-    
-    width: 250px;
-  height: 45px;
-   
-  }
+
   .track-btn{
     padding: 8px 17px;
     font-size: 14px;
@@ -4859,21 +6195,23 @@ display: none;
     font-weight: 600;
     font-size: 16px;
     margin-top: 10px;
-    text-align: center;
+    text-align: left;
   }
   .get-touch-p {
-    text-align: center;
+    text-align: left;
     font-size: 12px;
   }
   input[type="text"] {
     width: 200px;
     height: 45px;
-    /* margin-left: -17%; */
     
   }
-  /* .footer-input{
-    align-items: start;
-  } */
+  form select {
+    width: 200px;
+    height: 45px;
+   
+  }
+
   footer form .submit-btn{
     padding: 6px 20px;
     font-size: 12px;
@@ -4884,9 +6222,7 @@ display: none;
     padding-top: 2px;
     padding-bottom: 35px;
   }
-  /* .fot-input{
-    margin-left: 15%;
-  } */
+
   .footer-input{
     display: flex;
     align-items: center;
@@ -4895,12 +6231,53 @@ display: none;
     margin-top: -25px;
     
   }
+  .footer-input input{
+    width: 205px;
+      height: 45px;
+      margin-left: -5%;
+  }
 }
 
 @media only screen and (max-width: 360px) {
   #background-video{
-    height: 50vh;
+    height: 60vh;
   }
+  #background-images{
+    height: 60vh;
+  }
+   .banner-text{
+   background-image: none;
+  } 
+  .navbar .menu-items{
+    height: 60vh;
+  }
+  .about-ayurveda {
+    font-size: 12px;
+   
+}
+.why-ayurveda-title{
+  font-size: 26px;
+}
+.text-margin-right {
+  margin-left: 4px;
+}
+.icon-margin-right{
+  margin-left: -7px;
+}
+.why-srisoukya-text-title{
+  margin-left: -5px;
+}
+.icon-margin-left p {
+  margin-left: -19px;
+  
+}
+.icon-margin-right-2{
+  margin-left: -5px;
+}
+.text-margin-right-2{
+  margin-top: -33px;
+  margin-left: 3px;
+}
   .logo-size {
     width: 160px;
     height: 35px;
@@ -4922,9 +6299,7 @@ display: none;
   font-size: 1.2rem;
   padding: 0.5rem;
 }
-.navbar .menu-items{
-  height: 50vh;
-}
+
 .navbar .menu-items li{
   margin-bottom: 0.1rem;
 }
@@ -4947,6 +6322,7 @@ display: none;
 .package-img {
   width: 280px;
   height: 210px;
+  object-fit: cover;
 }
 .shadow-text {
   font-size: 30px;
@@ -5046,12 +6422,7 @@ display: none;
   text-align: center;
   margin: 0 auto;
 }
-input[type="text"] {
-  
-  width: 250px;
-height: 45px;
- 
-}
+
 .track-btn{
   padding: 8px 17px;
   font-size: 14px;
@@ -5125,10 +6496,10 @@ ul li{
   font-weight: 600;
   font-size: 16px;
   margin-top: 10px;
-  text-align: center;
+  text-align: left;
 }
 .get-touch-p {
-  text-align: center;
+  text-align: left;
   font-size: 12px;
 }
 input[type="text"] {
@@ -5137,9 +6508,11 @@ input[type="text"] {
   /* margin-left: -17%; */
   
 }
-/* .footer-input{
-  align-items: start;
-} */
+form select {
+  width: 200px;
+  height: 45px;
+ 
+}
 footer form .submit-btn{
   padding: 6px 20px;
   font-size: 12px;
@@ -5160,6 +6533,11 @@ footer form .submit-btn{
   margin-left: -15%;
   margin-top: -25px;
   
+}
+.footer-input input{
+  width: 205px;
+    height: 45px;
+    margin-left: -5%;
 }
 }
 
@@ -5186,7 +6564,7 @@ footer form .submit-btn{
   padding: 0.5rem;
 }
 .navbar .menu-items{
-  height: 70vh;
+  height: 60vh;
 }
 .navbar .menu-items li{
   margin-bottom: 0.1rem;
@@ -5223,8 +6601,9 @@ footer form .submit-btn{
   margin-top: -25px;
 }
 .package-img {
-  width: 220px;
-  height: 150px;
+  width: 269px;
+    height: 209px;
+    object-fit: cover;
 }
 .verticl-mode{
   font-size: 17px;
@@ -5244,13 +6623,7 @@ footer form .submit-btn{
 .div-gap-mob{
   margin-bottom: -30px;
 }
-/* .div-gap-mob-2{
-  margin-top: -50px;
-} */
 
-/* .div-gap-mob-2{
-  margin-top: 100px;
-} */
 .view-more-btn {
   width: 100px;
   height: 40px;
@@ -5340,6 +6713,10 @@ input[type="text"] {
 height: 45px;
  
 }
+form select {
+  width: 250px;
+height: 45px;
+}
 .track-btn{
   padding: 8px 17px;
   font-size: 14px;
@@ -5355,7 +6732,7 @@ height: 45px;
   align-items: center;
 }
 .footer-logo{
-  width: 200px;
+  width: 245px;
   height: 100px;
   margin-bottom: 10px;
   margin-left: -50px;
@@ -5413,34 +6790,26 @@ ul li{
   font-weight: 600;
   font-size: 16px;
   margin-top: 10px;
-  text-align: center;
+  text-align: left;
 }
 .get-touch-p {
-  text-align: center;
+  text-align: left;
   font-size: 12px;
 }
-input[type="text"] {
-  width: 200px;
-  height: 45px;
-  /* margin-left: -17%; */
-  
-}
-/* .footer-input{
-  align-items: start;
-} */
+
+
 footer form .submit-btn{
   padding: 6px 20px;
   font-size: 12px;
  
 }
+
 .footer-bg {
   background: #F9F6EC;
   padding-top: 2px;
   padding-bottom: 35px;
 }
-/* .fot-input{
-  margin-left: 15%;
-} */
+
 .footer-input{
   display: flex;
   align-items: center;
@@ -5449,15 +6818,21 @@ footer form .submit-btn{
   margin-top: -25px;
   
 }
+.footer-input input{
+  width: 200px;
+    height: 45px;
+    margin-left: 10px;
+   
+}
 }
 
 @media screen and (max-width: 300px) {
   #background-video {
-    height: 35vh;
+    height: 60vh;
 }
   .logo-size {
-    width: 130px;
-    height: 35px;
+    width: 145px;
+    height: 50px;
     margin-right: -5px;
 }
 .booking-btn {
@@ -5468,6 +6843,89 @@ footer form .submit-btn{
   height: 18px;
   width: 25px;
 }
+.banner-text h5 {
+  font-size: 20px;
+}
+.banner-text h1 {
+  font-size: 15px;
+}
+.why-ayurveda-title {
+  font-size: 22px;
+}
+.ayurveda-img {
+  width: 40px;
+  height: 40px;
+  /* margin-left: -28px; */
+}
+.margin-r {
+  margin-left: 22px;
+}
+.about-ayurveda {
+  font-size: 11px;
+}
+.right-design img {
+  /* margin-left: -102px!important;
+  margin-top: -1px; */
+  width: 60%;
+}
+.design-margin {
+  margin-left: 3px;
+}
+.right-design img {
+ 
+  margin-top: 1px;
+  
+}
+.big-logo {
+  height: 66px;
+}
+.service-img {
+  width: 36px;
+  height: 36px;
+  margin-left: -2px;
+}
+.text-margin-right h5 {
+  width: 252px;
+  font-size: 10px;
+}
+.icon-margin-left-2 h5 {
+  margin-top: 12px;
+  margin-left: -160px;
+}
+.icon-margin-left-2 p {
+  margin-left: -175px;
+  width: 108px;
+  
+}
+.right-design-4 {
+  margin-top: -12px;
+  margin-left: -67px;
+}
+.right-design-3 img {
+  margin-left: -161px!important;
+  margin-top: -2px;
+  width: 115px;
+}
+.why-srisoukya-text-title {
+  margin-left: -8px;
+  font-size: 10px;
+}
+.icon-margin-left p {
+  margin-left: -33px;
+}
+.right-design-2 img {
+  margin-top: 22px;
+  margin-right: 152px;
+  margin-left: -56px;
+}
+.service-text-title {
+  font-size: 10px;
+  width: 100px;
+}
+.service-text-p {
+  font-size: 10px;
+  margin-left: -5px;
+}
 .navbar .menu-items{
   padding-top: 50px;
 }
@@ -5477,7 +6935,7 @@ footer form .submit-btn{
   padding: 0.3rem;
 }
 .navbar .menu-items{
-  height: 35vh;
+  height: 60vh;
 }
 .navbar .menu-items li{
   margin-bottom: 0.1rem;
@@ -5550,13 +7008,7 @@ footer form .submit-btn{
 .div-gap-mob{
   margin-bottom: -30px;
 }
-/* .div-gap-mob-2{
-  margin-top: -50px;
-} */
 
-/* .div-gap-mob-2{
-  margin-top: 100px;
-} */
 .view-more-btn {
   width: 100px;
   height: 40px;
@@ -5598,7 +7050,7 @@ footer form .submit-btn{
   margin-bottom: 365px;
 }
 .gallery-text-align {
-  margin-bottom: 51px;
+  margin-bottom: -33px;
  
 }
 .vertical-2 {
@@ -5642,7 +7094,7 @@ footer form .submit-btn{
 }
 input[type="text"] {
   
-  width: 250px;
+  width: 169px;
 height: 45px;
  
 }
@@ -5663,29 +7115,30 @@ height: 45px;
   align-items: center;
 }
 .footer-logo{
-  width: 200px;
-  height: 100px;
+  width: 250px;
+  height: 120px;
   margin-bottom: 10px;
-  margin-left: -50px;
+  margin-left: -86px;
 }
 .footer-item-3{
-  grid-row: 1 / span 1; /* third row */
+  grid-row: 2 / span 1; /* third row */
  
-  grid-column: 2 / span 1; /* second column in second row */
-  width: 250px;
-  align-items: center;
-  margin-top: 30px;
+  grid-column: 1 / span 1; /* second column in second row */
+  width: 200px;
+  align-items: left;
+  margin-top: 0px;
+  margin-left: -20px;
   
 }
 .footer-item-2{
- 
+  grid-row: 3 / span 1; /* third row */
   margin-left: 10%;
   align-items: center;
-  width: 120px;
+  width: 186px;
  
 }
 .footer-item-4{
-  grid-row: 3 / span 1; /* third row */
+  grid-row: 4 / span 1; /* third row */
  
   grid-column: 1 / span 1; /* second column in second row */
   justify-content: center;
@@ -5724,26 +7177,24 @@ ul li{
   font-weight: 600;
   font-size: 16px;
   margin-top: 10px;
-  text-align: center;
+  text-align: left;
 }
 .get-touch-p {
-  text-align: center;
+  text-align: left;
   font-size: 12px;
 }
-input[type="text"] {
-  width: 200px;
-  height: 45px;
-  /* margin-left: -17%; */
-  
-}
-/* .footer-input{
-  align-items: start;
-} */
+
+
 footer form .submit-btn{
   padding: 6px 20px;
   font-size: 12px;
  
 }
+form select {
+  width: 169px;
+  height: 45px;
+}
+
 .footer-bg {
   background: #F9F6EC;
   padding-top: 2px;
@@ -5759,6 +7210,11 @@ footer form .submit-btn{
   margin-left: -15%;
   margin-top: -25px;
   
+}
+.footer-input input{
+  width: 200px;
+    height: 45px;
+ 
 }
 }
 /* Responsive Design for home page end */
