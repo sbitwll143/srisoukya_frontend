@@ -79,7 +79,7 @@ background: transparent;
 }
 
 .navbar .menu-items {
-  display: flex;
+  flex-wrap: nowrap;
 }
 
 .navbar .nav-container li {
@@ -163,22 +163,67 @@ background: transparent;
   /* box-shadow: 0 0 200px goldenrod; */
   background: #FAF7E9;
   height: 100vh;
-  width: 50%;
+  width: 100%;
   transform: translate(-150%);
   display: flex;
-  flex-direction: column;
-  /* margin-left: -40px;
-  padding-left: 50px; */
+  flex-direction: row;
   transition: transform 0.5s ease-in-out;
   text-align: center;
   z-index: 1;
+  
 }
 
 .navbar .menu-items li {
   margin-bottom: 1.2rem;
   font-size: 1.5rem;
   font-weight: 500;
+  /* z-index: -1; */
 }
+
+/* Dropdown Hamburger Menu Start*/
+.hamburger-menu-design{
+  display: flex;
+  
+}
+.width-set-1{
+  width: 30%;
+}
+.width-set-2{
+  width: 30%;
+  z-index: 1!important;
+  position: relative;
+  /* margin-left: -10%; */
+  
+}
+.dropdown{
+  
+}
+.dropdown-content{
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+  /* padding: 10px; */
+  display: none;
+   position: absolute;
+  min-width: 300px;
+  left: 300px;
+  top: 0; 
+  z-index: 90000!important;
+  
+}
+
+/* .width-set-2 li ul li{
+  z-index: 9999;
+  
+} */
+.dropdown:hover .dropdown-content{
+  display: block;
+  /* position: absolute; */
+  top: 0;
+  left: 300px;
+  width: 100%;
+  
+  padding: 10px;
+}
+/* Dropdown Hamburger Menu End*/
 
 .logo {
   position: absolute;
@@ -214,6 +259,10 @@ background: transparent;
   display: block;
 }
 
+
+.hamburger-menu-design{
+  display: flex;
+}
 /* Hamburger Manu end */
 
 
@@ -838,7 +887,7 @@ max-width: 400px;
   font-family: 'Lato', sans-serif; 
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 16px;
   color: rgba(34, 34, 34, 0.9);
   margin-top: 13px;
  }
@@ -859,9 +908,12 @@ max-width: 400px;
   font-weight: 700;
   font-size: 48px;
   color: rgba(34, 34, 34, 0.9);
-  margin-top: 80px;
+  margin-top: 30px;
  }
 
+ .recomanded-section{
+  margin: 80px 0;
+ }
   /* Who we are section end */
 
  /* Book a appoint Section Start */
@@ -975,6 +1027,8 @@ padding: 20px;
   color: #000000;;
   margin-top: 37px;
   line-height: 24px;
+  text-align: justify;
+  text-justify: inter-word;
  }
  .why-ayurveda-title{
   font-style: normal;
@@ -984,14 +1038,14 @@ padding: 20px;
   margin-top: 76px;
   
  }
- .about-title{
+ /* .about-title{
   font-family: 'Lato', sans-serif; 
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
   color: rgba(34, 34, 34, 0.9);
   margin-top: 80px;
- }
+ } */
  .service-img{
   width: 70px;
   height: 70px;
@@ -1008,7 +1062,7 @@ padding: 20px;
   width: 45%;
 }
 .why-srisoukya-section{
-  margin-top: 80px;
+  margin: 80px 0;
 }
 
 
