@@ -79,7 +79,7 @@ background: transparent;
 }
 
 .navbar .menu-items {
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
 }
 
 .navbar .nav-container li {
@@ -163,7 +163,7 @@ background: transparent;
   /* box-shadow: 0 0 200px goldenrod; */
   background: #FAF7E9;
   height: 100vh;
-  width: 100%;
+  width: 50%;
   transform: translate(-150%);
   display: flex;
   flex-direction: row;
@@ -192,7 +192,7 @@ background: transparent;
   width: 30%;
   z-index: 1!important;
   position: relative;
-  /* margin-left: -10%; */
+ 
   
 }
 .dropdown{
@@ -204,21 +204,17 @@ background: transparent;
   display: none;
    position: absolute;
   min-width: 300px;
-  left: 300px;
+  left: 210px;
   top: 0; 
   z-index: 90000!important;
   
 }
 
-/* .width-set-2 li ul li{
-  z-index: 9999;
-  
-} */
 .dropdown:hover .dropdown-content{
   display: block;
   /* position: absolute; */
   top: 0;
-  left: 300px;
+  left: 210px;
   width: 100%;
   
   padding: 10px;
@@ -529,11 +525,9 @@ background: transparent;
 
 .glimpse-text-align{
   margin-left: 17%;
-  /* margin-bottom: 50px; */
+ 
 }
-/* .glimpse-text-align p{
-  margin-top: 50px;
-} */
+
 .vertical-2{
   border-left: 4px;
   border-style: solid;
@@ -551,12 +545,9 @@ background: transparent;
   width: 100%;
   height: 520px;
   margin-top: 320px;
-  /* margin-bottom: 100px; */
+ 
 }
-/* .img-size{
-  width: 456px;
-height: 270px;
-} */
+
 
 .gallery-img{
   width: 100%;
@@ -1038,14 +1029,7 @@ padding: 20px;
   margin-top: 76px;
   
  }
- /* .about-title{
-  font-family: 'Lato', sans-serif; 
-  font-style: normal;
-  font-weight: 700;
-  font-size: 48px;
-  color: rgba(34, 34, 34, 0.9);
-  margin-top: 80px;
- } */
+
  .service-img{
   width: 70px;
   height: 70px;
@@ -1279,7 +1263,412 @@ border-radius: 0px 10px 10px 0px;
  }
 /* Ayurvedic Consultation Center End */
 
-/*==================================================================================*/
+
+/*====================================================================================*/
+
+/* Meet Team Section Start */
+ /* Backgroud Image setup */
+ #team-background-images{
+  background-image:url('assets/meet-team/team-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+ }
+
+  .team-section{
+  max-width: 100%;
+  background-color: #F9F6EC;
+  margin: 100px auto;
+
+ }
+ .team-title{
+  font-family: 'Lato', sans-serif; 
+  text-align: center;
+  font-weight: 800;
+  font-size: 45px;
+  text-transform: capitalize;
+  padding-block-start: 50px;
+ }
+ .team-text{
+  max-width: 60%;
+font-family: 'Lato', sans-serif; 
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+margin: 0 auto;
+text-align: center;
+color: rgba(34, 34, 34, 0.75);
+ }
+ .team-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 60px;
+  
+}
+
+.team-item {
+  flex-basis: 30%;
+  margin-bottom: 20px;
+}
+
+.team-item img{
+  width: 100%;
+  object-fit: cover;
+}
+
+
+/*====================================================================================*/
+
+/* Contact Us Section Start */
+ /* Backgroud Image setup */
+ #contact-background-images{
+  background-image:url('assets/contact-us/contact-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+ }
+.contact-column{
+  display: flex;
+  max-width: 80%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  
+}
+.contact-info{
+  display: flex;
+  flex-direction: column;
+}
+ .contact-section{
+  max-width: 100%;
+  background-color: #F9F6EC;
+  margin: 100px auto;
+  padding-bottom: 150px;
+  max-height: 700px;
+  
+  
+
+ }
+  .contact-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  max-height: 450px;
+  margin: 80px auto;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 10px;
+ 
+}
+input.name-field{
+  background-color: #fff; 
+}
+input.name-field,
+input.email-field,
+input.contact-field,
+ textarea.text-field {
+  
+  margin-bottom: 10px;
+  font-size: 16px;
+  max-width: 400px;
+    height: 50px;
+  
+}
+
+input.name-field,
+input.email-field,
+input.contact-field,
+textarea.text-field {
+  padding: 10px;
+  border-bottom: 2px solid #ccc!important;
+  outline: none;
+  border: none;
+  
+}
+
+.contact-btn {
+  background-image: var(--golden-gradient);
+  color: #fff;
+ padding: 12px;
+  border: none;
+  font-size: 20px;
+  width: 30%;
+  cursor: pointer;
+}
+
+ 
+/*====================================================================================*/
+
+/* Book Appointment Section Start */
+ /* Backgroud Image setup */
+ #appointment-background-images{
+  background-image:url('assets/appointment/appointment-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+ }
+
+ .appointment-section{
+  padding-block: 100px;
+  margin: 100px auto;
+  text-align: center;
+ }
+
+ /*====================================================================================*/
+
+/* Rejuvanation Section Start */
+ /* Backgroud Image setup */
+ #rejuvenation-background-images{
+  background-image:url('assets/rejuvenation/rejuvenation-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+ }
+
+ .rujuvenation-container{
+  display: flex;
+  max-width: 90%;
+  margin: 100px auto;
+  align-items: center;
+  
+ }
+ .rejuvenation-image-div img{
+  height: 400px;
+  object-fit: cover;
+  
+ }
+ .rejuvenation-content-div{
+  background-color: #F9F6EC;
+  border-radius: 0px 10px 10px 0px;
+  height: 365px;
+  transform: translateX(-20px);
+  padding: 18px;
+
+ 
+ }
+
+ .rejuvenation-text{
+  font-family: 'Lato', sans-serif; 
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 35px;
+  margin-top: 40px;
+  text-align: justify;
+ 
+ }
+
+ .panchakarma-rujuvenation-container{
+  transform: translateY(-10%);
+  display: flex;
+  flex-direction: row-reverse;
+  max-width: 90%;
+  margin: 100px auto;
+  align-items: center;
+ }
+
+ .aging-img img{
+  height: 360px;
+  object-fit: cover;
+
+ }
+
+ .rejuvenation-content-div-2{
+  background-color: #F9F6EC;
+  border-radius: 10px 0px 0px 10px;
+  height: 360px;
+  /* transform: translateX(-20px); */
+  padding: 18px;
+
+ 
+ }
+
+ .panchakarma-title{
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 35px;
+  letter-spacing: 0.01em;
+  color: #000000;
+  text-align: center;
+ }
+
+ .booking-duration{
+  transform: translateY(-20px);
+  text-align: center;
+  padding-block-end: 70px;
+ }
+ .booking-content{
+  margin-block-end: 40px;
+ }
+ .booking-content h4 span{
+  color: goldenrod;
+ }
+ .book-appointment{
+  background-image: var(--golden-gradient);
+  color: #fff;
+  width: 190px;
+  height: 60px;
+  border: none;
+  font-size: 20px;
+ 
+ }
+
+ /*====================================================================================*/
+
+/* Body Purification Start */
+ /* Backgroud Image setup */
+ #body-purify-background-images{
+  background-image:url('assets/body-purify/body-purification-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+ }
+
+ .body-purify-container{
+  display: flex;
+  max-width: 90%;
+  margin: 100px auto;
+  align-items: center;
+ }
+
+ .body-purify-content-div{
+  background-color: #F9F6EC;
+  border-radius: 0px 10px 10px 0px;
+  height: 400px;
+  /* transform: translateX(-20px); */
+  padding: 18px;
+ }
+ .body-purify-img-1 img{
+  height: 400px;
+  object-fit: cover;
+  
+ }
+
+ 
+ .body-purify-text{
+  font-family: 'Lato', sans-serif; 
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 35px;
+  margin-top: 40px;
+  text-align: justify;
+  
+ }
+
+ .body-purify-panchakarma-rujuvenation-container{
+  /* transform: translateY(-10%); */
+  display: flex;
+  flex-direction: row-reverse;
+  max-width: 90%;
+  margin: 100px auto;
+  align-items: center;
+ }
+
+ .body-purify-img-2 img{
+  height: 400px;
+  object-fit: cover;
+
+ }
+
+ .body-purify-content-div-2{
+  background-color: #F9F6EC;
+  border-radius: 10px 0px 0px 10px;
+  height: auto;
+  /* transform: translateX(-20px); */
+  padding: 18px;
+
+ 
+ }
+
+ /* Whole-Spin Start */
+ /* Backgroud Image setup */
+ #whole-spin-background-images{
+  background-image:url('assets/whole-spin/whole-spin-bg.png');
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    
+ }
+ .whole-spin-section{
+  margin-block: 100px;
+ }
+
+ .whole-spin-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ }
+ .whole-spin-content-div{
+  font-family: 'Lato', sans-serif; 
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 35px;
+  margin-top: 40px;
+  text-align: justify;
+  background-color: #F9F6EC;
+  padding: 30px;
+  max-width: 100%;
+  transform: translateY(-40px);
+ }
+ .whole-spin-text{
+  max-width: 90%;
+  margin-inline: auto;
+ }
+
+ .whole-spin-duration{
+  transform: translateY(-40px);
+  text-align: center;
+  padding-block-end: 50px;
+ }
+ .whole-spin-content h5{
+  margin-block-end: 20px;
+ }
+
+  /* Anti-aging Start */
+ /* Backgroud Image setup */
+ #anti-aging-background-images{
+  background-image:url('assets/anti-aging/anti-aging-bg.png');
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    
+ }
+
+
+   /* Menopausal Start */
+ /* Backgroud Image setup */
+ #menopusal-background-images{
+  background-image:url('assets/menopusal/manoposal-bg.png');
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    
+ }
+
+ .menoposal-text{
+  width: 90%;
+  margin-left: 65px;
+  margin-top: 50px;
+ }
+ /*=================================================================================*/
 
 /* Responsive Design for home page start */
 
@@ -1497,7 +1886,7 @@ footer a {
   }
   
   /* footer Section end */
-}
+
 @media only screen and (max-width: 1300px){
   html,body {
     /* max-width: 992px; */
@@ -2584,7 +2973,7 @@ form select {
 .footer-input input{
   width: 250px;
     height: 45px;
-    margin-left: 25%;
+    margin-left: -10px;
 }
 .section-headline-p {
   font-weight: 600;
@@ -2620,7 +3009,7 @@ form select {
   width: 353px;
   height: 145px;
   margin-bottom: 0;
-  margin-left: -20px;
+  margin-left: -10%;
 }
 .social-icon .ri-facebook-circle-fill, .ri-youtube-fill, .ri-twitter-fill, .ri-linkedin-box-fill{
   font-size: 30px;
@@ -2649,7 +3038,7 @@ form select {
 .footer-item-3{
   grid-row: 1 / span 1; /* second row */
   grid-column: 2 / span 1; /* second column in second row */
-  /* margin-right: 20%; */
+  margin-left: 10%;
   width: 400px;
   align-items: center;
   margin-top: 40px;
@@ -2662,7 +3051,7 @@ form select {
   width: 320px;
   
   align-items: right;
-  margin-left: 8%;
+  margin-left: 15%;
   
 }
 .get-touch-p {
@@ -2828,7 +3217,7 @@ form select {
 .footer-item-3{
   grid-row: 1 / span 1; /* second row */
   grid-column: 2 / span 1; /* second column in second row */
-  /* margin-right: 20%; */
+  margin-left: 10%;
   width: 400px;
   align-items: center;
   margin-top: 40px;
@@ -2865,6 +3254,10 @@ form select {
   margin-left: 70%;
   width: 300px;
   margin-top: 30px;
+}
+
+.footer-input input{
+  margin-left: 2px;
 }
 .new-arrival-btn{
   width: 66px;
@@ -2904,7 +3297,75 @@ margin-top: 0;
   margin-right: 5px;
   font-size: 20px;
 }
+.service-text-title{
+  font-size: 14px;
+ }
+ .why-srisoukya-title{
+  display: none;
+ }
+ .service-img{
+  width: 50px;
+  height: 50px;
+ }
+ .design-margin img{
+  width: 50%;
+ }
+ .why-srisoukya-text-title{
+  font-size: 14px;
+  width: 160px;
+  text-align: left;
+ }
+ .why-srisoukya-text-p {
+  font-size: 12px;
+  width: 180px;
+ }
+ 
+  .right-design img {
+    margin-left: 126px!important;
+    margin-top: 0;
+    width: 35%;
+}
 
+.icon-margin-left{
+  text-align: right;
+  margin-left: 109px;
+}
+
+.icon-margin-left p{
+  margin-left: -44px;
+}
+.right-design-2 img{
+  
+  margin-top: 15px;
+  margin-right: 188px;
+}
+.right-design img{
+  margin-top: -3px;
+}
+.service-img-margin{
+  margin-right: 30px;
+}
+.big-logo{
+  height: 125px;
+}
+
+.right-design-3 img {
+  margin-left: -22px!important;
+  margin-top: -2px;
+  width: 165px;
+}
+
+
+.icon-margin-left-2 p {
+    margin-left: -45px;
+    width: 165px;
+    text-align: left;
+}
+.icon-margin-left-2 h5 {
+  margin-top: 12px;
+    margin-left: -45px;
+    
+}
 }
 @media only screen and (max-width: 768px){
   #background-video{
@@ -2994,7 +3455,7 @@ margin-top: 0;
   font-size: 18px;
 }
 .footer-input input{
-  margin-right: 20px;
+  margin-left: 2px;
 }
 .submit-btn {
   
@@ -3007,7 +3468,7 @@ margin-top: 0;
 .footer-item-3{
   grid-row: 1 / span 1; /* second row */
   grid-column: 2 / span 1; /* second column in second row */
-  /* margin-right: 20%; */
+  margin-left: 10%;
   width: 400px;
   align-items: center;
   margin-top: 40px;
@@ -3382,6 +3843,28 @@ display: none;
 .gallery-text-align{
   margin-bottom: 0;
 }
+.why-srisoukya-text-title{
+  width: 128px;
+}
+.icon-margin-left {
+  text-align: right;
+  margin-left: -15px;
+}
+.icon-margin-left p {
+  margin-left: -42px;
+width: 161px;
+}
+
+.right-design img {
+  margin-left: -31px!important;
+  margin-top: 0;
+  width: 48%;
+ 
+}
+.right-design-2 img {
+ 
+  margin-right: 162px;
+}
 }
 @media only screen and (max-width: 650px){
   
@@ -3590,6 +4073,28 @@ display: none;
 .gallery-text-align{
   margin-bottom: 58px;
 }
+.why-srisoukya-text-title{
+  width: 128px;
+}
+.icon-margin-left {
+  text-align: right;
+  margin-left: -15px;
+}
+.icon-margin-left p {
+  margin-left: -42px;
+width: 161px;
+}
+
+.right-design img {
+  margin-left: -31px!important;
+  margin-top: 0;
+  width: 48%;
+ 
+}
+.right-design-2 img {
+ 
+  margin-right: 162px;
+}
 }
 @media only screen and (max-width: 600px){
   #background-video{
@@ -3785,6 +4290,28 @@ display: none;
 .gallery-text-align{
   margin-bottom: 58px;
 }
+.why-srisoukya-text-title{
+  width: 128px;
+}
+.icon-margin-left {
+  text-align: right;
+  margin-left: -15px;
+}
+.icon-margin-left p {
+  margin-left: -42px;
+width: 161px;
+}
+
+.right-design img {
+  margin-left: -31px!important;
+  margin-top: 0;
+  width: 48%;
+ 
+}
+.right-design-2 img {
+ 
+  margin-right: 162px;
+}
 }
 
 @media only screen and (max-width: 576px){
@@ -3865,7 +4392,7 @@ display: none;
 }
 
 .icon-margin-left p{
-  margin-left: -44px;
+  margin-left: -7px;
 }
 .right-design-2 img{
   
@@ -6792,20 +7319,24 @@ height: 45px;
   margin-left: -50px;
 }
 .footer-item-3{
-  width: 90px;
-  align-items: center;
-  margin-top: 30px;
+  grid-row: 2 / span 1; /* third row */
+ 
+  grid-column: 1 / span 1; /* second column in second row */
+  width: 200px;
+  align-items: left;
+  margin-top: 0px;
+  margin-left: -20px;
   
 }
 .footer-item-2{
- 
+  grid-row: 3 / span 1; /* third row */
   margin-left: 10%;
   align-items: center;
-  width: 120px;
+  width: 186px;
  
 }
 .footer-item-4{
-  grid-row: 3 / span 1; /* third row */
+  grid-row: 4 / span 1; /* third row */
  
   grid-column: 1 / span 1; /* second column in second row */
   justify-content: center;
@@ -6878,6 +7409,72 @@ footer form .submit-btn{
     margin-left: 10px;
    
 }
+
+.right-design img {
+  
+  width: 60%;
+}
+.design-margin {
+  margin-left: 3px;
+}
+.right-design img {
+ 
+  margin-top: 1px;
+  
+}
+.big-logo {
+  height: 66px;
+}
+.service-img {
+  width: 36px;
+  height: 36px;
+  margin-left: -2px;
+}
+.text-margin-right h5 {
+  width: 252px;
+  font-size: 10px;
+}
+.icon-margin-left-2 h5 {
+  margin-top: 12px;
+  margin-left: -160px;
+}
+.icon-margin-left-2 p {
+  margin-left: -175px;
+  width: 108px;
+  
+}
+.right-design-4 {
+  margin-top: -12px;
+  margin-left: -67px;
+}
+.right-design-3 img {
+  margin-left: -161px!important;
+  margin-top: -2px;
+  width: 115px;
+}
+.why-srisoukya-text-title {
+  margin-left: -8px;
+  font-size: 10px;
+}
+.icon-margin-left p {
+  margin-left: -33px;
+}
+.right-design-2 img {
+  margin-top: 22px;
+  margin-right: 152px;
+  margin-left: -56px;
+}
+.service-text-title {
+  font-size: 10px;
+  width: 100px;
+}
+.service-text-p {
+  font-size: 10px;
+  margin-left: -5px;
+}
+.ayurveda-img {
+  margin-left: -30px;
+}
 }
 
 @media screen and (max-width: 300px) {
@@ -6918,8 +7515,7 @@ footer form .submit-btn{
   font-size: 11px;
 }
 .right-design img {
-  /* margin-left: -102px!important;
-  margin-top: -1px; */
+  
   width: 60%;
 }
 .design-margin {
@@ -7254,9 +7850,7 @@ form select {
   padding-top: 2px;
   padding-bottom: 35px;
 }
-/* .fot-input{
-  margin-left: 15%;
-} */
+
 .footer-input{
   display: flex;
   align-items: center;
