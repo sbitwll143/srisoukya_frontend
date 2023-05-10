@@ -92,8 +92,9 @@ background: transparent;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   padding: 0.7rem;
+  margin-left: 100px;
 }
 
 .navbar .nav-container a:hover{
@@ -159,25 +160,28 @@ background: transparent;
 }
 
 .navbar .menu-items {
-  padding-top: 120px;
+  /* padding-top: 120px; */
   /* box-shadow: 0 0 200px goldenrod; */
   background: #FAF7E9;
   height: 100vh;
-  width: 50%;
+  width: 100%;
   transform: translate(-150%);
   display: flex;
   flex-direction: row;
   transition: transform 0.5s ease-in-out;
   text-align: center;
   z-index: 1;
+  text-align: left;
+  padding-top: 60px;
+  max-width: 60%;
   
 }
 
 .navbar .menu-items li {
-  margin-bottom: 1.2rem;
-  font-size: 1.5rem;
+  margin-bottom: 0.4rem;
+  font-size: 1.2rem;
   font-weight: 500;
-  /* z-index: -1; */
+  
 }
 
 /* Dropdown Hamburger Menu Start*/
@@ -186,38 +190,42 @@ background: transparent;
   
 }
 .width-set-1{
-  width: 30%;
+  flex: 1;
 }
 .width-set-2{
-  width: 30%;
-  z-index: 1!important;
-  position: relative;
  
+  position: relative;
+  flex: 1;
+  margin-left: -250px;
   
 }
-.dropdown{
-  
-}
+
 .dropdown-content{
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
   /* padding: 10px; */
   display: none;
    position: absolute;
   min-width: 300px;
-  left: 210px;
+  left: 180px;
   top: 0; 
   z-index: 90000!important;
+  background: #FAF7E9;
+  
   
 }
 
 .dropdown:hover .dropdown-content{
   display: block;
   /* position: absolute; */
-  top: 0;
-  left: 210px;
+ 
+  left: 220px;
   width: 100%;
   
   padding: 10px;
+  top: 30px;
+ 
+ 
+
 }
 /* Dropdown Hamburger Menu End*/
 
@@ -832,7 +840,7 @@ max-width: 400px;
 
 /* About Page Start */
  /* Backgroud Image setup */
- #background-images{
+ #about-bg{
   background-image:url('assets/about-page/about-bg.png');
     background-position: center;
     background-repeat: no-repeat;
@@ -902,6 +910,7 @@ max-width: 400px;
   margin-top: 30px;
  }
 
+ 
  .recomanded-section{
   margin: 80px 0;
  }
@@ -909,8 +918,7 @@ max-width: 400px;
 
  /* Book a appoint Section Start */
 .book-btn{
-  width: 236px;
-  height: 72px;
+ padding: 15px 30px;
   background-image: var(--golden-gradient);
   color: #fff;
   border: none;
@@ -1141,8 +1149,7 @@ height: 240px;
   }
 /* Book a appoint Section Start */
 .book-btn{
-  width: 236px;
-  height: 72px;
+ padding: 20px 30px;
   background-image: var(--golden-gradient);
   color: #fff;
   border: none;
@@ -2338,17 +2345,93 @@ form select {
 
 }
 @media only screen and (min-width: 993px) and (max-width: 1199px){
+  .banner-text{
+    background-image: none;
+}
   #background-video{
     height: 90vh;
   }
   #background-images{
     height: 90vh;
   }
+  #about-bg{
+    height: 90vh;
+  }
+  .video-size{
+    height: 90vh;
+  }
+
+  .who-we-are{
+    font-size: 35px;
+    margin-inline-start: 80px;
+    margin-top: 100px;
+  }
+  .about-title{
+    margin-inline-start: 80px;
+  }
+  .about-us{
+    font-size: 16px;
+    margin-inline: 80px;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+  .about-text-p{
+    width: 85%;
+  }
+
+  .appointment-section{
+    margin: -37px auto;
+  }
+  .book-btn{
+    padding: 20px 35px;
+    font-size: 16px;
+    margin-top: 29px;
+  }
+  
   
   .navbar .menu-items{
     height: 90vh;
+    width: 100%;
+    text-align: left;
+    padding-top: 48px;
+    max-width: 65%;
   }
  
+  .hamburger-menu-design{
+    display: flex; 
+  }
+  
+  .width-set-1{
+   flex: 1;
+  }
+  .width-set-2{
+   
+    position: relative;
+    flex: 1;
+    margin-left: -200px;
+    
+  }
+  .dropdown:hover .dropdown-content{
+  
+    top: 0;
+    left: 200px;
+    width: 100%;
+    
+    
+    padding: 10px;
+  }
+  .navbar .nav-container a {
+    font-weight: 400;
+    font-size: 1.3rem;
+    padding: 0.5rem;
+    margin-left: 60px;
+  }
+  
+  .navbar .menu-items li{
+    margin-bottom: 0.1rem;
+  
+  }
   html,body {
     /* max-width: 992px; */
     margin: 0;
@@ -2576,6 +2659,9 @@ form select {
 }
 }
 @media only screen and (max-width: 992px){
+  .banner-text{
+      background-image: none;
+  }
   #background-video{
     height: 90vh;
   }
@@ -2583,9 +2669,86 @@ form select {
     height: 90vh;
   }
   
-  .navbar .menu-items{
+  #about-bg{
     height: 90vh;
   }
+
+  
+ .navbar .menu-items{
+  height: 90vh;
+  width: 100%;
+  text-align: left;
+  padding-top: 48px;
+  max-width: 65%;
+}
+
+
+.hamburger-menu-design{
+  display: flex; 
+}
+
+.width-set-1{
+ flex: 1;
+}
+.width-set-2{
+ 
+  position: relative;
+  flex: 1;
+  margin-left: -200px;
+  
+}
+.dropdown:hover .dropdown-content{
+
+  top: 0;
+  left: 200px;
+  width: 100%;
+  
+  
+  padding: 10px;
+}
+.navbar .nav-container a {
+  font-weight: 400;
+  font-size: 1.3rem;
+  padding: 0.5rem;
+  margin-left: 60px;
+}
+
+.navbar .menu-items li{
+  margin-bottom: 0.1rem;
+
+}
+  .video-size{
+    height: 90vh;
+  }
+
+  .who-we-are{
+    font-size: 35px;
+    margin-inline-start: 80px;
+    margin-top: 100px;
+  }
+  .about-title{
+    margin-inline-start: 80px;
+  }
+  .about-us{
+    font-size: 16px;
+    margin-inline: 80px;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+  .about-text-p{
+    width: 85%;
+  }
+
+  .appointment-section{
+    margin: -37px auto;
+  }
+  .book-btn{
+    padding: 20px 35px;
+    font-size: 16px;
+    margin-top: 29px;
+  }
+ 
  
   /* Hamburger Menu start */
   html,body {
@@ -2606,14 +2769,7 @@ form select {
 .signup-btn {
 display: none;
 }
-.navbar .menu-items {
-  position: fixed;
-  top: 0;
-  left: 0;
-  max-width: 300px;
-  transform: translateX(-100%);
- 
-}
+
 .gallery-text-align {
   margin-bottom: 70px;
 }
@@ -2867,7 +3023,7 @@ margin-top: 20px;
 .footer-item-2{
   grid-row: 2 / span 1; /* second row */
   grid-column: 1 / span 1; /* first column in second row */
-  margin-left: 23%;
+  margin-left: 12%;
   align-items: center;
   width: 300px;
  
@@ -3113,6 +3269,22 @@ margin-top: 0;
   margin-left: -20px;
 }
 
+.service-img {
+  width: 60px;
+  height: 60px;
+}
+
+.why-srisoukya-text-title {
+  font-size: 20px;
+
+}
+.text-margin-right h5 {
+  width: 223px;
+}
+.big-logo {
+  width: 932px;
+  height: 180px;
+}
 }
 @media only screen and (max-width: 850px){
   #background-video{
@@ -3374,11 +3546,84 @@ margin-top: 0;
   #background-images{
     height: 80vh;
   }
+
+  .video-size{
+    height: 90vh;
+    width: 100vw;
+  }
+  .who-we-are{
+    font-size: 35px;
+    margin-top: 78px;
+    margin-inline-start: 50px;
+  }
+
+  .about-title{
+    margin-inline-start: 50px;
+    font-size: 40px;
+  }
+  .about-us{
+    width: 90%;
+    margin-inline: auto;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-inline-start: 50px;
+}
+.appointment-section{
+  margin-top: -35px;
+  margin-bottom: 0;
+}
+.recommand-heading{
+  font-size: 35px;
+}
+
+.recomanded-section{
+  margin-block-end: 50px;
+}
+.recommand-text-align{
+  margin-bottom: 60px;
+}
+  
    .banner-text{
    background-image: none;
   } 
   .navbar .menu-items{
     height: 80vh;
+    width: 100%;
+    text-align: left;
+    padding-top: 48px;
+    min-width: 60%;
+  }
+  .hamburger-menu-design{
+    display: flex; 
+  }
+  
+  .width-set-1{
+   flex: 1;
+  }
+  .width-set-2{
+   
+    position: relative;
+    flex: 1;
+    margin-left: -60px;
+    
+  }
+  .dropdown:hover .dropdown-content{
+  
+    top: 10px;
+    left: 140px;
+    width: 100%;
+    
+    padding: 10px;
+  }
+  .navbar .nav-container a {
+    font-weight: 400;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    margin-left: 10px;
+  }
+  
+  .navbar .menu-items li{
+    margin-bottom: 0.1rem;
   }
   .image-grid {
     margin-left: 42px;
@@ -3491,7 +3736,7 @@ margin-top: 0;
 .footer-item-2{
   grid-row: 2 / span 1; /* second row */
   grid-column: 1 / span 1; /* first column in second row */
-  margin-left: 23%;
+  /* margin-left: 23%; */
   align-items: center;
   width: 300px;
  
@@ -3637,6 +3882,14 @@ form select {
  
 }
 
+/* Consultation section */
+
+.goal-img img{
+  width: 100%;
+  max-width: 90%;
+  /* margin-inline: auto; */
+}
+
 }
 
 @media only screen and (max-width: 767px){
@@ -3646,9 +3899,44 @@ form select {
   #background-images{
     height: 80vh;
   }
+  .video-size{
+    height: 90vh;
+    width: 100vw;
+  }
+  .who-we-are{
+    font-size: 35px;
+    margin-top: 78px;
+    margin-inline-start: 50px;
+  }
 
+  .about-title{
+    margin-inline-start: 50px;
+    font-size: 40px;
+  }
+  .about-us{
+    width: 90%;
+    margin-inline: auto;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-inline-start: 50px;
+}
+.appointment-section{
+  margin-top: -35px;
+  margin-bottom: 0;
+}
+.recommand-heading{
+  font-size: 35px;
+}
+
+.recomanded-section{
+  margin-block-end: 50px;
+}
+.recommand-text-align{
+  margin-bottom: 60px;
+}
   .navbar .menu-items{
     height: 80vh;
+    max-width: 60%;
   }
   
   .logo-size{
@@ -3672,7 +3960,7 @@ form select {
     
 }
 
-.navbar .nav-container a {
+/* .navbar .nav-container a {
   font-weight: 400;
   font-size: 1.3rem;
   padding: 0.5rem;
@@ -3680,7 +3968,7 @@ form select {
 
 .navbar .menu-items li{
   margin-bottom: 0.1rem;
-}
+} */
 .feature-heading {
   font-weight: 700;
   font-size: 30px;
@@ -3877,6 +4165,10 @@ width: 161px;
 
   .navbar .menu-items{
     height: 80vh;
+    width: 100%;
+    text-align: left;
+    padding-top: 48px;
+    max-width: 60%;
   }
   .logo-size{
     width: 200px;
@@ -3903,8 +4195,9 @@ width: 161px;
 }
 .navbar .nav-container a {
   font-weight: 400;
-  font-size: 1.3rem;
+  font-size: 1rem;
   padding: 0.5rem;
+  margin-left: 10px;
 }
 
 .navbar .menu-items li{
@@ -4106,6 +4399,9 @@ width: 161px;
 
   .navbar .menu-items{
     height: 80vh;
+    width: 100%;
+    text-align: left;
+    padding-top: 48px;
   }
   
   .logo-size{
@@ -4133,12 +4429,13 @@ width: 161px;
 }
 .navbar .nav-container a {
   font-weight: 400;
-  font-size: 1.3rem;
+  font-size: 1rem;
   padding: 0.5rem;
+  margin-left: 10px;
 }
 
 .navbar .menu-items li{
-  margin-bottom: 0.1rem;
+  margin-bottom: -0.4rem;
 }
 .feature-heading {
   font-weight: 700;
@@ -4316,16 +4613,84 @@ width: 161px;
 
 @media only screen and (max-width: 576px){
   #background-video{
-    height: 70vh;
+    height: 80vh;
   }
   #background-images{
-    height: 70vh;
+    height: 80vh;
   }
+  #about-bg{
+    height: 80vh;
+  }
+  .video-size{
+    height: 90vh;
+  }
+  
+  .who-we-are{
+    font-weight: 500;
+      font-size: 20px;
+      margin-left: 20px;
+  }
+  .about-title{
+    font-size: 26px;
+    margin-left: 20px;
+  }
+  .about-us{
+    font-size: 13px;
+    margin-inline: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  .about-width{
+    width: 100%;
+    
+  }
+
+  .about-text-p{
+    width: 90%;
+  }
+  .about-ayurveda-img{
+    width: 50px;
+    height: 50px;
+  }
+  
+
+  .appointment-section{
+    margin-top: -45px;
+  }
+  
+  .recommand-heading {
+    font-size: 25px;
+  }
+  
+  .recommand-text-align{
+    margin-bottom: 36px;
+  }
+  .about-p-text{
+    font-size: 13px;
+    width: 70%;
+    margin-inline: auto;
+  }
+  .book-btn{
+    padding: 10px 20px;
+    font-size: 13px;
+    margin-top: 29px;
+  }
+  .book-text-color{
+    font-size: 28px;
+    font-weight: 600;
+  }
+
+  .margin-r {
+    margin-left: 21px;
+}
    .banner-text{
    background-image: none;
   } 
   .navbar .menu-items{
-    height: 70vh;
+    height: 80vh;
+    width: 100%;
+    text-align: left;
+    padding-top: 48px;
   }
   .who-we-are-section {
     margin-top: 40px; 
@@ -4440,7 +4805,7 @@ width: 161px;
     font-size: 30px;
   }
   .banner-text h5{
-    font-size: 25px;
+    font-size: 30px;
   }
   .package-img {
     width: 430px;
@@ -4452,12 +4817,36 @@ width: 161px;
 }
 .navbar .nav-container a {
   font-weight: 400;
-  font-size: 1.2rem;
+  font-size: 1rem;
   padding: 0.5rem;
+  margin-left: 10px;
 }
 
 .navbar .menu-items li{
-  margin-bottom: 0.1rem;
+  margin-bottom: -0.4rem;
+}
+
+.hamburger-menu-design{
+  display: flex; 
+}
+
+.width-set-1{
+ flex: 1;
+}
+.width-set-2{
+ 
+  position: relative;
+  flex: 1;
+  margin-left: -60px;
+  
+}
+.dropdown:hover .dropdown-content{
+
+  top: 10px;
+  left: 120px;
+  width: 100%;
+  
+  padding: 10px;
 }
 .feature-heading {
   font-weight: 700;
@@ -4614,6 +5003,36 @@ form select {
   width: 300px;
     height: 65px;
 }
+.goal-img img {
+  margin: -20px 0 0 10px;
+
+   width: 100%;
+}
+.consultation-content {
+ font-size: 17px;
+}
+
+.ayurvedic-consultation-img{
+ width: 60px;
+ height: 60px;
+}
+.consultation-margin{
+ width: 100%;
+}
+.consulation-text-title{
+ font-size: 18px;
+   width: 100%;
+}
+.consultation-text-p{
+ font-size: 16px;
+ width: 90%;
+}
+.elements-bg {
+ background: #F9F6EC;
+ border-radius: 0px 0px 0px 0px;
+ margin-left: 7px;
+ padding-block: 40px;
+}
 }
 
 @media only screen and (max-width: 520px){
@@ -4628,6 +5047,10 @@ form select {
   } 
   .navbar .menu-items{
     height: 70vh;
+    width: 100%;
+    text-align: left;
+    padding-top: 48px;
+    max-width: 100%;
   }
   .who-we-are-section {
     margin-top: 40px; 
@@ -4643,7 +5066,7 @@ form select {
   display: block;
 }
 .margin-r {
-  margin-left: 30px;
+  margin-left: 9px;
 }
 .item{
   width: 95%;
@@ -4754,12 +5177,35 @@ form select {
 
 .navbar .nav-container a {
   font-weight: 400;
-  font-size: 1.1rem;
+  font-size: 1rem;
   padding: 0.5rem;
+  margin-left: 10px;
 }
 
 .navbar .menu-items li{
-  margin-bottom: 0.1rem;
+  margin-bottom: -0.4rem;
+}
+.hamburger-menu-design{
+  display: flex; 
+}
+
+.width-set-1{
+ flex: 1;
+}
+.width-set-2{
+ 
+  position: relative;
+  flex: 1;
+  margin-left: -130px;
+  
+}
+.dropdown:hover .dropdown-content{
+
+  top: 30px;
+  left: 50px;
+  width: 100%;
+  
+  padding: 10px;
 }
 .banner-text h5{
   margin-top: 35px;
@@ -5021,9 +5467,9 @@ form select {
 .wrapper{
   display: block;
 }
-.margin-r {
+/* .margin-r {
   margin-left: 30px;
-}
+} */
 .item{
   width: 95%;
 }
@@ -5379,6 +5825,10 @@ form select {
     margin-top: -25px;
     
   }
+  .consultation-text-p{
+    font-size: 14px;
+    width: 90%;
+   }
 }
 
 @media only screen and (max-width: 480px){
@@ -5407,9 +5857,9 @@ form select {
 .wrapper{
   display: block;
 }
-.margin-r {
+/* .margin-r {
   margin-left: 30px;
-}
+} */
 .item{
   width: 95%;
 }
@@ -5833,9 +6283,9 @@ form select {
 .wrapper{
   display: block;
 }
-.margin-r {
+/* .margin-r {
   margin-left: 30px;
-}
+} */
 .item{
   width: 95%;
 }
@@ -6035,11 +6485,20 @@ form select {
   #background-images{
     height: 60vh;
   }
+
+
+  .margin-r {
+    margin-left: 6px;
+}
    .banner-text{
    background-image: none;
   } 
   .navbar .menu-items{
     height: 60vh;
+    width: 100%;
+    text-align: left;
+    padding-top: 100px;
+    max-width: 100%;
   }
   .who-we-are-section {
     margin-top: 40px; 
@@ -6054,9 +6513,7 @@ form select {
 .wrapper{
   display: block;
 }
-.margin-r {
-  margin-left: 30px;
-}
+
 .item{
   width: 95%;
 }
@@ -6183,14 +6640,37 @@ form select {
   width: 29px;
 }
 
+.hamburger-menu-design{
+  display: flex; 
+}
+
+.width-set-1{
+ flex: 1;
+}
+.width-set-2{
+ 
+  position: relative;
+  flex: 1;
+  margin-left: -130px;
+  
+}
+.dropdown:hover .dropdown-content{
+
+  top: 35px;
+  left: 50px;
+  width: 100%;
+  
+  padding: 10px;
+}
 .navbar .nav-container a {
   font-weight: 400;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   padding: 0.5rem;
+  margin-left: 10px;
 }
 
 .navbar .menu-items li{
-  margin-bottom: 0.1rem;
+  margin-bottom: 0.10rem;
 }
 .banner-text h5{
   margin-top: 30px;
@@ -6431,11 +6911,78 @@ form select {
   #background-images{
     height: 60vh;
   }
+  #about-bg{
+    height: 60vh;
+  }
+  .video-size{
+    height: 70vh;
+  }
+  
+  .who-we-are{
+    font-weight: 500;
+      font-size: 20px;
+      margin-left: 20px;
+  }
+  .about-title{
+    font-size: 26px;
+    margin-left: 20px;
+  }
+  .about-us{
+    font-size: 12px;
+    margin-inline: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  .about-width{
+    width: 100%;
+    
+  }
+  .about-ayurveda-img{
+    width: 50px;
+    height: 50px;
+  }
+  
+  .recomanded-section{
+    margin-top: -55px;
+  }
+  .appointment-section{
+    margin-top: -70px;
+  }
+  
+  .recommand-heading {
+    font-size: 25px;
+  }
+  
+  .recommand-text-align{
+    margin-bottom: 36px;
+  }
+  .about-p-text{
+    font-size: 13px;
+    width: 70%;
+    margin-inline: auto;
+  }
+  .book-btn{
+    padding: 10px 20px;
+    font-size: 13px;
+    margin-top: 29px;
+  }
+  .book-text-color{
+    font-size: 28px;
+    font-weight: 600;
+  }
+
+  .margin-r {
+    margin-left: 21px;
+}
    .banner-text{
    background-image: none;
   } 
   .navbar .menu-items{
     height: 60vh;
+    width: 100%;
+    text-align: left;
+    padding-top: 60px;
+    max-width: 100%;
   }
   .who-we-are-section {
     margin-top: 40px; 
@@ -6450,9 +6997,7 @@ form select {
 .wrapper{
   display: block;
 }
-.margin-r {
-  margin-left: 30px;
-}
+
 .item{
   width: 95%;
 }
@@ -6575,14 +7120,37 @@ form select {
   width: 29px;
 }
 
+.hamburger-menu-design{
+  display: flex; 
+}
+
+.width-set-1{
+ flex: 1;
+}
+.width-set-2{
+ 
+  position: relative;
+  flex: 1;
+  margin-left: -130px;
+  
+}
+.dropdown:hover .dropdown-content{
+
+  top: 35px;
+  left: -20px;
+  width: 100%;
+  
+  padding: 10px;
+}
 .navbar .nav-container a {
   font-weight: 400;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   padding: 0.5rem;
+  margin-left: 10px;
 }
 
 .navbar .menu-items li{
-  margin-bottom: 0.1rem;
+  margin-bottom: 0.2rem;
 }
 .banner-text h5{
   margin-top: 30px;
@@ -6817,6 +7385,34 @@ form select {
       height: 45px;
       margin-left: -5%;
   }
+  .goal-img img {
+    margin: -20px 0 0 0;
+ 
+     width: 100%;
+ }
+ .consultation-content {
+   font-size: 17px;
+ }
+ 
+ .ayurvedic-consultation-img{
+   width: 50px;
+   height: 50px;
+ }
+ .consultation-margin{
+   width: 100%;
+ }
+ .consulation-text-title{
+   font-size: 14px;
+     width: 100%;
+ }
+ .consultation-text-p{
+   font-size: 12px;
+ }
+ .elements-bg {
+   background: #F9F6EC;
+   border-radius: 0px 0px 0px 0px;
+   margin-left: 7px;
+ }
 }
 
 @media only screen and (max-width: 360px) {
@@ -6829,9 +7425,7 @@ form select {
    .banner-text{
    background-image: none;
   } 
-  .navbar .menu-items{
-    height: 60vh;
-  }
+
   .about-ayurveda {
     font-size: 12px;
    
@@ -6872,18 +7466,47 @@ form select {
   height: 22px;
   width: 29px;
 }
+
 .navbar .menu-items{
-  padding-top: 60px;
+  height: 60vh;
+  width: 100%;
+  text-align: left;
+  padding-top: 48px;
+}
+
+.hamburger-menu-design{
+display: flex; 
+}
+
+.width-set-1{
+flex: 1;
+}
+.width-set-2{
+
+position: relative;
+flex: 1;
+margin-left: -60px;
+
+}
+.dropdown:hover .dropdown-content{
+
+top: 30px;
+left: 50px;
+width: 100%;
+
+padding: 10px;
 }
 .navbar .nav-container a {
-  font-weight: 400;
-  font-size: 1.2rem;
-  padding: 0.5rem;
+font-weight: 400;
+font-size: 1rem;
+padding: 0.5rem;
+margin-left: 10px;
 }
 
 .navbar .menu-items li{
-  margin-bottom: 0.1rem;
+margin-bottom: -0.4rem;
 }
+
 .banner-text h5{
   margin-top: 30px;
 }
@@ -7123,6 +7746,111 @@ footer form .submit-btn{
 }
 
 @media screen and (max-width: 350px) {
+  #about-bg{
+    height: 60vh;
+  }
+  .video-size{
+    height: 70vh;
+  }
+  
+  .navbar .menu-items{
+    height: 60vh;
+    width: 100%;
+    text-align: left;
+    padding-top: 48px;
+  }
+
+
+
+.hamburger-menu-design{
+  display: flex; 
+}
+
+.width-set-1{
+ flex: 1;
+}
+.width-set-2{
+ 
+  position: relative;
+  flex: 1;
+  margin-left: -60px;
+  
+}
+.dropdown:hover .dropdown-content{
+
+  top: 30px;
+  left: 50px;
+  width: 100%;
+  
+  padding: 10px;
+}
+.navbar .nav-container a {
+  font-weight: 400;
+  font-size: 1rem;
+  padding: 0.5rem;
+  margin-left: 10px;
+}
+
+.navbar .menu-items li{
+  margin-bottom: -0.1rem;
+}
+
+  .who-we-are{
+    font-weight: 500;
+      font-size: 20px;
+      margin-left: 20px;
+  }
+  .about-title{
+    font-size: 26px;
+    margin-left: 20px;
+  }
+  .about-us{
+    font-size: 12px;
+    margin-inline: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  .about-width{
+    width: 100%;
+    
+  }
+  .about-ayurveda-img{
+    width: 50px;
+    height: 50px;
+  }
+  
+  .recomanded-section{
+    margin-top: -58px;
+  }
+  .appointment-section{
+    margin-top: -70px;
+  }
+  
+  .recommand-heading {
+    font-size: 25px;
+  }
+  
+  .recommand-text-align{
+    margin-bottom: 36px;
+  }
+  .about-p-text{
+    font-size: 13px;
+    width: 70%;
+    margin-inline: auto;
+  }
+  .book-btn{
+    padding: 10px 20px;
+    font-size: 13px;
+    margin-top: 29px;
+  }
+  .book-text-color{
+    font-size: 28px;
+    font-weight: 600;
+  }
+
+  .margin-r {
+    margin-left: 10px;
+}
   .logo-size {
     width: 160px;
     height: 35px;
@@ -7136,20 +7864,13 @@ footer form .submit-btn{
   height: 22px;
   width: 29px;
 }
-.navbar .menu-items{
-  padding-top: 60px;
-}
+
 .navbar .nav-container a {
   font-weight: 400;
-  font-size: 1.2rem;
+  font-size: 1rem;
   padding: 0.5rem;
 }
-.navbar .menu-items{
-  height: 60vh;
-}
-.navbar .menu-items li{
-  margin-bottom: 0.1rem;
-}
+
 .banner-text h5{
   margin-top: 30px;
 }
@@ -7481,6 +8202,69 @@ footer form .submit-btn{
   #background-video {
     height: 60vh;
 }
+
+/* About Page */
+
+#about-bg{
+  height: 60vh;
+}
+
+.video-size{
+  height: 70vh;
+}
+
+.who-we-are{
+  font-weight: 500;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.about-title{
+  font-size: 26px;
+  margin-left: 20px;
+}
+.about-us{
+  font-size: 12px;
+  margin-inline: 20px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.about-width{
+  width: 100%;
+  
+}
+.about-ayurveda-img{
+  width: 50px;
+  height: 50px;
+}
+
+.recomanded-section{
+  margin-top: -62px;
+}
+.appointment-section{
+  margin-top: -70px;
+}
+
+.recommand-heading {
+  font-size: 25px;
+}
+
+.recommand-text-align{
+  margin-bottom: 36px;
+}
+.about-p-text{
+  font-size: 13px;
+  width: 70%;
+  margin-inline: auto;
+}
+.book-btn{
+  padding: 10px 20px;
+  font-size: 13px;
+  margin-top: 29px;
+}
+.book-text-color{
+  font-size: 23px;
+  font-weight: 600;
+}
   .logo-size {
     width: 145px;
     height: 50px;
@@ -7496,6 +8280,7 @@ footer form .submit-btn{
 }
 .banner-text h5 {
   font-size: 20px;
+  margin-top: 85px;
 }
 .banner-text h1 {
   font-size: 15px;
@@ -7503,13 +8288,14 @@ footer form .submit-btn{
 .why-ayurveda-title {
   font-size: 22px;
 }
-.ayurveda-img {
-  width: 40px;
-  height: 40px;
-  /* margin-left: -28px; */
-}
+
 .margin-r {
-  margin-left: 22px;
+  margin-left: 4px;
+}
+
+.about-text-p{
+  font-size: 12px;
+  font-weight: 400;
 }
 .about-ayurveda {
   font-size: 11px;
@@ -7590,9 +8376,7 @@ footer form .submit-btn{
 .navbar .menu-items li{
   margin-bottom: 0.1rem;
 }
-.banner-text h5{
-  margin-top: 25px;
-}
+
 .banner-text h1{
   margin-top: 15px;
   font-size: 17px;
@@ -7863,6 +8647,35 @@ form select {
   width: 200px;
     height: 45px;
  
+}
+
+.goal-img img {
+   margin: -20px 0 0 0;
+
+    width: 100%;
+}
+.consultation-content {
+  font-size: 17px;
+}
+
+.ayurvedic-consultation-img{
+  width: 50px;
+  height: 50px;
+}
+.consultation-margin{
+  width: 100%;
+}
+.consulation-text-title{
+  font-size: 14px;
+    width: 100%;
+}
+.consultation-text-p{
+  font-size: 12px;
+}
+.elements-bg {
+  background: #F9F6EC;
+  border-radius: 0px 0px 0px 0px;
+  margin-left: 7px;
 }
 }
 /* Responsive Design for home page end */
