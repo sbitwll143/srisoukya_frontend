@@ -1897,28 +1897,27 @@ footer a {
     height: auto;
 
   }
-
   .navbar .menu-items{
-  height: 100vh;
-  padding-top: 80px;
+    height: 100vh;
+  padding-top: 50px;
   width: 100%;
-  max-width: 23%;
+  max-width: 22%;
 }
 .navbar .nav-container a {
-font-weight: 400;
-  font-size: 1.3rem;
+  font-weight: 400;
+  font-size: 1.6rem;
   padding: 0.3rem;
 }
 
 .navbar .menu-items li{
-margin-bottom: 0.1rem;
-  text-align: left;
-    margin-left: 60px
+ margin-bottom: 0.7rem;
+ text-align: center;
+  margin-left: -15px;
 } 
 
 .dropdown-content{
   top: 10px;
-  left: 235px;
+  left: 300px;
 }
 
   .feature-text-align {
@@ -2134,32 +2133,27 @@ footer a {
   }
   
   .navbar .menu-items{
-    height: 90vh;
-  }
-
-  .navbar .menu-items{
-  height: 90vh;
-  padding-top: 80px;
+    height: 100vh;
+  padding-top: 50px;
   width: 100%;
-  max-width: 25%;
+  max-width: 22%;
 }
 .navbar .nav-container a {
-font-weight: 400;
-  font-size: 1.3rem;
+  font-weight: 400;
+  font-size: 1.5rem;
   padding: 0.3rem;
 }
 
 .navbar .menu-items li{
-margin-bottom: 0.1rem;
-  text-align: left;
-    margin-left: 60px
+ margin-bottom: 0.7rem;
+ text-align: center;
+    margin-left: -15px;
 } 
 
 .dropdown-content{
   top: 10px;
-  left: 230px;
+  left: 276px;
 }
-
   html,body {
     /* max-width: 992px; */
     margin: 0;
@@ -2436,25 +2430,25 @@ form select {
   
   .navbar .menu-items{
     height: 90vh;
-  padding-top: 80px;
+  padding-top: 50px;
   width: 100%;
-  max-width: 30%;
+  max-width: 24%;
 }
 .navbar .nav-container a {
   font-weight: 400;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   padding: 0.3rem;
 }
 
 .navbar .menu-items li{
- margin-bottom: 0.1rem;
-  text-align: left;
-    margin-left: 60px
+ margin-bottom: 0.7rem;
+ text-align: center;
+    margin-left: -15px;
 } 
 
 .dropdown-content{
   top: 10px;
-    left: 250px;
+  left: 250px;
 }
 
   
@@ -2704,25 +2698,25 @@ form select {
   
  .navbar .menu-items{
     height: 90vh;
-  padding-top: 80px;
+  padding-top: 50px;
   width: 100%;
-  max-width: 28%;
+  max-width: 24%;
 }
 .navbar .nav-container a {
   font-weight: 400;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   padding: 0.3rem;
 }
 
 .navbar .menu-items li{
- margin-bottom: 0.1rem;
-  text-align: left;
-    margin-left: 40px
+ margin-bottom: 0.5rem;
+ text-align: center;
+    margin-left: -15px;
 } 
 
 .dropdown-content{
   top: 10px;
-  left: 230px;
+  left: 250px;
 }
 
   .video-size{
@@ -3104,9 +3098,9 @@ form select {
 
   .navbar .menu-items{
     height: 90vh;
-  padding-top: 80px;
+  padding-top: 50px;
   width: 100%;
-  max-width: 30%;
+  max-width: 24%;
 }
 .navbar .nav-container a {
   font-weight: 400;
@@ -3115,14 +3109,14 @@ form select {
 }
 
 .navbar .menu-items li{
- margin-bottom: 0.1rem;
-  text-align: left;
-    margin-left: 40px
+ margin-bottom: 0.5rem;
+ text-align: center;
+    margin-left: -15px;
 } 
 
 .dropdown-content{
   top: 10px;
-  left: 120px;
+  left: 240px;
 }
 
   .feature-text-align{
@@ -3352,10 +3346,10 @@ margin-top: 0;
     font-size: 30px;
   }
   .navbar .menu-items{
-   height: 90vh;
-  padding-top: 80px;
+    height: 90vh;
+  padding-top: 50px;
   width: 100%;
-  max-width: 35%;
+  max-width: 28%;
 }
 .navbar .nav-container a {
   font-weight: 400;
@@ -3364,14 +3358,14 @@ margin-top: 0;
 }
 
 .navbar .menu-items li{
- margin-bottom: 0.1rem;
-  text-align: left;
-    margin-left: 40px
+ margin-bottom: 0.5rem;
+ text-align: center;
+    margin-left: -15px;
 } 
 
 .dropdown-content{
   top: 10px;
-  left: 120px;
+  left: 250px;
 }
 
   .feature-text-align{
@@ -3649,27 +3643,28 @@ margin-top: 0;
    .banner-text{
    background-image: none;
   } 
+ 
   .navbar .menu-items{
-   height: 80vh;
-  padding-top: 60px;
+    height: 90vh;
+  padding-top: 50px;
   width: 100%;
   max-width: 30%;
 }
 .navbar .nav-container a {
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 1.2rem;
   padding: 0.3rem;
 }
 
 .navbar .menu-items li{
-  margin-bottom: 0.1rem;
-  text-align: left;
-    margin-left: 40px
+ margin-bottom: 0.5rem;
+ text-align: center;
+    margin-left: -15px;
 } 
 
 .dropdown-content{
   top: 10px;
-  left: 120px;
+  left: 245px;
 }
 
   .image-grid {
@@ -4007,26 +4002,26 @@ form select {
 }
 
 .navbar .menu-items{
-   height: 80vh;
-  padding-top: 60px;
-  width: 100%;
-  max-width: 30%;
+  height: 90vh;
+padding-top: 50px;
+width: 100%;
+max-width: 30%;
 }
 .navbar .nav-container a {
-  font-weight: 400;
-  font-size: 1.1rem;
-  padding: 0.3rem;
+font-weight: 400;
+font-size: 1.2rem;
+padding: 0.3rem;
 }
 
 .navbar .menu-items li{
-  margin-bottom: 0.1rem;
-  text-align: left;
-    margin-left: 20px
+margin-bottom: 0.5rem;
+text-align: center;
+  margin-left: -15px;
 } 
 
 .dropdown-content{
-  top: 10px;
-  left: 120px;
+top: 10px;
+left: 245px;
 }
 
 .feature-heading {
@@ -4223,27 +4218,27 @@ width: 161px;
     height: 80vh;
   }
 
-.navbar .menu-items{
-   height: 80vh;
-  padding-top: 60px;
+  .navbar .menu-items{
+    height: 90vh;
+  padding-top: 50px;
   width: 100%;
-  max-width: 35%;
+  max-width: 36%;
 }
 .navbar .nav-container a {
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 1.2rem;
   padding: 0.3rem;
 }
 
 .navbar .menu-items li{
-  margin-bottom: 0.1rem;
-  text-align: left;
-    margin-left: 20px
+ margin-bottom: 0.5rem;
+ text-align: center;
+    margin-left: -15px;
 } 
 
 .dropdown-content{
   top: 10px;
-  left: 120px;
+  left: 245px;
 }
 
   .logo-size{
@@ -4498,28 +4493,27 @@ width: 161px;
 }
 
 .navbar .menu-items{
-   height: 80vh;
-  padding-top: 60px;
-  width: 100%;
-  max-width: 35%;
+  height: 90vh;
+padding-top: 50px;
+width: 100%;
+max-width: 40%;
 }
 .navbar .nav-container a {
-  font-weight: 400;
-  font-size: 1rem;
-  padding: 0.3rem;
+font-weight: 400;
+font-size: 1.2rem;
+padding: 0.3rem;
 }
 
 .navbar .menu-items li{
-  margin-bottom: 0.1rem;
-  text-align: left;
-    margin-left: 20px
+margin-bottom: 0.5rem;
+text-align: center;
+  margin-left: -15px;
 } 
 
 .dropdown-content{
-  top: 10px;
-  left: 120px;
+top: 10px;
+left: 245px;
 }
-
 .carousel-item .container-sm {
   width: 100%;
   display: flex;
@@ -4881,30 +4875,29 @@ width: 161px;
     height: 325px;
     
 }
+
 .navbar .menu-items{
-   height: 80vh;
-  padding-top: 60px;
-  width: 100%;
-  max-width: 40%;
+  height: 80vh;
+padding-top: 50px;
+width: 100%;
+max-width: 40%;
 }
 .navbar .nav-container a {
-  font-weight: 400;
-  font-size: 1rem;
-  padding: 0.3rem;
+font-weight: 400;
+font-size: 1.2rem;
+padding: 0.3rem;
 }
 
 .navbar .menu-items li{
-  margin-bottom: 0.1rem;
-  text-align: left;
-    margin-left: 20px
+margin-bottom: 0.5rem;
+text-align: center;
+  margin-left: -15px;
 } 
 
 .dropdown-content{
-  top: 10px;
-  left: 120px;
+top: 10px;
+left: 245px;
 }
-
-
 
 .feature-heading {
   font-weight: 700;
@@ -5228,28 +5221,27 @@ form select {
 }
 
 .navbar .menu-items{
-   height: 70vh;
-  padding-top: 35px;
-  width: 100%;
-  max-width: 40%;
+  height: 80vh;
+padding-top: 50px;
+width: 100%;
+max-width: 40%;
 }
 .navbar .nav-container a {
-  font-weight: 400;
-  font-size: 0.9rem;
-  padding: 0.3rem;
+font-weight: 400;
+font-size: 1rem;
+padding: 0.3rem;
 }
 
 .navbar .menu-items li{
-  margin-bottom: 0.1rem;
-  text-align: left;
-    margin-left: 20px
+margin-bottom: 0.4rem;
+text-align: center;
+  margin-left: -15px;
 } 
 
 .dropdown-content{
-  top: 22px;
-  left: 26px;
+top: 10px;
+left: 200px;
 }
-
 
 
 .banner-text h5{
@@ -5496,9 +5488,7 @@ form select {
    .banner-text{
    background-image: none;
   } 
-  .navbar .menu-items{
-    height: 70vh;
-  }
+
   .who-we-are-section {
     margin-top: 40px; 
 }
@@ -5632,28 +5622,27 @@ form select {
 }
 
 .navbar .menu-items{
-   height: 70vh;
-  padding-top: 35px;
-  width: 100%;
-  max-width: 40%;
+  height: 80vh;
+padding-top: 50px;
+width: 100%;
+max-width: 40%;
 }
 .navbar .nav-container a {
-  font-weight: 400;
-  font-size: 0.9rem;
-  padding: 0.3rem;
+font-weight: 400;
+font-size: 1rem;
+padding: 0.3rem;
 }
 
 .navbar .menu-items li{
-  margin-bottom: 0.1rem;
-  text-align: left;
-    margin-left: 20px
+margin-bottom: 0.4rem;
+text-align: center;
+  margin-left: -15px;
 } 
 
 .dropdown-content{
-  top: 22px;
-  left: 26px;
+top: 10px;
+left: 180px;
 }
-
 .banner-text h5{
   margin-top: 30px;
 }
@@ -6038,31 +6027,29 @@ form select {
   height: 22px;
   width: 29px;
 }
+
 .navbar .menu-items{
-   height: 70vh;
-  padding-top: 35px;
-  width: 100%;
-  max-width: 40%;
+  height: 80vh;
+padding-top: 50px;
+width: 100%;
+max-width: 40%;
 }
 .navbar .nav-container a {
-  font-weight: 400;
-  font-size: 0.9rem;
-  padding: 0.3rem;
+font-weight: 400;
+font-size: 1rem;
+padding: 0.3rem;
 }
 
 .navbar .menu-items li{
-  margin-bottom: 0.1rem;
-  text-align: left;
-    margin-left: 20px
+margin-bottom: 0.4rem;
+text-align: center;
+  margin-left: -15px;
 } 
 
 .dropdown-content{
-  top: 22px;
-  left: 26px;
+top: 10px;
+left: 180px;
 }
-
-
-
 .banner-text h5{
   margin-top: 30px;
   
@@ -6348,29 +6335,27 @@ form select {
   } 
   
   .navbar .menu-items{
-   height: 70vh;
-  padding-top: 35px;
+    height: 80vh;
+  padding-top: 50px;
   width: 100%;
-  max-width: 60%;
-}
-.navbar .nav-container a {
+  max-width: 40%;
+  }
+  .navbar .nav-container a {
   font-weight: 400;
-  font-size: 0.9rem;
+  font-size: 1rem;
   padding: 0.3rem;
-}
-
-.navbar .menu-items li{
-  margin-bottom: 0.1rem;
-  text-align: left;
-    margin-left: 20px
-} 
-
-.dropdown-content{
-  top: 22px;
-  left: 26px;
-}
-
-
+  }
+  
+  .navbar .menu-items li{
+  margin-bottom: 0.4rem;
+  text-align: center;
+    margin-left: -15px;
+  } 
+  
+  .dropdown-content{
+  top: 10px;
+  left: 130px;
+  }
   .who-we-are-section {
     margin-top: 40px; 
 }
@@ -6581,14 +6566,14 @@ form select {
 
 @media only screen and (max-width: 400px){
   #background-video{
-    height: 70vh;
+    height: 60vh;
   }
   #background-images{
-    height: 70vh;
+    height: 60vh;
   }
 
   #consultation-background-images{
-    height: 70vh;
+    height: 60vh;
   }
   .margin-r {
     margin-left: 6px;
@@ -6738,8 +6723,8 @@ form select {
 }
 
 .navbar .menu-items{
-   height: 70vh;
-  padding-top: 35px;
+   height: 80vh;
+  padding-top: 50px;
   width: 100%;
   max-width: 40%;
 }
@@ -6757,7 +6742,7 @@ form select {
 
 .dropdown-content{
   top: 22px;
-  left: 26px;
+  left: 100px;
 }
 
 .banner-text h5{
@@ -6995,16 +6980,16 @@ form select {
 
 @media only screen and (max-width: 375px){
   #background-video{
-    height: 60vh;
+    height: 70vh;
   }
   #background-images{
-    height: 60vh;
+    height: 70vh;
   }
   #about-bg{
-    height: 60vh;
+    height: 70vh;
   }
   #consultation-background-images{
-    height: 60vh;
+    height: 70vh;
   }
   .video-size{
     height: 70vh;
@@ -7207,8 +7192,8 @@ form select {
 }
 
 .navbar .menu-items{
-   height: 60vh;
-  padding-top: 35px;
+   height: 70vh;
+  padding-top: 50px;
   width: 100%;
   max-width: 50%;
 }
@@ -7546,28 +7531,27 @@ form select {
 }
 
 .navbar .menu-items{
-   height: 60vh;
-  padding-top: 35px;
-  width: 100%;
-  max-width: 60%;
+  height: 70vh;
+ padding-top: 50px;
+ width: 100%;
+ max-width: 50%;
 }
 .navbar .nav-container a {
-  font-weight: 400;
-  font-size: 0.9rem;
-  padding: 0.3rem;
+ font-weight: 400;
+ font-size: 0.9rem;
+ padding: 0.3rem;
 }
 
 .navbar .menu-items li{
-  margin-bottom: 0.1rem;
-  text-align: left;
-    margin-left: 20px
+ margin-bottom: 0.1rem;
+ text-align: left;
+   margin-left: 20px
 } 
 
 .dropdown-content{
-  top: 22px;
-  left: 26px;
+ top: 22px;
+ left: 26px;
 }
-
 
 .banner-text h5{
   margin-top: 30px;
@@ -7809,38 +7793,38 @@ footer form .submit-btn{
 }
 
 @media screen and (max-width: 350px) {
+  #background-video {
+    height: 70vh;
+  }
   #about-bg{
-    height: 60vh;
+    height: 70vh;
   }
   .video-size{
     height: 70vh;
   }
   
   .navbar .menu-items{
-   height: 60vh;
-  padding-top: 35px;
-  width: 100%;
-  max-width: 60%;
-}
-.navbar .nav-container a {
-  font-weight: 400;
-  font-size: 0.9rem;
-  padding: 0.3rem;
-}
-
-.navbar .menu-items li{
-  margin-bottom: 0.1rem;
-  text-align: left;
-    margin-left: 20px
-} 
-
-.dropdown-content{
-  top: 22px;
-  left: 26px;
-}
-
-
-
+    height: 70vh;
+   padding-top: 50px;
+   width: 100%;
+   max-width: 50%;
+ }
+ .navbar .nav-container a {
+   font-weight: 400;
+   font-size: 0.9rem;
+   padding: 0.3rem;
+ }
+ 
+ .navbar .menu-items li{
+   margin-bottom: 0.1rem;
+   text-align: left;
+     margin-left: 20px
+ } 
+ 
+ .dropdown-content{
+   top: 22px;
+   left: 45px;
+ }
   .who-we-are{
     font-weight: 500;
       font-size: 20px;
@@ -7911,11 +7895,6 @@ footer form .submit-btn{
   width: 29px;
 }
 
-/* .navbar .nav-container a {
-  font-weight: 400;
-  font-size: 1rem;
-  padding: 0.5rem;
-} */
 
 .banner-text h5{
   margin-top: 30px;
@@ -7941,9 +7920,7 @@ footer form .submit-btn{
 .package-bg {
   margin-top: -80px;
 }
-#background-video {
-  height: 60vh;
-}
+
 .shadow-text {
   font-size: 30px;
   margin-top: -25px;
@@ -8246,13 +8223,13 @@ footer form .submit-btn{
 
 @media screen and (max-width: 300px) {
   #background-video {
-    height: 60vh;
+    height: 70vh;
 }
 
 /* About Page */
 
 #about-bg{
-  height: 60vh;
+  height: 70vh;
 }
 
 .video-size{
@@ -8409,8 +8386,8 @@ footer form .submit-btn{
   margin-left: -5px;
 }
 .navbar .menu-items{
-   height: 60vh;
-  padding-top: 35px;
+   height: 70vh;
+  padding-top: 50px;
   width: 100%;
   max-width: 70%;
 }
@@ -8428,7 +8405,7 @@ footer form .submit-btn{
 
 .dropdown-content{
   top: 22px;
-  left: 26px;
+  left: 50px;
 }
 
 .banner-text h1{
