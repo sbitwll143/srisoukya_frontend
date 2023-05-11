@@ -79,7 +79,7 @@ background: transparent;
 }
 
 .navbar .menu-items {
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 
 .navbar .nav-container li {
@@ -92,13 +92,13 @@ background: transparent;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   font-weight: 500;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   padding: 0.7rem;
-  margin-left: 100px;
+  
 }
 
 .navbar .nav-container a:hover{
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 .nav-container {
@@ -160,25 +160,23 @@ background: transparent;
 }
 
 .navbar .menu-items {
-  /* padding-top: 120px; */
-  /* box-shadow: 0 0 200px goldenrod; */
-  background: #FAF7E9;
-  height: 100vh;
-  width: 100%;
+  padding-top: 45px;
+  box-shadow: 0 0 80px goldenrod;
+  background: #ffffff;
+  height: 90vh;
+  width: 20%;
+  border-radius: 10px 30px 30px 10px;
   transform: translate(-150%);
   display: flex;
   flex-direction: row;
   transition: transform 0.5s ease-in-out;
   text-align: center;
   z-index: 1;
-  text-align: left;
-  padding-top: 60px;
-  max-width: 60%;
   
 }
 
 .navbar .menu-items li {
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.7rem;
   font-size: 1.2rem;
   font-weight: 500;
   
@@ -190,42 +188,37 @@ background: transparent;
   
 }
 .width-set-1{
-  flex: 1;
+  width: 100%;
 }
 .width-set-2{
  
+  width: 30%;
+  z-index: 1 !important;
   position: relative;
-  flex: 1;
-  margin-left: -250px;
+  /* margin-left: -10%; */
   
 }
 
 .dropdown-content{
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
-  /* padding: 10px; */
+  padding: 10px;
   display: none;
-   position: absolute;
-  min-width: 300px;
-  left: 180px;
-  top: 0; 
-  z-index: 90000!important;
-  background: #FAF7E9;
+  background: #fff;
+  position: absolute;
+  box-shadow: 5px 12px 39px goldenrod;
+  min-width: 350px;
+  left: 270px;
+  top: 0px;
+  border-radius: 10px 30px 30px 10px;
+  z-index: 90000 !important;
   
   
 }
 
 .dropdown:hover .dropdown-content{
   display: block;
-  /* position: absolute; */
- 
-  left: 220px;
-  width: 100%;
-  
   padding: 10px;
-  top: 30px;
  
- 
-
 }
 /* Dropdown Hamburger Menu End*/
 
@@ -1904,6 +1897,30 @@ footer a {
     height: auto;
 
   }
+
+  .navbar .menu-items{
+  height: 90vh;
+  padding-top: 80px;
+  width: 100%;
+  max-width: 30%;
+}
+.navbar .nav-container a {
+font-weight: 400;
+  font-size: 1.3rem;
+  padding: 0.3rem;
+}
+
+.navbar .menu-items li{
+margin-bottom: 0.1rem;
+  text-align: left;
+    margin-left: 60px
+} 
+
+.dropdown-content{
+  top: 10px;
+  left: 330px;
+}
+
   .feature-text-align {
     margin-left: 14%;
  
@@ -2119,6 +2136,30 @@ footer a {
   .navbar .menu-items{
     height: 90vh;
   }
+
+  .navbar .menu-items{
+  height: 90vh;
+  padding-top: 80px;
+  width: 100%;
+  max-width: 30%;
+}
+.navbar .nav-container a {
+font-weight: 400;
+  font-size: 1.3rem;
+  padding: 0.3rem;
+}
+
+.navbar .menu-items li{
+margin-bottom: 0.1rem;
+  text-align: left;
+    margin-left: 60px
+} 
+
+.dropdown-content{
+  top: 10px;
+  left: 300px;
+}
+
   html,body {
     /* max-width: 992px; */
     margin: 0;
@@ -2247,17 +2288,13 @@ color: #222222;
   font-size: 14px;
   color: rgba(34, 34, 34, 0.7);
 }
-/* .footer-img img:first-child{
-  margin-top: 10px;
-} */
+
 .get-touch{
   font-weight: 600;
 font-size: 20px;
 margin-top: 20px;
 }
-/* form .footer-input{
-  justify-content: center;
-} */
+
 
  .footer-design{
   display: grid;
@@ -2397,49 +2434,30 @@ form select {
     margin-top: 29px;
   }
   
-  
   .navbar .menu-items{
     height: 90vh;
-    width: 100%;
-    text-align: left;
-    padding-top: 48px;
-    max-width: 65%;
-  }
- 
-  .hamburger-menu-design{
-    display: flex; 
-  }
+  padding-top: 80px;
+  width: 100%;
+  max-width: 30%;
+}
+.navbar .nav-container a {
+  font-weight: 400;
+  font-size: 1.3rem;
+  padding: 0.3rem;
+}
+
+.navbar .menu-items li{
+ margin-bottom: 0.1rem;
+  text-align: left;
+    margin-left: 60px
+} 
+
+.dropdown-content{
+  top: 10px;
+    left: 250px;
+}
+
   
-  .width-set-1{
-   flex: 1;
-  }
-  .width-set-2{
-   
-    position: relative;
-    flex: 1;
-    margin-left: -200px;
-    
-  }
-  .dropdown:hover .dropdown-content{
-  
-    top: 0;
-    left: 200px;
-    width: 100%;
-    
-    
-    padding: 10px;
-  }
-  .navbar .nav-container a {
-    font-weight: 400;
-    font-size: 1.3rem;
-    padding: 0.5rem;
-    margin-left: 60px;
-  }
-  
-  .navbar .menu-items li{
-    margin-bottom: 0.1rem;
-  
-  }
   html,body {
     /* max-width: 992px; */
     margin: 0;
@@ -2685,48 +2703,28 @@ form select {
   }
   
  .navbar .menu-items{
-  height: 90vh;
+    height: 90vh;
+  padding-top: 80px;
   width: 100%;
-  text-align: left;
-  padding-top: 48px;
-  max-width: 65%;
-}
-
-
-.hamburger-menu-design{
-  display: flex; 
-}
-
-.width-set-1{
- flex: 1;
-}
-.width-set-2{
- 
-  position: relative;
-  flex: 1;
-  margin-left: -200px;
-  
-}
-.dropdown:hover .dropdown-content{
-
-  top: 0;
-  left: 200px;
-  width: 100%;
-  
-  
-  padding: 10px;
+  max-width: 30%;
 }
 .navbar .nav-container a {
   font-weight: 400;
-  font-size: 1.3rem;
-  padding: 0.5rem;
-  margin-left: 60px;
+  font-size: 1.2rem;
+  padding: 0.3rem;
 }
 
 .navbar .menu-items li{
-  margin-bottom: 0.1rem;
+ margin-bottom: 0.1rem;
+  text-align: left;
+    margin-left: 40px
+} 
 
+.dropdown-content{
+  top: 10px;
+  left: 250px;
 }
+
   .video-size{
     height: 90vh;
   }
@@ -3103,6 +3101,30 @@ form select {
   .banner-text h5{
     font-size: 30px;
   }
+
+  .navbar .menu-items{
+    height: 90vh;
+  padding-top: 80px;
+  width: 100%;
+  max-width: 40%;
+}
+.navbar .nav-container a {
+  font-weight: 400;
+  font-size: 1.2rem;
+  padding: 0.3rem;
+}
+
+.navbar .menu-items li{
+ margin-bottom: 0.1rem;
+  text-align: left;
+    margin-left: 40px
+} 
+
+.dropdown-content{
+  top: 10px;
+  left: 120px;
+}
+
   .feature-text-align{
     margin-left: 10%;
   }
@@ -3329,6 +3351,29 @@ margin-top: 0;
   .banner-text h5{
     font-size: 30px;
   }
+  .navbar .menu-items{
+   height: 90vh;
+  padding-top: 80px;
+  width: 100%;
+  max-width: 40%;
+}
+.navbar .nav-container a {
+  font-weight: 400;
+  font-size: 1.2rem;
+  padding: 0.3rem;
+}
+
+.navbar .menu-items li{
+ margin-bottom: 0.1rem;
+  text-align: left;
+    margin-left: 40px
+} 
+
+.dropdown-content{
+  top: 10px;
+  left: 120px;
+}
+
   .feature-text-align{
     margin-left: 10%;
   }
@@ -3605,44 +3650,28 @@ margin-top: 0;
    background-image: none;
   } 
   .navbar .menu-items{
-    height: 80vh;
-    width: 100%;
-    text-align: left;
-    padding-top: 48px;
-    min-width: 60%;
-  }
-  .hamburger-menu-design{
-    display: flex; 
-  }
-  
-  .width-set-1{
-   flex: 1;
-  }
-  .width-set-2{
-   
-    position: relative;
-    flex: 1;
-    margin-left: -60px;
-    
-  }
-  .dropdown:hover .dropdown-content{
-  
-    top: 10px;
-    left: 140px;
-    width: 100%;
-    
-    padding: 10px;
-  }
-  .navbar .nav-container a {
-    font-weight: 400;
-    font-size: 1.2rem;
-    padding: 0.5rem;
-    margin-left: 10px;
-  }
-  
-  .navbar .menu-items li{
-    margin-bottom: 0.1rem;
-  }
+   height: 80vh;
+  padding-top: 50px;
+  width: 100%;
+  max-width: 40%;
+}
+.navbar .nav-container a {
+  font-weight: 400;
+  font-size: 1rem;
+  padding: 0.3rem;
+}
+
+.navbar .menu-items li{
+  margin-bottom: 0.1rem;
+  text-align: left;
+    margin-left: 40px
+} 
+
+.dropdown-content{
+  top: 10px;
+  left: 120px;
+}
+
   .image-grid {
     margin-left: 42px;
     grid-gap: 10px;
@@ -3665,9 +3694,9 @@ margin-top: 0;
   }
   .banner-text h5{
     font-size: 35px;
-    margin-top: 200px;
+    margin-top: 20px;
 }
-  }
+  
   .feature-text-align{
     margin-left: 10%;
   }
@@ -3953,10 +3982,7 @@ form select {
 .recommand-text-align{
   margin-bottom: 60px;
 }
-  .navbar .menu-items{
-    height: 80vh;
-    max-width: 60%;
-  }
+
   
   .logo-size{
     width: 250px;
@@ -3972,6 +3998,7 @@ form select {
   }
   .banner-text h5{
     font-size: 25px;
+    margin-top: -20px;
   }
   .package-img {
     width: 100%;
@@ -3979,15 +4006,29 @@ form select {
     
 }
 
-/* .navbar .nav-container a {
+.navbar .menu-items{
+   height: 80vh;
+  padding-top: 35px;
+  width: 100%;
+  max-width: 40%;
+}
+.navbar .nav-container a {
   font-weight: 400;
-  font-size: 1.3rem;
-  padding: 0.5rem;
+  font-size: 1.1rem;
+  padding: 0.3rem;
 }
 
 .navbar .menu-items li{
   margin-bottom: 0.1rem;
-} */
+  text-align: left;
+    margin-left: 20px
+} 
+
+.dropdown-content{
+  top: 10px;
+  left: 120px;
+}
+
 .feature-heading {
   font-weight: 700;
   font-size: 30px;
@@ -4182,13 +4223,29 @@ width: 161px;
     height: 80vh;
   }
 
-  .navbar .menu-items{
-    height: 80vh;
-    width: 100%;
-    text-align: left;
-    padding-top: 48px;
-    max-width: 60%;
-  }
+.navbar .menu-items{
+   height: 80vh;
+  padding-top: 35px;
+  width: 100%;
+  max-width: 40%;
+}
+.navbar .nav-container a {
+  font-weight: 400;
+  font-size: 1rem;
+  padding: 0.3rem;
+}
+
+.navbar .menu-items li{
+  margin-bottom: 0.1rem;
+  text-align: left;
+    margin-left: 20px
+} 
+
+.dropdown-content{
+  top: 10px;
+  left: 120px;
+}
+
   .logo-size{
     width: 200px;
     height: 45px;
@@ -4203,25 +4260,15 @@ width: 161px;
   }
   .banner-text h5{
     font-size: 25px;
+    margin-top: -20px;
   }
   .package-img {
     width: 440px;
     height: 330px;
     
 }
-.navbar .menu-items{
-  padding-top: 62px;
-}
-.navbar .nav-container a {
-  font-weight: 400;
-  font-size: 1rem;
-  padding: 0.5rem;
-  margin-left: 10px;
-}
 
-.navbar .menu-items li{
-  margin-bottom: 0.1rem;
-}
+
 .feature-heading {
   font-weight: 700;
   font-size: 30px;
@@ -4416,12 +4463,7 @@ width: 161px;
     height: 80vh;
   }
 
-  .navbar .menu-items{
-    height: 80vh;
-    width: 100%;
-    text-align: left;
-    padding-top: 48px;
-  }
+  
   
   .logo-size{
     width: 200px;
@@ -4443,19 +4485,7 @@ width: 161px;
     height: 330px;
     
 }
-.navbar .menu-items{
-  padding-top: 62px;
-}
-.navbar .nav-container a {
-  font-weight: 400;
-  font-size: 1rem;
-  padding: 0.5rem;
-  margin-left: 10px;
-}
 
-.navbar .menu-items li{
-  margin-bottom: -0.4rem;
-}
 .feature-heading {
   font-weight: 700;
   font-size: 30px;
@@ -4467,6 +4497,28 @@ width: 161px;
   margin-bottom: 20px;
 }
 
+.navbar .menu-items{
+   height: 80vh;
+  padding-top: 35px;
+  width: 100%;
+  max-width: 40%;
+}
+.navbar .nav-container a {
+  font-weight: 400;
+  font-size: 1rem;
+  padding: 0.3rem;
+}
+
+.navbar .menu-items li{
+  margin-bottom: 0.1rem;
+  text-align: left;
+    margin-left: 20px
+} 
+
+.dropdown-content{
+  top: 10px;
+  left: 120px;
+}
 
 .carousel-item .container-sm {
   width: 100%;
@@ -4705,12 +4757,7 @@ width: 161px;
    .banner-text{
    background-image: none;
   } 
-  .navbar .menu-items{
-    height: 80vh;
-    width: 100%;
-    text-align: left;
-    padding-top: 48px;
-  }
+
   .who-we-are-section {
     margin-top: 40px; 
 }
@@ -4820,11 +4867,14 @@ width: 161px;
     padding: 10px 18px;
     font-size: 14px;
   }
+
+
   .banner-text h1{
     font-size: 30px;
   }
   .banner-text h5{
     font-size: 30px;
+    margin-top: -20px;
   }
   .package-img {
     width: 430px;
@@ -4832,41 +4882,30 @@ width: 161px;
     
 }
 .navbar .menu-items{
-  padding-top: 62px;
+   height: 80vh;
+  padding-top: 35px;
+  width: 100%;
+  max-width: 40%;
 }
 .navbar .nav-container a {
   font-weight: 400;
   font-size: 1rem;
-  padding: 0.5rem;
-  margin-left: 10px;
+  padding: 0.3rem;
 }
 
 .navbar .menu-items li{
-  margin-bottom: -0.4rem;
-}
+  margin-bottom: 0.1rem;
+  text-align: left;
+    margin-left: 20px
+} 
 
-.hamburger-menu-design{
-  display: flex; 
-}
-
-.width-set-1{
- flex: 1;
-}
-.width-set-2{
- 
-  position: relative;
-  flex: 1;
-  margin-left: -60px;
-  
-}
-.dropdown:hover .dropdown-content{
-
+.dropdown-content{
   top: 10px;
   left: 120px;
-  width: 100%;
-  
-  padding: 10px;
 }
+
+
+
 .feature-heading {
   font-weight: 700;
   font-size: 30px;
@@ -5064,13 +5103,7 @@ form select {
    .banner-text{
    background-image: none;
   } 
-  .navbar .menu-items{
-    height: 70vh;
-    width: 100%;
-    text-align: left;
-    padding-top: 48px;
-    max-width: 100%;
-  }
+
   .who-we-are-section {
     margin-top: 40px; 
 }
@@ -5194,40 +5227,33 @@ form select {
   width: 29px;
 }
 
+.navbar .menu-items{
+   height: 70vh;
+  padding-top: 35px;
+  width: 100%;
+  max-width: 40%;
+}
 .navbar .nav-container a {
   font-weight: 400;
-  font-size: 1rem;
-  padding: 0.5rem;
-  margin-left: 10px;
+  font-size: 0.9rem;
+  padding: 0.3rem;
 }
 
 .navbar .menu-items li{
-  margin-bottom: -0.4rem;
-}
-.hamburger-menu-design{
-  display: flex; 
+  margin-bottom: 0.1rem;
+  text-align: left;
+    margin-left: 20px
+} 
+
+.dropdown-content{
+  top: 22px;
+  left: 26px;
 }
 
-.width-set-1{
- flex: 1;
-}
-.width-set-2{
- 
-  position: relative;
-  flex: 1;
-  margin-left: -130px;
-  
-}
-.dropdown:hover .dropdown-content{
 
-  top: 30px;
-  left: 50px;
-  width: 100%;
-  
-  padding: 10px;
-}
+
 .banner-text h5{
-  margin-top: 35px;
+  margin-top: 30px;
 }
 .banner-text h1{
   margin-top: 35px;
@@ -5605,15 +5631,29 @@ form select {
   width: 29px;
 }
 
+.navbar .menu-items{
+   height: 70vh;
+  padding-top: 35px;
+  width: 100%;
+  max-width: 40%;
+}
 .navbar .nav-container a {
   font-weight: 400;
-  font-size: 1.2rem;
-  padding: 0.5rem;
+  font-size: 0.9rem;
+  padding: 0.3rem;
 }
 
 .navbar .menu-items li{
   margin-bottom: 0.1rem;
+  text-align: left;
+    margin-left: 20px
+} 
+
+.dropdown-content{
+  top: 22px;
+  left: 26px;
 }
+
 .banner-text h5{
   margin-top: 30px;
 }
@@ -5858,7 +5898,7 @@ form select {
     height: 70vh;
   }
   #consultation-background-images{
-    height: 60vh;
+    height: 70vh;
   }
    .banner-text{
    background-image: none;
@@ -5999,20 +6039,33 @@ form select {
   width: 29px;
 }
 .navbar .menu-items{
-  padding-top: 60px;
+   height: 70vh;
+  padding-top: 35px;
+  width: 100%;
+  max-width: 40%;
 }
 .navbar .nav-container a {
   font-weight: 400;
-  font-size: 1.2rem;
-  padding: 0.5rem;
+  font-size: 0.9rem;
+  padding: 0.3rem;
 }
 
 .navbar .menu-items li{
   margin-bottom: 0.1rem;
+  text-align: left;
+    margin-left: 20px
+} 
+
+.dropdown-content{
+  top: 22px;
+  left: 26px;
 }
+
+
+
 .banner-text h5{
   margin-top: 30px;
-  margin-top: 100px;
+  
 }
 .banner-text h1{
   margin-top: 25px;
@@ -6282,20 +6335,42 @@ form select {
 }
 @media only screen and (max-width: 420px){
   #background-video{
-    height: 50vh;
+    height: 70vh;
   }
   #background-images{
-    height: 50vh;
+    height: 70vh;
   }
   #consultation-background-images{
-    height: 50vh;
+    height: 70vh;
   }
    .banner-text{
    background-image: none;
   } 
+  
   .navbar .menu-items{
-    height: 50vh;
-  }
+   height: 70vh;
+  padding-top: 35px;
+  width: 100%;
+  max-width: 60%;
+}
+.navbar .nav-container a {
+  font-weight: 400;
+  font-size: 0.9rem;
+  padding: 0.3rem;
+}
+
+.navbar .menu-items li{
+  margin-bottom: 0.1rem;
+  text-align: left;
+    margin-left: 20px
+} 
+
+.dropdown-content{
+  top: 22px;
+  left: 26px;
+}
+
+
   .who-we-are-section {
     margin-top: 40px; 
 }
@@ -6506,14 +6581,14 @@ form select {
 
 @media only screen and (max-width: 400px){
   #background-video{
-    height: 60vh;
+    height: 70vh;
   }
   #background-images{
-    height: 60vh;
+    height: 70vh;
   }
 
   #consultation-background-images{
-    height: 60vh;
+    height: 70vh;
   }
   .margin-r {
     margin-left: 6px;
@@ -6521,13 +6596,7 @@ form select {
    .banner-text{
    background-image: none;
   } 
-  .navbar .menu-items{
-    height: 60vh;
-    width: 100%;
-    text-align: left;
-    padding-top: 100px;
-    max-width: 100%;
-  }
+ 
   .who-we-are-section {
     margin-top: 40px; 
 }
@@ -6668,41 +6737,32 @@ form select {
   width: 29px;
 }
 
-.hamburger-menu-design{
-  display: flex; 
-}
-
-.width-set-1{
- flex: 1;
-}
-.width-set-2{
- 
-  position: relative;
-  flex: 1;
-  margin-left: -130px;
-  
-}
-.dropdown:hover .dropdown-content{
-
-  top: 35px;
-  left: 50px;
+.navbar .menu-items{
+   height: 70vh;
+  padding-top: 35px;
   width: 100%;
-  
-  padding: 10px;
+  max-width: 40%;
 }
 .navbar .nav-container a {
   font-weight: 400;
-  font-size: 1.1rem;
-  padding: 0.5rem;
-  margin-left: 10px;
+  font-size: 0.9rem;
+  padding: 0.3rem;
 }
 
 .navbar .menu-items li{
-  margin-bottom: 0.10rem;
+  margin-bottom: 0.1rem;
+  text-align: left;
+    margin-left: 20px
+} 
+
+.dropdown-content{
+  top: 22px;
+  left: 26px;
 }
+
 .banner-text h5{
+  
   margin-top: 30px;
-  margin-top: 100px;
 }
 .banner-text h1{
   margin-top: 25px;
@@ -7009,13 +7069,7 @@ form select {
    .banner-text{
    background-image: none;
   } 
-  .navbar .menu-items{
-    height: 60vh;
-    width: 100%;
-    text-align: left;
-    padding-top: 60px;
-    max-width: 100%;
-  }
+
   .who-we-are-section {
     margin-top: 40px; 
 }
@@ -7152,40 +7206,31 @@ form select {
   width: 29px;
 }
 
-.hamburger-menu-design{
-  display: flex; 
-}
-
-.width-set-1{
- flex: 1;
-}
-.width-set-2{
- 
-  position: relative;
-  flex: 1;
-  margin-left: -130px;
-  
-}
-.dropdown:hover .dropdown-content{
-
-  top: 35px;
-  left: -20px;
+.navbar .menu-items{
+   height: 60vh;
+  padding-top: 35px;
   width: 100%;
-  
-  padding: 10px;
+  max-width: 50%;
 }
 .navbar .nav-container a {
   font-weight: 400;
-  font-size: 1.1rem;
-  padding: 0.5rem;
-  margin-left: 10px;
+  font-size: 0.9rem;
+  padding: 0.3rem;
 }
 
 .navbar .menu-items li{
-  margin-bottom: 0.2rem;
+  margin-bottom: 0.1rem;
+  text-align: left;
+    margin-left: 20px
+} 
+
+.dropdown-content{
+  top: 22px;
+  left: 26px;
 }
+
 .banner-text h5{
-  margin-top: 75px;
+  margin-top: 50px;
   font-size: 25px;
 }
 .banner-text h1{
@@ -7501,48 +7546,32 @@ form select {
 }
 
 .navbar .menu-items{
-  height: 60vh;
+   height: 60vh;
+  padding-top: 35px;
   width: 100%;
-  text-align: left;
-  padding-top: 48px;
-}
-
-.hamburger-menu-design{
-display: flex; 
-}
-
-.width-set-1{
-flex: 1;
-}
-.width-set-2{
-
-position: relative;
-flex: 1;
-margin-left: -60px;
-
-}
-.dropdown:hover .dropdown-content{
-
-top: 30px;
-left: 50px;
-width: 100%;
-
-padding: 10px;
+  max-width: 60%;
 }
 .navbar .nav-container a {
-font-weight: 400;
-font-size: 1rem;
-padding: 0.5rem;
-margin-left: 10px;
+  font-weight: 400;
+  font-size: 0.9rem;
+  padding: 0.3rem;
 }
 
 .navbar .menu-items li{
-margin-bottom: -0.4rem;
+  margin-bottom: 0.1rem;
+  text-align: left;
+    margin-left: 20px
+} 
+
+.dropdown-content{
+  top: 22px;
+  left: 26px;
 }
+
 
 .banner-text h5{
   margin-top: 30px;
-  margin-top: 100px;
+  
 }
 .banner-text h1{
   margin-top: 25px;
@@ -7788,46 +7817,29 @@ footer form .submit-btn{
   }
   
   .navbar .menu-items{
-    height: 60vh;
-    width: 100%;
-    text-align: left;
-    padding-top: 48px;
-  }
-
-
-
-.hamburger-menu-design{
-  display: flex; 
-}
-
-.width-set-1{
- flex: 1;
-}
-.width-set-2{
- 
-  position: relative;
-  flex: 1;
-  margin-left: -60px;
-  
-}
-.dropdown:hover .dropdown-content{
-
-  top: 30px;
-  left: 50px;
+   height: 60vh;
+  padding-top: 35px;
   width: 100%;
-  
-  padding: 10px;
+  max-width: 60%;
 }
 .navbar .nav-container a {
   font-weight: 400;
-  font-size: 1rem;
-  padding: 0.5rem;
-  margin-left: 10px;
+  font-size: 0.9rem;
+  padding: 0.3rem;
 }
 
 .navbar .menu-items li{
-  margin-bottom: -0.1rem;
+  margin-bottom: 0.1rem;
+  text-align: left;
+    margin-left: 20px
+} 
+
+.dropdown-content{
+  top: 22px;
+  left: 26px;
 }
+
+
 
   .who-we-are{
     font-weight: 500;
@@ -7899,11 +7911,11 @@ footer form .submit-btn{
   width: 29px;
 }
 
-.navbar .nav-container a {
+/* .navbar .nav-container a {
   font-weight: 400;
   font-size: 1rem;
   padding: 0.5rem;
-}
+} */
 
 .banner-text h5{
   margin-top: 30px;
@@ -8397,18 +8409,26 @@ footer form .submit-btn{
   margin-left: -5px;
 }
 .navbar .menu-items{
-  padding-top: 50px;
+   height: 60vh;
+  padding-top: 35px;
+  width: 100%;
+  max-width: 70%;
 }
 .navbar .nav-container a {
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 0.9rem;
   padding: 0.3rem;
 }
-.navbar .menu-items{
-  height: 60vh;
-}
+
 .navbar .menu-items li{
   margin-bottom: 0.1rem;
+  text-align: left;
+    margin-left: 20px
+} 
+
+.dropdown-content{
+  top: 22px;
+  left: 26px;
 }
 
 .banner-text h1{
