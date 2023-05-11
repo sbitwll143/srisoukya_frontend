@@ -1899,10 +1899,10 @@ footer a {
   }
 
   .navbar .menu-items{
-  height: 90vh;
+  height: 100vh;
   padding-top: 80px;
   width: 100%;
-  max-width: 30%;
+  max-width: 23%;
 }
 .navbar .nav-container a {
 font-weight: 400;
@@ -1918,7 +1918,7 @@ margin-bottom: 0.1rem;
 
 .dropdown-content{
   top: 10px;
-  left: 330px;
+  left: 235px;
 }
 
   .feature-text-align {
@@ -2141,7 +2141,7 @@ footer a {
   height: 90vh;
   padding-top: 80px;
   width: 100%;
-  max-width: 30%;
+  max-width: 25%;
 }
 .navbar .nav-container a {
 font-weight: 400;
@@ -2157,7 +2157,7 @@ margin-bottom: 0.1rem;
 
 .dropdown-content{
   top: 10px;
-  left: 300px;
+  left: 230px;
 }
 
   html,body {
@@ -2706,7 +2706,7 @@ form select {
     height: 90vh;
   padding-top: 80px;
   width: 100%;
-  max-width: 30%;
+  max-width: 28%;
 }
 .navbar .nav-container a {
   font-weight: 400;
@@ -2722,7 +2722,7 @@ form select {
 
 .dropdown-content{
   top: 10px;
-  left: 250px;
+  left: 230px;
 }
 
   .video-size{
@@ -3106,7 +3106,7 @@ form select {
     height: 90vh;
   padding-top: 80px;
   width: 100%;
-  max-width: 40%;
+  max-width: 30%;
 }
 .navbar .nav-container a {
   font-weight: 400;
@@ -3355,7 +3355,7 @@ margin-top: 0;
    height: 90vh;
   padding-top: 80px;
   width: 100%;
-  max-width: 40%;
+  max-width: 35%;
 }
 .navbar .nav-container a {
   font-weight: 400;
@@ -3651,9 +3651,9 @@ margin-top: 0;
   } 
   .navbar .menu-items{
    height: 80vh;
-  padding-top: 50px;
+  padding-top: 60px;
   width: 100%;
-  max-width: 40%;
+  max-width: 30%;
 }
 .navbar .nav-container a {
   font-weight: 400;
@@ -4008,9 +4008,9 @@ form select {
 
 .navbar .menu-items{
    height: 80vh;
-  padding-top: 35px;
+  padding-top: 60px;
   width: 100%;
-  max-width: 40%;
+  max-width: 30%;
 }
 .navbar .nav-container a {
   font-weight: 400;
@@ -4225,9 +4225,9 @@ width: 161px;
 
 .navbar .menu-items{
    height: 80vh;
-  padding-top: 35px;
+  padding-top: 60px;
   width: 100%;
-  max-width: 40%;
+  max-width: 35%;
 }
 .navbar .nav-container a {
   font-weight: 400;
@@ -4499,9 +4499,9 @@ width: 161px;
 
 .navbar .menu-items{
    height: 80vh;
-  padding-top: 35px;
+  padding-top: 60px;
   width: 100%;
-  max-width: 40%;
+  max-width: 35%;
 }
 .navbar .nav-container a {
   font-weight: 400;
@@ -4883,7 +4883,7 @@ width: 161px;
 }
 .navbar .menu-items{
    height: 80vh;
-  padding-top: 35px;
+  padding-top: 60px;
   width: 100%;
   max-width: 40%;
 }
