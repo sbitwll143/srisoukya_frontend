@@ -21,72 +21,88 @@
      overflow-x: hidden;
   }
 
+  .zindex{
+    z-index: 99;
+  }
   /* Home page Start */
   
 /* Hamburger Manu start */
- .login-btn{ 
-width: 113px;
-height: 37px;
-border: none;
-border-radius: 8px;
-margin-left: 70px;
-color: #ffffff;
-font-weight: 600;
-background: transparent;
- }
- .signup-btn{
-  width: 113px;
-  height: 37px;
-  border: none;
-  border-radius: 8px;
-  margin-right: 15px;
-  color: #ffffff;
-  font-weight: 600;
-  background: transparent;
- 
+  /* .login-btn, .signup-btn{ 
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: goldenrod;
+    cursor: pointer;
+    
+    
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    background-color: #fff;
+    box-shadow: 0 1px 2px 0 rgba(245, 226, 54, 0.5);
+
  } 
+
  .navbar.logo.login-btn a{
+  color: #fff!important;
+ }
+ .login-btn:hover, .signup-btn:hover{
+  background-position: 100% 0;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+
+  background-image: linear-gradient(to right,  #CAAC26 17.48%, #F5E590 36.87%, #B18B26 79.92%);
   color: #fff;
  }
- .login-btn:hover{
-  background-image: var(--golden-gradient);
-  color: #fff;
- }
-  .signup-btn:hover{
-  background-image: var(--golden-gradient);
-  color: #fff;
- } 
+
+ .login-btn:focus, .signup-btn:focus{
+  outline: none;
+ } */
+  /* .signup-btn:hover{
+    background-image: -webkit-linear-gradient(108.08deg, #CAAC26 17.48%, #F5E590 36.87%, #B18B26 79.92%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent!important;
+  color: #fff!important;
+ }   */
 
  /* New Hamburger manu */
  .container-1 {
   /* max-width: 1050px; */
-  width: 100%;
+  /* width: 100%;
   margin: auto;
-  z-index: 12;
+  z-index: 12; */
 }
 
-.navbar {
+/* .navbar {
   width: 100%;
   box-shadow: 0 1px 4px rgb(146 161 176 / 15%);
   padding-top: 0!important;
-}
+} */
 
-.nav-container {
+/* .nav-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 62px;
-}
+} */
 
-.navbar .menu-items {
+/* .navbar .menu-items {
   flex-wrap: nowrap;
-}
+} */
 
-.navbar .nav-container li {
+/* .navbar .nav-container li {
   list-style: none;
-}
+} */
 
-.navbar .nav-container a {
+/* .navbar .nav-container a {
   text-decoration: none;
   background: -webkit-linear-gradient(108.08deg, #CAAC26 17.48%, #F5E590 36.87%, #B18B26 79.92%);
     -webkit-background-clip: text;
@@ -95,9 +111,9 @@ background: transparent;
   font-size: 1.2rem;
   padding: 0.7rem;
   
-}
+} */
 
-.navbar .nav-container a:hover{
+/* .navbar .nav-container a:hover{
     font-weight: bold;
 }
 
@@ -180,10 +196,10 @@ background: transparent;
   font-size: 1.2rem;
   font-weight: 500;
   
-}
+} */
 
 /* Dropdown Hamburger Menu Start*/
-.hamburger-menu-design{
+/* .hamburger-menu-design{
   display: flex;
   
 }
@@ -194,12 +210,10 @@ background: transparent;
  
   width: 30%;
   z-index: 1 !important;
-  position: relative;
-  /* margin-left: -10%; */
-  
-}
+  position: relative; 
+} */
 
-.dropdown-content{
+/* .dropdown-content{
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
   padding: 10px;
   display: none;
@@ -219,24 +233,61 @@ background: transparent;
   display: block;
   padding: 10px;
  
-}
+} */
 /* Dropdown Hamburger Menu End*/
 
-.logo {
+ /* .logo {
   position: absolute;
-  /* top: 5px; */
+
   right: 15px;
   z-index: -1;
   
+} */
+
+.navbar{
+  height: 80px;
 }
+
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+  background-image: linear-gradient(#CAAC26 17.48%, #F5E590 36.87%, #B18B26 79.92%);
+  color: #fff!important;
+    border-radius: 4px;
+}
+
+.dropdown-item:hover {
+  background-image: linear-gradient(#CAAC26 17.48%, #F5E590 36.87%, #B18B26 79.92%);
+  color: #fff!important;
+ 
+}
+/* .navbar-expand-lg .navbar-nav {
+  flex-direction: row;
+  margin-left: -20px;
+} */
 .logo-size{
-  width: 350px;
-  height: 95px;
-  /* margin-top: 100px; */
+  width: 300px;
+  height: 70px;
+  margin-left: -20px;
+
+}
+.nav-link{
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #222222!important;
 }
 
+.book-appointment-btn{
+  padding: 10px 15px;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  background-image: linear-gradient(to right, #CAAC26 17.48%, #F5E590 36.87%, #B18B26 79.92%);
+    border-radius: 50px;
+  color: #fff!important;
+}
 
-.nav-container input[type="checkbox"]:checked ~ .menu-items {
+/* .nav-container input[type="checkbox"]:checked ~ .menu-items {
   transform: translateX(0);
 }
 
@@ -259,14 +310,14 @@ background: transparent;
 
 .hamburger-menu-design{
   display: flex;
-}
+}  */
 /* Hamburger Manu end */
 
 
   /* Header section Start */
   #background-video {
     width: 100%;
-    height: 100vh;
+    height: 113vh;
     object-fit: cover;
     position: relative;
     left: 0;
@@ -277,25 +328,25 @@ background: transparent;
   .back-video{
   position: absolute;
   right: 0;
-  bottom: 0;
+  bottom: -172px;
   min-width: 100%;
-  min-height: 100%;
+  min-height: 100vh;
   }
 
   .banner-text{
     opacity: .8;
     position: absolute;
-    bottom: 0;
+    bottom: -100px;
     left: 0;
     right: 0;
     width: 100%;
-    height: 100%;
+    height: 114vh;
     margin: 0;
     box-sizing: border-box;
     padding: 15% 32px;
     line-height: 1.5;
     text-align: center;
-    background-image: linear-gradient(to bottom right,rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7));
+    /* background-image: linear-gradient(to bottom right,rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)); */
   }
   .banner-text h5{
      font-family: 'Lato', sans-serif;
@@ -387,7 +438,7 @@ background: transparent;
     top: 0;
     margin-top: -50px;
     width: 280px;
-    height: 170px;
+    height: 350px;
    }
    .vertical {
     border-left: 4px;
@@ -1027,7 +1078,7 @@ padding: 20px;
   font-weight: 700;
   font-size: 30px;
   color: rgba(34, 34, 34, 0.9);
-  margin-top: 76px;
+  margin-top: 60px;
   
  }
 
@@ -1041,7 +1092,8 @@ padding: 20px;
  .wrapper{
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  align-items: center;
  }
  .column-width{
   width: 45%;
@@ -1725,7 +1777,7 @@ font-size: 40px;
   top: 0;
   margin-top: -50px;
   width: 100px;
-  height: 120px;
+  height: 300px;
 }
 .shadow-text {
   
@@ -2124,6 +2176,44 @@ footer a {
   }
   
   /* footer Section end */
+
+  /* Why Ayurvedic */
+.image-grid {
+  margin-left: 42px;
+  grid-gap: 20px;
+}
+
+.column-width{
+  width: 100%;
+  margin: 0 3px;
+}
+.wrapper{
+  display: block;
+}
+.why-ayurveda-title{
+  padding-inline-start: 90px;
+}
+.about-ayurveda{
+  margin: 0 40px 40px 40px;
+  font-size: 18px;
+  padding-inline: 50px;
+}
+.margin-r{
+  margin-left: 80px;
+}
+
+.item{
+  width: 95%;
+}
+
+.service-text-title{
+  font-size: 22px;
+}
+
+.service-text-p {
+  font-size: 18px;
+  max-width: 90%;
+}
 }
 @media only screen and (max-width: 1200px){
   #background-video{
@@ -2392,24 +2482,85 @@ form select {
     margin-left: 25%;
 }
 
+/* Why Ayurvedic */
+.image-grid {
+  margin-left: 42px;
+  grid-gap: 20px;
+}
+
+.column-width{
+  width: 100%;
+  margin: 0 3px;
+}
+.wrapper{
+  display: block;
+}
+.why-ayurveda-title{
+  padding-inline-start: 90px;
+}
+.about-ayurveda{
+  margin: 0 40px 40px 40px;
+  font-size: 18px;
+  padding-inline: 50px;
+}
+.margin-r{
+  margin-left: 80px;
+}
+
+.item{
+  width: 95%;
+}
+
+.service-text-title{
+  font-size: 22px;
+}
+
+.service-text-p {
+  font-size: 18px;
+}
 }
 @media only screen and (min-width: 993px) and (max-width: 1199px){
   .banner-text{
     background-image: none;
 }
-  #background-video{
-    height: 90vh;
-  }
-  #background-images{
-    height: 90vh;
-  }
-  #about-bg{
-    height: 90vh;
-  }
+#background-video{
+  height: 142vh;
+}
+#background-images{
+  height: 90vh;
+}
 
-  #consultation-background-images{
-    height: 90vh;
-  }
+#about-bg{
+  height: 90vh;
+}
+#consultation-background-images{
+  height: 90vh;
+}
+
+.back-video {
+  bottom: 8px;
+}
+.banner-text {
+  background-image: none;
+  bottom: 116px;
+}
+
+.package-bg {
+  margin-top: -86px;
+  height: 143px;
+  margin-left: 90%;
+}
+
+.package-bg img{
+width: 280px;
+}
+
+.navbar-expand-lg .navbar-nav{
+/* background-color: #fff!important; */
+padding-inline: 20px!important;
+margin-left: -250px;
+}
+
   .video-size{
     height: 90vh;
   }
@@ -2441,30 +2592,6 @@ form select {
     font-size: 16px;
     margin-top: 29px;
   }
-  
-  .navbar .menu-items{
-    height: 90vh;
-  padding-top: 50px;
-  width: 100%;
-  max-width: 24%;
-}
-.navbar .nav-container a {
-  font-weight: 400;
-  font-size: 1.4rem;
-  padding: 0.3rem;
-}
-
-.navbar .menu-items li{
- margin-bottom: 0.7rem;
- text-align: center;
-    margin-left: -15px;
-} 
-
-.dropdown-content{
-  top: 10px;
-  left: 250px;
-}
-
   
   html,body {
     /* max-width: 992px; */
@@ -2502,14 +2629,7 @@ font-size: 20px;
 .verticl-mode{
   font-size: 20px;
 }
-.package-bg {
-  margin-left: 80%;
-  right: 0;
-  top: 0;
-  margin-top: -50px;
-  width: 100px;
-  height: 120px;
-}
+
 .shadow-text {
   
   font-size: 60px;
@@ -2581,13 +2701,13 @@ font-size: 20px;
   object-fit: cover;
 }
 
-.social-icon .ri-facebook-circle-fill, .ri-youtube-fill, .ri-twitter-fill, .ri-linkedin-box-fill{
+/* .social-icon .ri-facebook-circle-fill, .ri-youtube-fill, .ri-twitter-fill, .ri-linkedin-box-fill{
   font-size: 40px;
 }
 ul li{
   font-size: 20px;
   color: rgba(34, 34, 34, 0.7);
-}
+} */
 .footer-title{
   font-weight: 700;
 font-size: 27px;
@@ -2605,9 +2725,6 @@ color: #222222;
 font-size: 30px;
 margin-top: 20px;
 }
-
-
-
  .footer-design{
   display: grid;
   grid-template-columns: 1fr; /* one column in first row */
@@ -2712,13 +2829,50 @@ form select {
 .contact-info-width {
   margin-bottom: 5px;
 }
+
+/* Why Ayurvedic */
+.image-grid {
+  margin-left: 42px;
+  grid-gap: 20px;
+}
+
+.column-width{
+  width: 100%;
+  margin: 0 3px;
+}
+.wrapper{
+  display: block;
+}
+.why-ayurveda-title{
+  padding-inline-start: 90px;
+}
+.about-ayurveda{
+  margin: 0 40px 40px 40px;
+  font-size: 18px;
+  padding-inline: 50px;
+}
+.margin-r{
+  margin-left: 80px;
+}
+
+.item{
+  width: 95%;
+}
+
+.service-text-title{
+  font-size: 22px;
+}
+
+.service-text-p {
+  font-size: 18px;
+}
 }
 @media only screen and (max-width: 992px){
   .banner-text{
       background-image: none;
   }
   #background-video{
-    height: 90vh;
+    height: 142vh;
   }
   #background-images{
     height: 90vh;
@@ -2731,29 +2885,29 @@ form select {
     height: 90vh;
   }
   
- .navbar .menu-items{
-    height: 90vh;
-  padding-top: 50px;
-  width: 100%;
-  max-width: 24%;
+  .back-video {
+    bottom: 8px;
 }
-.navbar .nav-container a {
-  font-weight: 400;
-  font-size: 1.3rem;
-  padding: 0.3rem;
+.banner-text {
+    background-image: none;
+    bottom: 116px;
 }
 
-.navbar .menu-items li{
- margin-bottom: 0.5rem;
- text-align: center;
-    margin-left: -15px;
-} 
-
-.dropdown-content{
-  top: 10px;
-  left: 250px;
+.package-bg {
+    margin-top: -86px;
+    height: 143px;
+    margin-left: 90%;
 }
 
+.package-bg img{
+width: 280px;
+}
+
+.navbar-expand-lg .navbar-nav{
+  background-color: #fff!important;
+  padding-inline: 20px!important;
+  margin-left: -250px;
+}
   .video-size{
     height: 90vh;
   }
@@ -2797,10 +2951,18 @@ form select {
     height: auto;
 
   }
+
+  .book-appointment-btn {
+    padding: 6px 10px;
+    font-size: 12px;
+}
+  .nav-link{
+    font-size: 13px;
+  }
 .logo-size{
-  width: 240px;
+  width: 230px;
   height: 50px;
-  margin-right: 180px;
+  margin-right: 206px;
 }
 .login-btn,
 .signup-btn {
@@ -2847,7 +3009,7 @@ font-size: 16px;
   height: 300px;
 } 
 .package-bg {
-  margin-left: 80%;
+  margin-left: 85%;
   right: 0;
   top: 0;
   margin-top: -50px;
@@ -2967,13 +3129,15 @@ font-size: 16px;
   display: block;
 }
 .why-ayurveda-title{
-  margin-left: 40px;
+  padding-inline-start: 90px;
 }
 .about-ayurveda{
   margin: 0 40px 40px 40px;
+  font-size: 18px;
+  padding-inline: 50px;
 }
 .margin-r{
-  margin-left: 40px;
+  margin-left: 80px;
 }
 
 .item{
@@ -2989,13 +3153,13 @@ font-size: 16px;
   object-fit: cover;
 }
 
-.social-icon .ri-facebook-circle-fill, .ri-youtube-fill, .ri-twitter-fill, .ri-linkedin-box-fill{
+/* .social-icon .ri-facebook-circle-fill, .ri-youtube-fill, .ri-twitter-fill, .ri-linkedin-box-fill{
   font-size: 40px;
 }
 ul li{
   font-size: 22px;
   color: rgba(34, 34, 34, 0.7);
-}
+} */
 .footer-title{
   font-weight: 700;
 font-size: 35px;
@@ -3267,14 +3431,27 @@ form select {
 .wrapper{
   display: block;
 }
-.why-ayurveda-title{
-  margin-left: 40px;
-}
+
 .about-ayurveda{
   margin: 0 40px 40px 40px;
+  font-size: 16px;
+  padding-inline: 50px;
 }
-.margin-r{
-  margin-left: 40px;
+.why-ayurveda-title{
+  
+  padding-block-end: 20px;
+}
+.ayurveda-img{
+  width: 60px;
+  height: 60px;
+  margin-left: 30px;
+ }
+ .service-text-title{
+  font-size: 18px;
+ }
+
+ .service-text-p {
+  font-size: 14px;
 }
 
 .item{
@@ -3457,9 +3634,7 @@ margin-top: 0;
    .banner-text{
    background-image: none;
   } 
-  .navbar .menu-items{
-    height: 90vh;
-  }
+
   .logo-size {
     width: 220px;
     height: 60px;
@@ -3760,16 +3935,39 @@ margin-bottom: 15px;
 }
 .about-text-p {
 width: 100%;
-font-size: 18px;
+font-size: 16px;
 }
 .contact-info {
 
 padding-top: 40px;
 }
+
+/* Why Ayurvedic section */
+.about-ayurveda{
+  margin: 0 40px 40px 40px;
+  font-size: 16px;
+  padding-inline: 50px;
+}
+.why-ayurveda-title{
+  padding-inline-start: 45px;
+  padding-block-end: 20px;
+}
+.ayurveda-img{
+  width: 60px;
+  height: 60px;
+  margin-left: 30px;
+ }
+ .service-text-title{
+  font-size: 18px;
+ }
+
+ .service-text-p {
+  font-size: 14px;
+}
 }
 @media only screen and (max-width: 768px){
   #background-video{
-    height: 80vh;
+    height: 142vh;
   }
   #background-images{
     height: 80vh;
@@ -3778,6 +3976,32 @@ padding-top: 40px;
     height: 80vh;
   }
 
+  .back-video {
+    bottom: 8px;
+}
+.banner-text {
+    background-image: none;
+    bottom: 0px;
+}
+
+.package-bg {
+    margin-top: -86px;
+    height: 143px;
+    margin-left: 90%;
+}
+
+.navbar-toggler-icon{
+  color: white!important;
+}
+.navbar-expand-lg .navbar-nav{
+  background-color: #fff!important;
+  padding-inline: 20px!important;
+  margin-left: 0!important;
+}
+
+.package-bg img{
+width: 166px;
+}
   .video-size{
     height: 90vh;
     width: 100vw;
@@ -3818,29 +4042,7 @@ padding-top: 40px;
    background-image: none;
   } 
  
-  .navbar .menu-items{
-    height: 90vh;
-  padding-top: 50px;
-  width: 100%;
-  max-width: 30%;
-}
-.navbar .nav-container a {
-  font-weight: 400;
-  font-size: 1.2rem;
-  padding: 0.3rem;
-}
-
-.navbar .menu-items li{
- margin-bottom: 0.5rem;
- text-align: center;
-    margin-left: -15px;
-} 
-
-.dropdown-content{
-  top: 10px;
-  left: 245px;
-}
-
+  
   .image-grid {
     margin-left: 42px;
     grid-gap: 10px;
@@ -3869,12 +4071,7 @@ padding-top: 40px;
   .feature-text-align{
     margin-left: 10%;
   }
-  .package-bg{
-   
-    /* margin-top: -50px; */
-    width: 100px;
-    height: 120px;
-  }
+
   .shadow-text{
     font-size: 50px;
     margin-top: -45px;
@@ -4008,13 +4205,13 @@ margin-top: 0;
 
 /* Why Ayurvedic */
 .about-ayurveda{
-  font-size: 14px;
-  margin-top: 20px;
-  margin-left: 30px;
+  margin: 0 40px 40px 40px;
+  font-size: 16px;
+  padding-inline: 50px;
 }
 .why-ayurveda-title{
-  margin-top: 44px;
-  margin-left: 30px;
+  padding-inline-start: 85px;
+  padding-block-end: 20px;
 }
 .ayurveda-img{
   width: 60px;
@@ -4022,8 +4219,12 @@ margin-top: 0;
   margin-left: 30px;
  }
  .service-text-title{
-  font-size: 14px;
+  font-size: 18px;
  }
+
+ .service-text-p {
+  font-size: 14px;
+}
  .why-srisoukya-title{
   display: none;
  }
@@ -4167,7 +4368,7 @@ margin-bottom: 15px;
 }
 .about-text-p {
 width: 100%;
-font-size: 18px;
+font-size: 16px;
 }
 .contact-info {
 
@@ -4536,7 +4737,7 @@ padding-top: 40px;
 @media only screen and (max-width: 650px){
   
   #background-video{
-    height: 80vh;
+    height: 140vh;
   }
   #background-images{
     height: 80vh;
@@ -4548,23 +4749,19 @@ padding-top: 40px;
   width: 100%;
   max-width: 36%;
 }
-.navbar .nav-container a {
-  font-weight: 400;
-  font-size: 1.2rem;
-  padding: 0.3rem;
+.back-video {
+  bottom: 8px;
+}
+.banner-text {
+  background-image: none;
+  bottom: 0px;
 }
 
-.navbar .menu-items li{
- margin-bottom: 0.5rem;
- text-align: center;
-    margin-left: -15px;
-} 
-
-.dropdown-content{
-  top: 10px;
-  left: 245px;
+.package-bg {
+  margin-top: -86px;
+  height: 143px;
+  margin-left: 90%;
 }
-
   .logo-size{
     width: 200px;
     height: 45px;
@@ -4898,7 +5095,7 @@ padding-top: 40px;
 }
 @media only screen and (max-width: 600px){
   #background-video{
-    height: 80vh;
+    height: 140vh;
   }
   #background-images{
     height: 80vh;
@@ -5146,7 +5343,7 @@ margin-top: -30px
 
 @media only screen and (max-width: 576px){
   #background-video{
-    height: 80vh;
+    height: 142vh;
   }
   #background-images{
     height: 80vh;
@@ -5158,6 +5355,24 @@ margin-top: -30px
     height: 90vh;
   }
   
+  .back-video {
+    bottom: 8px;
+}
+
+.banner-text {
+  background-image: none;
+  bottom: 0px;
+}
+
+.package-bg {
+  margin-top: -86px;
+  height: 143px;
+  margin-left: 85%;
+}
+
+.package-bg img{
+width: 166px;
+}
   .who-we-are{
     font-weight: 500;
       font-size: 20px;
@@ -5168,7 +5383,7 @@ margin-top: -30px
     margin-left: 20px;
   }
   .about-us{
-    font-size: 13px;
+    font-size: 14px;
     margin-inline: 20px;
     text-align: justify;
     text-justify: inter-word;
@@ -5218,8 +5433,10 @@ margin-top: -30px
 }
    .banner-text{
    background-image: none;
+   bottom: -65px;
   } 
-
+ 
+  
   .who-we-are-section {
     margin-top: 40px; 
 }
@@ -5245,8 +5462,12 @@ margin-top: -30px
   margin-left: 30px;
 }
 .why-ayurveda-title{
-  margin-top: 44px;
-  margin-left: 30px;
+  margin-top: 40px;
+  margin-left: 0;
+}
+.why-ayurvedic-service-width{
+  max-width: 50%;
+  margin-left: 20px;
 }
 .ayurveda-img{
   width: 60px;
@@ -5343,29 +5564,20 @@ margin-top: -30px
     height: 325px;
     
 }
+.navbar-toggler {
+  
+  border: 1px solid black;
 
-.navbar .menu-items{
-  height: 80vh;
-padding-top: 50px;
-width: 100%;
-max-width: 40%;
 }
-.navbar .nav-container a {
-font-weight: 400;
-font-size: 1.2rem;
-padding: 0.3rem;
+.navbar-toggler-icon{
+  color: white!important;
+}
+.navbar-expand-lg .navbar-nav{
+  background-color: #fff!important;
+  padding-inline: 20px!important;
+  margin-left: 0!important;
 }
 
-.navbar .menu-items li{
-margin-bottom: 0.5rem;
-text-align: center;
-  margin-left: -15px;
-} 
-
-.dropdown-content{
-top: 10px;
-left: 245px;
-}
 
 .feature-heading {
   font-weight: 700;
@@ -5607,6 +5819,7 @@ margin-bottom: 15px;
 
 .about-text-p {
 width: 100%;
+font-size: 14px;
 }
 .contact-info {
 
@@ -6472,7 +6685,7 @@ left: 180px;
 
 @media only screen and (max-width: 480px){
   #background-video{
-    height: 70vh;
+    height: 134vh;
   }
   #background-images{
     height: 70vh;
@@ -6480,9 +6693,23 @@ left: 180px;
   #consultation-background-images{
     height: 70vh;
   }
-   .banner-text{
-   background-image: none;
-  } 
+
+  .back-video {
+    bottom: 8px;
+}
+.banner-text {
+  background-image: none;
+  bottom: 0px;
+} 
+
+.package-bg {
+  margin-top: -86px;
+  height: 143px;
+}
+
+.package-bg img{
+width: 166px;
+}
   .navbar .menu-items{
     height: 70vh;
   }
@@ -6512,12 +6739,12 @@ left: 180px;
 }
 .why-ayurveda-title{
   margin-top: 44px;
-  margin-left: 30px;
+  padding-inline-start: 40px;
 }
 .ayurveda-img{
   width: 60px;
   height: 60px;
-  margin-left: -21px;
+  margin-left: 1px;
  }
  .service-text-title{
   font-size: 14px;
@@ -6927,6 +7154,7 @@ width: 100%;
 
 .about-text-p {
 width: 100%;
+font-size: 14px;
 }
 .contact-info {
 
@@ -7051,9 +7279,7 @@ padding-top: 12px;
 .wrapper{
   display: block;
 }
-/* .margin-r {
-  margin-left: 30px;
-} */
+
 .item{
   width: 95%;
 }
@@ -7069,12 +7295,14 @@ padding-top: 12px;
 .ayurveda-img{
   width: 60px;
   height: 60px;
-  margin-left: -21px;
+  margin-left: -2px;
  }
  .service-text-title{
-  font-size: 14px;
+  font-size: 12px;
  }
- 
+ .service-text-p{
+  font-size: 11px;
+ }
  .service-img{
   width: 45px;
   height: 45px;
@@ -7294,7 +7522,7 @@ padding-top: 12px;
 .ayurveda-img{
   width: 50px;
   height: 50px;
-  margin-left: -21px;
+  margin-left: 7px;
  }
  .service-text-title{
   font-size: 12px;
@@ -7720,7 +7948,7 @@ padding-top: 12px;
 
 @media only screen and (max-width: 375px){
   #background-video{
-    height: 70vh;
+    height: 140vh;
   }
   #background-images{
     height: 70vh;
@@ -7731,10 +7959,30 @@ padding-top: 12px;
   #consultation-background-images{
     height: 70vh;
   }
+
+  .back-video {
+    bottom: 8px;
+}
+.banner-text {
+  background-image: none;
+  bottom: 0px;
+}
+.package-bg img{
+  width: 166px;
+  }
+  
+  .package-bg {
+      height: 154px;
+      margin-top: -86px;
+  }
   .video-size{
     height: 70vh;
   }
-  
+  .navbar-expand-lg .navbar-nav{
+    background-color: #fff!important;
+    padding-inline: 20px!important;
+    margin-left: 0!important;
+  }
   .who-we-are{
     font-weight: 500;
       font-size: 20px;
@@ -7745,7 +7993,7 @@ padding-top: 12px;
     margin-left: 20px;
   }
   .about-us{
-    font-size: 12px;
+    font-size: 15px;
     margin-inline: 20px;
     text-align: justify;
     text-justify: inter-word;
@@ -7791,9 +8039,7 @@ padding-top: 12px;
   .margin-r {
     margin-left: 21px;
 }
-   .banner-text{
-   background-image: none;
-  } 
+ 
 
   .who-we-are-section {
     margin-top: 40px; 
@@ -7814,12 +8060,18 @@ padding-top: 12px;
 }
 .about-ayurveda{
   font-size: 14px;
-  margin-top: 20px;
-  margin-left: 30px;
+  margin-top: -10px;
+  
+  padding-inline: 2px;
 }
 .why-ayurveda-title{
-  margin-top: 44px;
-  margin-left: 30px;
+  margin-top: 25px;
+  margin-left: -10px;
+}
+
+.why-ayurvedic-service-width{
+  max-width: 100%;
+  margin-left: 20px;
 }
 .ayurveda-img{
   width: 50px;
@@ -7827,10 +8079,11 @@ padding-top: 12px;
   margin-left: -21px;
  }
  .service-text-title{
-  font-size: 12px;
+  font-size: 14px;
  }
  .service-text-p{
-  font-size: 10px;
+  font-size: 12px;
+  max-width: 80%;
  }
  
  .service-img{
@@ -7856,7 +8109,7 @@ padding-top: 12px;
 
  .right-design img{
   margin-left: -96px!important;
-  margin-top: -1px; 
+  margin-top: 14px; 
   width: 58%;
 }
 .icon-margin-left{
@@ -7910,7 +8163,7 @@ padding-top: 12px;
     margin-right: 10px;
 }
 .icon-margin-left-2 h5 {
-  margin-top: 14px;
+  margin-top: 8px;
     margin-left: -142px;
     
 }
@@ -7922,37 +8175,7 @@ padding-top: 12px;
     height: 35px;
     margin-right: -5px;
 }
-.booking-btn {
-  padding: 6px 10px;
-  font-size: 8px;
-}
-.nav-container .hamburger-lines {
-  height: 22px;
-  width: 29px;
-}
 
-.navbar .menu-items{
-   height: 70vh;
-  padding-top: 50px;
-  width: 100%;
-  max-width: 50%;
-}
-.navbar .nav-container a {
-  font-weight: 400;
-  font-size: 0.9rem;
-  padding: 0.3rem;
-}
-
-.navbar .menu-items li{
-  margin-bottom: 0.1rem;
-  text-align: left;
-    margin-left: 20px
-} 
-
-.dropdown-content{
-  top: 22px;
-  left: 26px;
-}
 
 .banner-text h5{
   margin-top: 50px;
@@ -8332,6 +8555,48 @@ padding-top: 12px;
 }
 .rejuvenation-content-div-2{
   height: 287px;
+}
+
+/* Contact Us Section */
+.team-title {font-size: 25px!important;}
+
+.team-text {
+  max-width: 80%!important;
+  font-size: 15px!important; 
+}
+
+.contact-section {
+  margin: 47px auto;
+  padding-bottom: 129px; 
+  max-height: 660px;
+}
+.contact-column {
+  flex-direction: column-reverse;
+  margin-top: -46px;
+ 
+}
+.contact-btn {
+  padding: 6px;
+  font-size: 18px;
+  width: 50%;
+}
+.contact-us-appointment{
+margin-top: 220px;
+}
+.contact-us-img img{
+width: 50px;
+}
+.contact-info-width{
+width: 100%;
+}
+
+.about-text-p {
+width: 100%;
+font-size: 16px;
+}
+.contact-info {
+
+padding-top: 12px;
 }
 }
 
@@ -9116,7 +9381,7 @@ padding-top: 12px;
 
 @media screen and (max-width: 300px) {
   #background-video {
-    height: 70vh;
+    height: 140vh;
 }
 
 /* About Page */
@@ -9125,6 +9390,9 @@ padding-top: 12px;
   height: 70vh;
 }
 
+.back-video {
+  bottom: 8px;
+}
 .video-size{
   height: 70vh;
 }
@@ -9194,6 +9462,23 @@ padding-top: 12px;
   height: 18px;
   width: 25px;
 }
+.navbar-expand-lg .navbar-nav{
+  background-color: #fff!important;
+  padding-inline: 20px!important;
+  margin-left: 0!important;
+}
+.banner-text {
+  background-image: none;
+  bottom: 0px;
+}
+.package-bg img{
+  width: 166px;
+  }
+  
+  .package-bg {
+    margin-top: -86px;
+      height: 143px;
+  }
 .banner-text h5 {
   font-size: 20px;
   margin-top: 85px;
@@ -9205,6 +9490,34 @@ padding-top: 12px;
   font-size: 22px;
 }
 
+.about-ayurveda{
+  font-size: 14px;
+  margin-top: -10px;
+  
+  padding-inline: 2px;
+}
+.why-ayurveda-title{
+  margin-top: 25px;
+  margin-left: -10px;
+}
+
+.why-ayurvedic-service-width{
+  max-width: 100%;
+  margin-left: 20px;
+}
+.ayurveda-img{
+  width: 50px;
+  height: 50px;
+  margin-left: 5px;
+ }
+ .service-text-title{
+  font-size: 14px;
+ }
+ .service-text-p{
+  font-size: 12px;
+  max-width: 80%;
+ }
+ 
 .margin-r {
   margin-left: 4px;
 }
@@ -9214,7 +9527,7 @@ padding-top: 12px;
   font-weight: 400;
 }
 .about-ayurveda {
-  font-size: 11px;
+  font-size: 12px;
 }
 .right-design img {
   
@@ -9271,12 +9584,12 @@ padding-top: 12px;
   margin-left: -56px;
 }
 .service-text-title {
-  font-size: 10px;
-  width: 100px;
+  font-size: 12px;
+  width: 170px;
 }
 .service-text-p {
   font-size: 10px;
-  margin-left: -5px;
+  margin-left: 2px;
 }
 .navbar .menu-items{
    height: 70vh;
