@@ -1483,11 +1483,57 @@ textarea.text-field {
   margin-left: 65px;
   margin-top: 50px;
  }
+
+ /*====================================================================================*/
+
+/* Elderly-Care Section Start */
+ /* Backgroud Image setup */
+ #elderly-bg{
+  background-image:url('assets/elderly-care/elder-bg.png');
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    
+ }
+.elder-content-div{
+  height: 420px;
+  transform: translateY(20px);
+  margin-inline-start: -22px;
+
+}
+
+.elderly-banner-text{
+  opacity: .8;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 15% 32px;
+  line-height: 1.5;
+  text-align: center;
+  /* background-image: linear-gradient(to bottom right,rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)); */
+}
+
+.elderly-banner-text h5{
+  font-size: 40px;
+  color: white;
+  font-family: 'Lato', sans-serif; 
+  font-weight: 700;
+}
+
+
+
+
+
  /*=================================================================================*/
 
 /* Responsive Design for home page start */
-
-  
 
 
 @media only screen and (max-width: 1400px){
@@ -2622,6 +2668,11 @@ form select {
 .service-text-p {
   font-size: 18px;
 }
+.elder-content-div {
+  height: 353px;
+  transform: translateY(17px);
+  margin-inline-start: -18px;
+}
 }
 @media only screen and (max-width: 992px){
   .banner-text {
@@ -3073,6 +3124,11 @@ form select {
 .booking-content h4{
   font-size: calc(2rem + .3vw);
 }
+.elder-content-div {
+  height: 353px;
+  transform: translateY(17px);
+  margin-inline-start: -18px;
+}
 }
 
 @media only screen and (max-width: 950px){
@@ -3353,6 +3409,12 @@ margin-top: 0;
 
 .booking-content h4{
   font-size: calc(1.5rem + .3vw);
+}
+#elderly-bg{
+  height: 70vh;
+}
+.elderly-content-h5 {
+  margin-top: -67px;
 }
 
 }
@@ -3685,6 +3747,12 @@ padding-top: 40px;
 
  .service-text-p {
   font-size: 14px;
+}
+#elderly-bg{
+  height: 100vh!important;
+}
+.elderly-content-h5 {
+  margin-top: -67px;
 }
 }
 @media only screen and (max-width: 768px){
@@ -4142,6 +4210,14 @@ padding-top: 40px;
 
 .booking-content h4{
   font-size: calc(1.8rem + .3vw);
+}
+
+.elder-content-div {
+  margin-inline-start: 0px;
+}
+
+.elderly-content-h5 {
+  margin-top: -108px;
 }
 }
 
@@ -4816,6 +4892,10 @@ padding-top: 40px;
   transform: translateX(0px);
   transform: translateY(1px);
   height: 236px;
+}
+
+.elderly-content-h5 {
+  margin-top: -67px;
 }
 }
 @media only screen and (max-width: 600px){
@@ -5615,6 +5695,27 @@ padding-top: 40px;
   transform: translateX(0px);
   transform: translateY(1px);
   height: 236px;
+}
+
+.elder-content-div {
+  height: 400px;
+  transform: translateY(0px);
+  margin-inline-start: 0px;
+}
+
+#elderly-bg{
+  height: 70vh;
+}
+.elder-content-div {
+  height: 450px;
+  
+}
+.elderly-banner-text h5 {
+  font-size: 25px;
+ margin-top: 100px;
+}
+.elderly-content-h5 {
+  margin-top: -90px;
 }
 }
 
@@ -6926,6 +7027,20 @@ padding-top: 12px;
   transform: translateY(1px);
   height: 236px;
 }
+#elderly-bg{
+  height: 70vh;
+}
+.elder-content-div {
+  height: 450px;
+  
+}
+.elderly-banner-text h5 {
+  font-size: 25px;
+ margin-top: 100px;
+}
+.elderly-content-h5 {
+  margin-top: -90px;
+}
 }
 
 @media only screen and (max-width: 450px){
@@ -7602,7 +7717,21 @@ width: 100%;
 
 padding-top: 12px;
 }
-
+/* Elderly Section */
+#elderly-bg{
+  height: 70vh;
+}
+.elder-content-div {
+  height: 450px;
+  
+}
+.elderly-banner-text h5 {
+  font-size: 25px;
+ margin-top: 100px;
+}
+.elderly-content-h5 {
+  margin-top: -38px;
+}
 }
 
 @media only screen and (max-width: 375px){
@@ -8254,6 +8383,25 @@ font-size: 16px;
 .contact-info {
 
 padding-top: 12px;
+}
+
+/* Elderly section */
+.elder-content-div {
+  height: 400px;
+  transform: translateY(0px);
+  margin-inline-start: 0px;
+}
+.elderly-content-h5 {
+  margin-top: 1px;
+}
+
+#elderly-bg{
+  height: 70vh;
+}
+
+.elderly-banner-text h5 {
+  font-size: 25px;
+ margin-top: 100px;
 }
 }
 
@@ -9010,6 +9158,19 @@ width: 100%;
 
 padding-top: 12px;
 }
+
+/* Elder section */
+#elderly-bg{
+  height: 70vh!;
+}
+.elder-content-div {
+  height: 450px;
+  
+}
+.elderly-banner-text h5 {
+  font-size: 25px;
+ margin-top: 100px;
+}
 }
 
 @media screen and (max-width: 300px) {
@@ -9633,6 +9794,19 @@ form select {
 }
 .rejuvenation-content-div-2{
   height: 382px;
+}
+
+/* Elderly Section */
+#elderly-bg{
+  height: 70vh;
+}
+.elder-content-div {
+  height: 450px;
+  
+}
+.elderly-banner-text h5 {
+  font-size: 25px;
+ margin-top: 100px;
 }
 }
 /* Responsive Design for home page end */
