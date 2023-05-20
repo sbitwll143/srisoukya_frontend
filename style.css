@@ -24,228 +24,10 @@
   .zindex{
     z-index: 99;
   }
-  /* Home page Start */
   
-/* Hamburger Manu start */
-  /* .login-btn, .signup-btn{ 
-    padding: 10px 20px;
-    font-size: 16px;
-    font-weight: 600;
-    color: goldenrod;
-    cursor: pointer;
-    
-    
-    text-align:center;
-    border: none;
-    background-size: 300% 100%;
-
-    border-radius: 50px;
-    moz-transition: all .4s ease-in-out;
-    -o-transition: all .4s ease-in-out;
-    -webkit-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;
-    background-color: #fff;
-    box-shadow: 0 1px 2px 0 rgba(245, 226, 54, 0.5);
-
- } 
-
- .navbar.logo.login-btn a{
-  color: #fff!important;
- }
- .login-btn:hover, .signup-btn:hover{
-  background-position: 100% 0;
-  moz-transition: all .4s ease-in-out;
-  -o-transition: all .4s ease-in-out;
-  -webkit-transition: all .4s ease-in-out;
-  transition: all .4s ease-in-out;
-
-  background-image: linear-gradient(to right,  #CAAC26 17.48%, #F5E590 36.87%, #B18B26 79.92%);
-  color: #fff;
- }
-
- .login-btn:focus, .signup-btn:focus{
-  outline: none;
- } */
-  /* .signup-btn:hover{
-    background-image: -webkit-linear-gradient(108.08deg, #CAAC26 17.48%, #F5E590 36.87%, #B18B26 79.92%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent!important;
-  color: #fff!important;
- }   */
-
- /* New Hamburger manu */
- .container-1 {
-  /* max-width: 1050px; */
-  /* width: 100%;
-  margin: auto;
-  z-index: 12; */
-}
-
-/* .navbar {
-  width: 100%;
-  box-shadow: 0 1px 4px rgb(146 161 176 / 15%);
-  padding-top: 0!important;
-} */
-
-/* .nav-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 62px;
-} */
-
-/* .navbar .menu-items {
-  flex-wrap: nowrap;
-} */
-
-/* .navbar .nav-container li {
-  list-style: none;
-} */
-
-/* .navbar .nav-container a {
-  text-decoration: none;
-  background: -webkit-linear-gradient(108.08deg, #CAAC26 17.48%, #F5E590 36.87%, #B18B26 79.92%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  font-weight: 500;
-  font-size: 1.2rem;
-  padding: 0.7rem;
-  
-} */
-
-/* .navbar .nav-container a:hover{
-    font-weight: bold;
-}
-
-.nav-container {
-  display: block;
-  position: relative;
-  height: 60px;
-}
-
-.nav-container .checkbox {
-  position: absolute;
-  display: block;
-  height: 32px;
-  width: 32px;
-  top: 20px;
-  left: 20px;
-  z-index: 5;
-  opacity: 0;
-  cursor: pointer;
-  
-}
-
-.nav-container .hamburger-lines {
-  display: block;
-  height: 26px;
-  width: 32px;
-  position: absolute;
-  top: 17px;
-  left: 20px;
-  z-index: 2;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
- 
-}
-
-.nav-container .hamburger-lines .line {
-  display: block;
-  height: 4px;
-  width: 100%;
-  border-radius: 10px;
-  background: goldenrod;
-}
-
-.nav-container .hamburger-lines .line1 {
-  transform-origin: 0% 0%;
-  transition: transform 0.4s ease-in-out;
-  
-}
-
-.nav-container .hamburger-lines .line2 {
-  transition: transform 0.2s ease-in-out;
-  
-}
-
-.nav-container .hamburger-lines .line3 {
-  transform-origin: 0% 100%;
-  transition: transform 0.4s ease-in-out;
- 
-}
-
-.navbar .menu-items {
-  padding-top: 45px;
-  box-shadow: 0 0 80px goldenrod;
-  background: #ffffff;
-  height: 90vh;
-  width: 20%;
-  border-radius: 10px 30px 30px 10px;
-  transform: translate(-150%);
-  display: flex;
-  flex-direction: row;
-  transition: transform 0.5s ease-in-out;
-  text-align: center;
-  z-index: 1;
-  
-}
-
-.navbar .menu-items li {
-  margin-bottom: 0.7rem;
-  font-size: 1.2rem;
-  font-weight: 500;
-  
-} */
-
-/* Dropdown Hamburger Menu Start*/
-/* .hamburger-menu-design{
-  display: flex;
-  
-}
-.width-set-1{
-  width: 100%;
-}
-.width-set-2{
- 
-  width: 30%;
-  z-index: 1 !important;
-  position: relative; 
-} */
-
-/* .dropdown-content{
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
-  padding: 10px;
-  display: none;
-  background: #fff;
-  position: absolute;
-  box-shadow: 5px 12px 39px goldenrod;
-  min-width: 350px;
-  left: 270px;
-  top: 0px;
-  border-radius: 10px 30px 30px 10px;
-  z-index: 90000 !important;
-  
-  
-}
-
-.dropdown:hover .dropdown-content{
-  display: block;
-  padding: 10px;
- 
-} */
-/* Dropdown Hamburger Menu End*/
-
- /* .logo {
-  position: absolute;
-
-  right: 15px;
-  z-index: -1;
-  
-} */
-
 .navbar{
   height: 80px;
+  background-color: white;
 }
 
 .navbar-nav .nav-item.active .nav-link,
@@ -287,37 +69,13 @@
   color: #fff!important;
 }
 
-/* .nav-container input[type="checkbox"]:checked ~ .menu-items {
-  transform: translateX(0);
-}
 
-.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
-  transform: rotate(45deg);
-}
-
-.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
-  transform: scaleY(0);
-}
-
-.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
-  transform: rotate(-45deg);
-}
-
-.nav-container input[type="checkbox"]:checked ~ .logo{
-  display: block;
-}
-
-
-.hamburger-menu-design{
-  display: flex;
-}  */
-/* Hamburger Manu end */
 
 
   /* Header section Start */
   #background-video {
     width: 100%;
-    height: 113vh;
+    height: 80vh;
     object-fit: cover;
     position: relative;
     left: 0;
@@ -336,11 +94,11 @@
   .banner-text{
     opacity: .8;
     position: absolute;
-    bottom: -100px;
+    bottom: -274px;
     left: 0;
     right: 0;
     width: 100%;
-    height: 114vh;
+    height: 100vh;
     margin: 0;
     box-sizing: border-box;
     padding: 15% 32px;
@@ -2217,38 +1975,25 @@ footer a {
 }
 @media only screen and (max-width: 1200px){
   #background-video{
-    height: 90vh;
+    height: 80vh!important;
   }
   #background-images{
-    height: 90vh;
+    height: 80vh;
   }
 
   #consultation-background-images{
-    height: 90vh;
+    height: 80vh;
   }
   
-  .navbar .menu-items{
-    height: 100vh;
-  padding-top: 50px;
-  width: 100%;
-  max-width: 22%;
-}
-.navbar .nav-container a {
-  font-weight: 400;
-  font-size: 1.5rem;
-  padding: 0.3rem;
-}
+  .banner-text {
+    background-image: none;
+    bottom: 116px;
+  }
 
-.navbar .menu-items li{
- margin-bottom: 0.7rem;
- text-align: center;
-    margin-left: -15px;
-} 
+  .nav-link{
+    font-size: 13!important;
+  }
 
-.dropdown-content{
-  top: 10px;
-  left: 276px;
-}
   html,body {
     /* max-width: 992px; */
     margin: 0;
@@ -2524,7 +2269,7 @@ form select {
     background-image: none;
 }
 #background-video{
-  height: 142vh;
+  height: 70vh;
 }
 #background-images{
   height: 90vh;
@@ -2542,7 +2287,7 @@ form select {
 }
 .banner-text {
   background-image: none;
-  bottom: 116px;
+  bottom: -145px;
 }
 
 .package-bg {
@@ -2558,9 +2303,20 @@ width: 280px;
 .navbar-expand-lg .navbar-nav{
 /* background-color: #fff!important; */
 padding-inline: 20px!important;
-margin-left: -250px;
+margin-left: -59px;
 }
-
+.logo-size {
+  width: 240px!important;
+  height: 65px!important;
+  margin-left: -20px;
+}
+.book-appointment-btn{
+  padding: 8px 15px!important;
+  font-size: 13px!important;
+}
+.nav-link{
+  font-size: 13!important;
+}
   .video-size{
     height: 90vh;
   }
@@ -2868,8 +2624,8 @@ form select {
 }
 }
 @media only screen and (max-width: 992px){
-  .banner-text{
-      background-image: none;
+  .banner-text {
+    height: 340px;
   }
   #background-video{
     height: 142vh;
@@ -2888,10 +2644,7 @@ form select {
   .back-video {
     bottom: 8px;
 }
-.banner-text {
-    background-image: none;
-    bottom: 116px;
-}
+
 
 .package-bg {
     margin-top: -86px;
@@ -3324,7 +3077,7 @@ form select {
 
 @media only screen and (max-width: 950px){
   #background-video{
-    height: 90vh;
+    height: 45vh!important;
   }
   #background-images{
     height: 90vh;
@@ -3332,9 +3085,7 @@ form select {
   #consultation-background-images{
     height: 90vh;
   }
-  .navbar .menu-items{
-    height: 90vh;
-  }
+ 
   .logo-size {
     width: 220px;
     height: 60px;
@@ -3351,29 +3102,13 @@ form select {
     font-size: 30px;
   }
 
-  .navbar .menu-items{
-    height: 90vh;
-  padding-top: 50px;
-  width: 100%;
-  max-width: 24%;
-}
-.navbar .nav-container a {
-  font-weight: 400;
-  font-size: 1.2rem;
-  padding: 0.3rem;
-}
+  .navbar-expand-lg .navbar-nav{
+    background-color: #fff!important;
+    padding-inline: 20px!important;
+    margin-left: 0!important;
+  }
 
-.navbar .menu-items li{
- margin-bottom: 0.5rem;
- text-align: center;
-    margin-left: -15px;
-} 
-
-.dropdown-content{
-  top: 10px;
-  left: 240px;
-}
-
+  ul li{font-size: 16px!important;}
   .feature-text-align{
     margin-left: 10%;
   }
@@ -3623,7 +3358,7 @@ margin-top: 0;
 }
 @media only screen and (max-width: 850px){
   #background-video{
-    height: 90vh;
+    height: 60vh!important;
   }
   #background-images{
     height: 90vh;
@@ -3631,9 +3366,9 @@ margin-top: 0;
   #consultation-background-images{
     height: 90vh;
   }
-   .banner-text{
-   background-image: none;
-  } 
+  .banner-text {
+    height: 470px;
+  }
 
   .logo-size {
     width: 220px;
@@ -3650,29 +3385,16 @@ margin-top: 0;
   .banner-text h5{
     font-size: 30px;
   }
-  .navbar .menu-items{
-    height: 90vh;
-  padding-top: 50px;
-  width: 100%;
-  max-width: 28%;
-}
-.navbar .nav-container a {
-  font-weight: 400;
-  font-size: 1.2rem;
-  padding: 0.3rem;
-}
 
-.navbar .menu-items li{
- margin-bottom: 0.5rem;
- text-align: center;
-    margin-left: -15px;
-} 
+  .navbar-expand-lg .navbar-nav{
+    background-color: #fff!important;
+    padding-inline: 20px!important;
+    margin-left: 0!important;
+  }
 
-.dropdown-content{
-  top: 10px;
-  left: 250px;
-}
-
+  ul li{
+    font-size: 16px!important;
+  }
   .feature-text-align{
     margin-left: 10%;
   }
@@ -3967,7 +3689,7 @@ padding-top: 40px;
 }
 @media only screen and (max-width: 768px){
   #background-video{
-    height: 142vh;
+    height: 50vh!important;
   }
   #background-images{
     height: 80vh;
@@ -3976,13 +3698,6 @@ padding-top: 40px;
     height: 80vh;
   }
 
-  /* .navbar-light .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0, 0.8)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-} */
-
-/* custom-toggler .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-} */
 
 .custom-toggler.navbar-toggler {
   border-color: rgb(255,102,203)!important;
@@ -3991,8 +3706,7 @@ padding-top: 40px;
     bottom: 8px;
 }
 .banner-text {
-    background-image: none;
-    bottom: 0px;
+  bottom: 20px;
 }
 
 .package-bg {
@@ -4759,18 +4473,13 @@ padding-top: 40px;
     height: 80vh;
   }
 
-  .navbar .menu-items{
-    height: 90vh;
-  padding-top: 50px;
-  width: 100%;
-  max-width: 36%;
-}
+
 .back-video {
   bottom: 8px;
 }
+
 .banner-text {
-  background-image: none;
-  bottom: 0px;
+  height: 375px;
 }
 
 .package-bg {
@@ -5111,7 +4820,7 @@ padding-top: 40px;
 }
 @media only screen and (max-width: 600px){
   #background-video{
-    height: 140vh;
+    height: 80vh;
   }
   #background-images{
     height: 80vh;
@@ -5126,6 +4835,10 @@ padding-top: 40px;
     padding: 10px 18px;
     font-size: 14px;
   }
+
+  .banner-text {
+  height: 375px;
+}
   .banner-text h1{
     font-size: 30px;
   }
@@ -5359,7 +5072,7 @@ margin-top: -30px
 
 @media only screen and (max-width: 576px){
   #background-video{
-    height: 142vh;
+    height: 70vh!important;
   }
   #background-images{
     height: 80vh;
@@ -5448,8 +5161,7 @@ width: 166px;
     margin-left: 21px;
 }
    .banner-text{
-   background-image: none;
-   bottom: -65px;
+   bottom: 31px;
   } 
  
   
@@ -6035,33 +5747,7 @@ padding-top: 40px;
   padding: 10px 15px;
   font-size: 12px;
 }
-.nav-container .hamburger-lines {
-  height: 22px;
-  width: 29px;
-}
 
-.navbar .menu-items{
-  height: 80vh;
-padding-top: 50px;
-width: 100%;
-max-width: 40%;
-}
-.navbar .nav-container a {
-font-weight: 400;
-font-size: 1rem;
-padding: 0.3rem;
-}
-
-.navbar .menu-items li{
-margin-bottom: 0.4rem;
-text-align: center;
-  margin-left: -15px;
-} 
-
-.dropdown-content{
-top: 10px;
-left: 200px;
-}
 
 
 .banner-text h5{
@@ -6701,7 +6387,8 @@ left: 180px;
 
 @media only screen and (max-width: 480px){
   #background-video{
-    height: 134vh;
+    height: 110vh;
+    max-height: 70vh;
   }
   #background-images{
     height: 70vh;
@@ -7245,10 +6932,14 @@ padding-top: 12px;
   .contact-us-appointment {
     margin-top: 322px;
 }
+#background-video{
+  height: 50vh!important;
+}
 }
 @media only screen and (max-width: 420px){
   #background-video{
-    height: 70vh;
+    height: 50vh;
+    
   }
   #background-images{
     height: 70vh;
@@ -7256,32 +6947,8 @@ padding-top: 12px;
   #consultation-background-images{
     height: 70vh;
   }
-   .banner-text{
-   background-image: none;
-  } 
+
   
-  .navbar .menu-items{
-    height: 80vh;
-  padding-top: 50px;
-  width: 100%;
-  max-width: 40%;
-  }
-  .navbar .nav-container a {
-  font-weight: 400;
-  font-size: 1rem;
-  padding: 0.3rem;
-  }
-  
-  .navbar .menu-items li{
-  margin-bottom: 0.4rem;
-  text-align: center;
-    margin-left: -15px;
-  } 
-  
-  .dropdown-content{
-  top: 10px;
-  left: 130px;
-  }
   .who-we-are-section {
     margin-top: 40px; 
 }
@@ -7493,7 +7160,7 @@ padding-top: 12px;
 
 @media only screen and (max-width: 400px){
   #background-video{
-    height: 60vh;
+    height: 55vh;
   }
   #background-images{
     height: 60vh;
@@ -7644,32 +7311,8 @@ padding-top: 12px;
   padding: 6px 10px;
   font-size: 8px;
 }
-.nav-container .hamburger-lines {
-  height: 22px;
-  width: 29px;
-}
-
-.navbar .menu-items{
-   height: 80vh;
-  padding-top: 50px;
-  width: 100%;
-  max-width: 40%;
-}
-.navbar .nav-container a {
-  font-weight: 400;
-  font-size: 0.9rem;
-  padding: 0.3rem;
-}
-
-.navbar .menu-items li{
-  margin-bottom: 0.1rem;
-  text-align: left;
-    margin-left: 20px
-} 
-
-.dropdown-content{
-  top: 22px;
-  left: 100px;
+.banner-text{
+  height: 353px;
 }
 
 .banner-text h5{
@@ -7964,7 +7607,8 @@ padding-top: 12px;
 
 @media only screen and (max-width: 375px){
   #background-video{
-    height: 140vh;
+    height: 80vh;
+    
   }
   #background-images{
     height: 70vh;
@@ -7979,10 +7623,7 @@ padding-top: 12px;
   .back-video {
     bottom: 8px;
 }
-.banner-text {
-  background-image: none;
-  bottom: 0px;
-}
+
 .package-bg img{
   width: 166px;
   }
@@ -8618,7 +8259,7 @@ padding-top: 12px;
 
 @media only screen and (max-width: 360px) {
   #background-video{
-    height: 60vh;
+    height: 60vh!important;
   }
   #background-images{
     height: 60vh;
@@ -8663,33 +8304,9 @@ padding-top: 12px;
   padding: 6px 10px;
   font-size: 8px;
 }
-.nav-container .hamburger-lines {
-  height: 22px;
-  width: 29px;
-}
 
-.navbar .menu-items{
-  height: 70vh;
- padding-top: 50px;
- width: 100%;
- max-width: 50%;
-}
-.navbar .nav-container a {
- font-weight: 400;
- font-size: 0.9rem;
- padding: 0.3rem;
-}
 
-.navbar .menu-items li{
- margin-bottom: 0.1rem;
- text-align: left;
-   margin-left: 20px
-} 
 
-.dropdown-content{
- top: 22px;
- left: 26px;
-}
 
 .banner-text h5{
   margin-top: 30px;
@@ -9042,7 +8659,7 @@ footer form .submit-btn{
   font-size: 20px;
 }
 .banner-text{
-  margin-top: 30px;
+  height: 320px;
 }
 .explore-now {
  display: none;
@@ -9397,7 +9014,7 @@ padding-top: 12px;
 
 @media screen and (max-width: 300px) {
   #background-video {
-    height: 140vh;
+    height: 70vh;
 }
 
 /* About Page */
@@ -9484,8 +9101,7 @@ padding-top: 12px;
   margin-left: 0!important;
 }
 .banner-text {
-  background-image: none;
-  bottom: 0px;
+ height: 365px;
 }
 .package-bg img{
   width: 166px;
@@ -9607,36 +9223,13 @@ padding-top: 12px;
   font-size: 10px;
   margin-left: 2px;
 }
-.navbar .menu-items{
-   height: 70vh;
-  padding-top: 50px;
-  width: 100%;
-  max-width: 70%;
-}
-.navbar .nav-container a {
-  font-weight: 400;
-  font-size: 0.9rem;
-  padding: 0.3rem;
-}
 
-.navbar .menu-items li{
-  margin-bottom: 0.1rem;
-  text-align: left;
-    margin-left: 20px
-} 
-
-.dropdown-content{
-  top: 22px;
-  left: 50px;
-}
 
 .banner-text h1{
   margin-top: 15px;
   font-size: 17px;
 }
-.banner-text{
-  margin-top: 30px;
-}
+
 .explore-now {
  display: none;
 
