@@ -1602,7 +1602,9 @@ textarea.text-field {
   margin-inline-start: -20px;
  }
 
- .hair-booking-btn{
+ .hair-booking-btn,
+ .beauty-booking-btn,
+ .slimming-booking-btn{
   width: 190px;
   height: 60px;
   font-size: 16px;
@@ -1638,7 +1640,7 @@ textarea.text-field {
   transform: translateY(16px);
   margin-inline-end: -15px;
  }
- .mind-banner-text{
+ .mind-banner-text, .beauty-banner-text{
   opacity: .8;
   position: absolute;
   bottom: 0;
@@ -1652,11 +1654,105 @@ textarea.text-field {
   line-height: 1.5;
   text-align: center;
  }
- .mind-banner-text h5{
+ .mind-banner-text h5,
+ .beauty-banner-text h5{
   font-size: 40px;
   color: white;
   font-family: 'Lato', sans-serif; 
   font-weight: 700;
+ }
+
+  /*====================================================================================*/
+ /* beauty-Care Section Start */
+ /* Backgroud Image setup */
+ #beauty-care-bg{
+  background-image:url('assets/beauty-care/beauty-care-bg.png');
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    
+ }
+
+
+  .beauty-content-div-2{
+    height: 320px;
+    transform: translateY(16px);
+    margin-inline-end: -15px;
+  }
+ .beauty-content-div-3{
+  height: 516px;
+  transform: translateY(16px);
+  margin-inline-end: -12px;
+ }
+
+ .beauty-content-div-5{
+  height: 430px;
+  transform: translateY(16px);
+  margin-inline-start: -20px;
+ }
+
+ .beauty-content-div-6{
+  height: 340px;
+  transform: translateY(16px);
+  margin-inline-start: -15px;
+}
+
+.beauty-content-div-7{
+  height: 322px;
+  transform: translateY(16px);
+  margin-inline-end: -15px;
+}
+
+.beauty-content-div-8{
+  height: 340px;
+  transform: translateY(16px);
+  margin-inline-start: -20px;
+}
+
+.beauty-content-div-9{
+  height: 577px;
+  transform: translateY(16px);
+  margin-inline-end: -12px;
+}
+
+
+/*====================================================================================*/
+ /* slimming-weight-loss Section Start */
+ /* Backgroud Image setup */
+ #slimming-weight-loss-bg{
+  background-image:url('assets/slimming-weight-loss/slimming-weight-bg.png');
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    
+ }
+
+ .slimming-content-div-3{
+  height: 400px;
+  transform: translateY(16px);
+  margin-inline-end: -12px;
+ }
+
+ .slimming-content-div-5{
+  height: 585px;
+  transform: translateY(16px);
+  margin-inline-start: -20px;
+ }
+
+ .slimming-content-div-2{
+  height: 410px;
+    transform: translateY(16px);
+    margin-inline-end: -15px;
+ }
+
+ .slimming-content-div-6{
+  height: 310px;
+  transform: translateY(16px);
+  margin-inline-start: -15px;
  }
  /*=================================================================================*/
 
@@ -2796,7 +2892,9 @@ form select {
 }
 
 /* Scalp and Hair Section */
-.hair-booking-btn {
+.hair-booking-btn,
+.beauty-booking-btn,
+.slimming-booking-btn {
   width: 150px;
   height: 45px;
   font-size: 14px;
@@ -2854,6 +2952,79 @@ form select {
   height: 353px;
   transform: translateY(15px);
   margin-inline-end: -12px;
+}
+
+/* Beauty and Care Section */
+.beauty-content-div-3 {
+  height: 430px;
+  transform: translateY(16px);
+  margin-inline-end: -12px;
+}
+.beauty-content-div-5 {
+  height: 366px;
+  transform: translateY(12px);
+  margin-inline-start: -17px;
+}
+
+.beauty-content-div-2 {
+  height: 272px;
+  transform: translateY(13px);
+  margin-inline-end: -15px;
+}
+
+.beauty-content-div-6 {
+  height: 284px;
+  transform: translateY(16px);
+  margin-inline-start: -15px;
+}
+
+.beauty-content-div-7 {
+  height: 270px;
+  transform: translateY(13px);
+  margin-inline-end: -13px;
+}
+
+.beauty-content-div-8 {
+  height: 284px;
+  transform: translateY(14px);
+  margin-inline-start: -16px;
+}
+
+.beauty-content-div-9 {
+  height: 481px;
+  transform: translateY(14px);
+  margin-inline-end: -10px;
+}
+
+.beauty-booking-btn,
+.slimming-booking-btn {
+  margin-top: -30px
+  
+}
+/* Slimmin and weight loss section */
+.slimming-content-div-3 {
+  height: 335px;
+  transform: translateY(16px);
+  margin-inline-end: -12px;
+}
+
+.slimming-content-div-5 {
+  height: 493px;
+  transform: translateY(14px);
+  margin-inline-start: -20px;
+}
+.slimming-content-div-2 {
+  height: 340px;
+  transform: translateY(14px);
+ 
+  margin-inline-end: -13px;
+ 
+}
+
+.slimming-content-div-6 {
+  height: 260px;
+  transform: translateY(16px);
+  margin-inline-start: -15px;
 }
 }
 @media only screen and (max-width: 992px){
@@ -3310,10 +3481,19 @@ form select {
 #scale-hair-bg{
   height: 100vh;
 }
-.hair-booking-btn {
+.hair-booking-btn,
+.beauty-booking-btn,
+.slimming-booking-btn {
   width: 150px;
   height: 45px;
   font-size: 14px;
+  
+  
+}
+
+.beauty-booking-btn,
+.slimming-booking-btn {
+  margin-top: -30px
   
 }
 
@@ -3364,6 +3544,74 @@ form select {
   height: 353px;
   transform: translateY(15px);
   margin-inline-end: -12px;
+}
+
+/* Beauty and Care Section */
+.beauty-content-div-3 {
+  height: 430px;
+  transform: translateY(16px);
+  margin-inline-end: -12px;
+}
+.beauty-content-div-5 {
+  height: 366px;
+  transform: translateY(12px);
+  margin-inline-start: -17px;
+}
+
+.beauty-content-div-2 {
+  height: 272px;
+  transform: translateY(13px);
+  margin-inline-end: -15px;
+}
+
+.beauty-content-div-6 {
+  height: 284px;
+  transform: translateY(16px);
+  margin-inline-start: -15px;
+}
+
+.beauty-content-div-7 {
+  height: 270px;
+  transform: translateY(13px);
+  margin-inline-end: -13px;
+}
+
+.beauty-content-div-8 {
+  height: 284px;
+  transform: translateY(14px);
+  margin-inline-start: -16px;
+}
+
+.beauty-content-div-9 {
+  height: 481px;
+  transform: translateY(14px);
+  margin-inline-end: -10px;
+}
+
+/* Slimmin and weight loss section */
+.slimming-content-div-3 {
+  height: 335px;
+  transform: translateY(16px);
+  margin-inline-end: -12px;
+}
+
+.slimming-content-div-5 {
+  height: 493px;
+  transform: translateY(14px);
+  margin-inline-start: -20px;
+}
+.slimming-content-div-2 {
+  height: 340px;
+  transform: translateY(14px);
+ 
+  margin-inline-end: -13px;
+ 
+}
+
+.slimming-content-div-6 {
+  height: 260px;
+  transform: translateY(16px);
+  margin-inline-start: -15px;
 }
 }
 
@@ -3669,7 +3917,9 @@ margin-top: 0;
   margin-inline-end: 0px; 
 }
 
-.hair-booking-btn {
+.hair-booking-btn,
+.beauty-booking-btn,
+.slimming-booking-btn {
   width: 160px;
   height: 50px;
 }
@@ -3722,6 +3972,87 @@ margin-top: 0;
 .mind-banner-text h5{
   font-size: 25px;
 
+}
+
+/* Beauty and Care Section */
+#beauty-care-bg{
+  height: 70vh;
+}
+
+.beauty-banner-text h5{
+  font-size: 25px;
+  margin-top: 100px;
+}
+
+.beauty-content-div-3 {
+  height: 510px;
+  transform: translateY(16px);
+  margin-inline-end: 0px;
+}
+
+.beauty-content-div-5 {
+  height: 445px;
+  transform: translateY(16px);
+  margin-inline-start: 0px;
+}
+
+.beauty-content-div-2 {
+  height: 355px;
+  transform: translateY(16px);
+  margin-inline-end: 0px;
+}
+
+.beauty-content-div-6 {
+  height: 395px;
+  transform: translateY(16px);
+  margin-inline-start: 0px;
+}
+
+.beauty-content-div-7 {
+  height: 395px;
+  transform: translateY(16px);
+  margin-inline-end: 0px;
+}
+
+.beauty-content-div-8 {
+  height: 395px;
+  transform: translateY(16px);
+  margin-inline-start: 0px;
+}
+
+.beauty-content-div-9 {
+  height: 585px;
+  transform: translateY(16px);
+  margin-inline-end: 0px;
+}
+
+/* Slimming and weight loss section */
+
+#slimming-weight-loss-bg{
+  height: 70vh;
+}
+.slimming-content-div-3 {
+  height: 450px;
+  transform: translateY(16px);
+  margin-inline-end: 0px;
+}
+
+.slimming-content-div-5 {
+  height: 560px;
+  transform: translateY(16px);
+  margin-inline-start: 0px;
+}
+
+.slimming-content-div-2 {
+  height: 425px;
+  transform: translateY(16px);
+  margin-inline-end: 0px;
+}
+
+.slimming-content-div-6 {
+  height: 350px;
+  transform: translateY(16px);
+  margin-inline-start: 0px;
 }
 }
 @media only screen and (max-width: 850px){
@@ -4076,7 +4407,9 @@ padding-top: 40px;
   margin-inline-end: 0px; 
 }
 
-.hair-booking-btn {
+.hair-booking-btn,
+.beauty-booking-btn,
+.slimming-booking-btn {
   width: 160px;
   height: 50px;
 }
@@ -4590,7 +4923,9 @@ padding-top: 40px;
   margin-inline-end: 0px; 
 }
 
-.hair-booking-btn {
+.hair-booking-btn,
+.beauty-booking-btn,
+.slimming-booking-btn {
   width: 160px;
   height: 50px;
 }
@@ -4643,7 +4978,87 @@ padding-top: 40px;
 }
 .mind-banner-text h5{
   font-size: 25px;
+}
 
+/* Beauty and Care Section */
+#beauty-care-bg{
+  height: 70vh;
+}
+
+.beauty-banner-text h5{
+  font-size: 25px;
+  margin-top: 100px;
+}
+
+.beauty-content-div-3 {
+  height: 510px;
+  transform: translateY(16px);
+  margin-inline-end: 0px;
+}
+
+.beauty-content-div-5 {
+  height: 445px;
+  transform: translateY(16px);
+  margin-inline-start: 0px;
+}
+
+.beauty-content-div-2 {
+  height: 355px;
+  transform: translateY(16px);
+  margin-inline-end: 0px;
+}
+
+.beauty-content-div-6 {
+  height: 395px;
+  transform: translateY(16px);
+  margin-inline-start: 0px;
+}
+
+.beauty-content-div-7 {
+  height: 395px;
+  transform: translateY(16px);
+  margin-inline-end: 0px;
+}
+
+.beauty-content-div-8 {
+  height: 395px;
+  transform: translateY(16px);
+  margin-inline-start: 0px;
+}
+
+.beauty-content-div-9 {
+  height: 585px;
+  transform: translateY(16px);
+  margin-inline-end: 0px;
+}
+
+/* Slimming and weight loss section */
+
+#slimming-weight-loss-bg{
+  height: 70vh;
+}
+.slimming-content-div-3 {
+  height: 450px;
+  transform: translateY(16px);
+  margin-inline-end: 0px;
+}
+
+.slimming-content-div-5 {
+  height: 560px;
+  transform: translateY(16px);
+  margin-inline-start: 0px;
+}
+
+.slimming-content-div-2 {
+  height: 425px;
+  transform: translateY(16px);
+  margin-inline-end: 0px;
+}
+
+.slimming-content-div-6 {
+  height: 350px;
+  transform: translateY(16px);
+  margin-inline-start: 0px;
 }
 }
 
@@ -6160,7 +6575,9 @@ padding-top: 40px;
   margin-inline-end: 0px; 
 }
 
-.hair-booking-btn {
+.hair-booking-btn,
+.beauty-booking-btn,
+.slimming-booking-btn {
   width: 160px;
   height: 50px;
 }
@@ -6213,7 +6630,87 @@ padding-top: 40px;
 }
 .mind-banner-text h5{
   font-size: 25px;
+}
 
+/* Beauty and Care Section */
+#beauty-care-bg{
+  height: 70vh;
+}
+
+.beauty-banner-text h5{
+  font-size: 25px;
+  margin-top: 100px;
+}
+
+.beauty-content-div-3 {
+  height: 594px;
+  transform: translateY(16px);
+  margin-inline-end: 0px;
+}
+
+.beauty-content-div-5 {
+  height: 445px;
+  transform: translateY(16px);
+  margin-inline-start: 0px;
+}
+
+.beauty-content-div-2 {
+  height: 355px;
+  transform: translateY(16px);
+  margin-inline-end: 0px;
+}
+
+.beauty-content-div-6 {
+  height: 395px;
+  transform: translateY(16px);
+  margin-inline-start: 0px;
+}
+
+.beauty-content-div-7 {
+  height: 395px;
+  transform: translateY(16px);
+  margin-inline-end: 0px;
+}
+
+.beauty-content-div-8 {
+  height: 395px;
+  transform: translateY(16px);
+  margin-inline-start: 0px;
+}
+
+.beauty-content-div-9 {
+  height: 585px;
+  transform: translateY(16px);
+  margin-inline-end: 0px;
+}
+
+/* Slimming and weight loss section */
+
+#slimming-weight-loss-bg{
+  height: 70vh;
+}
+.slimming-content-div-3 {
+  height: 450px;
+  transform: translateY(16px);
+  margin-inline-end: 0px;
+}
+
+.slimming-content-div-5 {
+  height: 560px;
+  transform: translateY(16px);
+  margin-inline-start: 0px;
+}
+
+.slimming-content-div-2 {
+  height: 425px;
+  transform: translateY(16px);
+  margin-inline-end: 0px;
+}
+
+.slimming-content-div-6 {
+  height: 350px;
+  transform: translateY(16px);
+  margin-inline-start: 0px;
 }
 }
 
@@ -7554,7 +8051,9 @@ padding-top: 12px;
   margin-inline-end: 0px; 
 }
 
-.hair-booking-btn {
+.hair-booking-btn,
+.beauty-booking-btn,
+.slimming-booking-btn {
   width: 160px;
   height: 50px;
 }
@@ -7607,7 +8106,87 @@ padding-top: 12px;
 }
 .mind-banner-text h5{
   font-size: 25px;
+}
 
+/* Beauty and Care Section */
+#beauty-care-bg{
+  height: 70vh;
+}
+
+.beauty-banner-text h5{
+  font-size: 25px;
+  margin-top: 100px;
+}
+
+.beauty-content-div-3 {
+  height: 594px;
+  transform: translateY(16px);
+  margin-inline-end: 0px;
+}
+
+.beauty-content-div-5 {
+  height: 445px;
+  transform: translateY(16px);
+  margin-inline-start: 0px;
+}
+
+.beauty-content-div-2 {
+  height: 355px;
+  transform: translateY(16px);
+  margin-inline-end: 0px;
+}
+
+.beauty-content-div-6 {
+  height: 395px;
+  transform: translateY(16px);
+  margin-inline-start: 0px;
+}
+
+.beauty-content-div-7 {
+  height: 395px;
+  transform: translateY(16px);
+  margin-inline-end: 0px;
+}
+
+.beauty-content-div-8 {
+  height: 395px;
+  transform: translateY(16px);
+  margin-inline-start: 0px;
+}
+
+.beauty-content-div-9 {
+  height: 585px;
+  transform: translateY(16px);
+  margin-inline-end: 0px;
+}
+
+/* Slimming and weight loss section */
+
+#slimming-weight-loss-bg{
+  height: 70vh;
+}
+.slimming-content-div-3 {
+  height: 450px;
+  transform: translateY(16px);
+  margin-inline-end: 0px;
+}
+
+.slimming-content-div-5 {
+  height: 560px;
+  transform: translateY(16px);
+  margin-inline-start: 0px;
+}
+
+.slimming-content-div-2 {
+  height: 425px;
+  transform: translateY(16px);
+  margin-inline-end: 0px;
+}
+
+.slimming-content-div-6 {
+  height: 350px;
+  transform: translateY(16px);
+  margin-inline-start: 0px;
 }
 }
 
@@ -8346,6 +8925,58 @@ padding-top: 12px;
   font-size: 25px;
 
 }
+
+/* Beauty and Care Section */
+#beauty-care-bg{
+  height: 70vh;
+}
+
+.beauty-banner-text h5{
+  font-size: 25px;
+  margin-top: 100px;
+}
+
+.beauty-content-div-3 {
+  height: 594px;
+  transform: translateY(16px);
+  margin-inline-end: 0px;
+}
+
+.beauty-content-div-5 {
+  height: 445px;
+  transform: translateY(16px);
+  margin-inline-start: 0px;
+}
+
+.beauty-content-div-2 {
+  height: 355px;
+  transform: translateY(16px);
+  margin-inline-end: 0px;
+}
+
+.beauty-content-div-6 {
+  height: 395px;
+  transform: translateY(16px);
+  margin-inline-start: 0px;
+}
+
+.beauty-content-div-7 {
+  height: 395px;
+  transform: translateY(16px);
+  margin-inline-end: 0px;
+}
+
+.beauty-content-div-8 {
+  height: 395px;
+  transform: translateY(16px);
+  margin-inline-start: 0px;
+}
+
+.beauty-content-div-9 {
+  height: 620px;
+  transform: translateY(16px);
+  margin-inline-end: 0px;
+}
 }
 
 @media only screen and (max-width: 375px){
@@ -9035,7 +9666,9 @@ padding-top: 12px;
   margin-inline-end: 0px; 
 }
 
-.hair-booking-btn {
+.hair-booking-btn,
+.beauty-booking-btn,
+.slimming-booking-btn {
   width: 160px;
   height: 50px;
 }
@@ -9090,6 +9723,87 @@ padding-top: 12px;
   font-size: 25px;
   margin-top: 100px;
 
+}
+
+/* Beauty and Care Section */
+#beauty-care-bg{
+  height: 70vh;
+}
+
+.beauty-banner-text h5{
+  font-size: 25px;
+  margin-top: 100px;
+}
+
+.beauty-content-div-3 {
+  height: 594px;
+  transform: translateY(16px);
+  margin-inline-end: 0px;
+}
+
+.beauty-content-div-5 {
+  height: 445px;
+  transform: translateY(16px);
+  margin-inline-start: 0px;
+}
+
+.beauty-content-div-2 {
+  height: 355px;
+  transform: translateY(16px);
+  margin-inline-end: 0px;
+}
+
+.beauty-content-div-6 {
+  height: 395px;
+  transform: translateY(16px);
+  margin-inline-start: 0px;
+}
+
+.beauty-content-div-7 {
+  height: 395px;
+  transform: translateY(16px);
+  margin-inline-end: 0px;
+}
+
+.beauty-content-div-8 {
+  height: 395px;
+  transform: translateY(16px);
+  margin-inline-start: 0px;
+}
+
+.beauty-content-div-9 {
+  height: 620px;
+  transform: translateY(16px);
+  margin-inline-end: 0px;
+}
+
+/* Slimming and weight loss section */
+
+#slimming-weight-loss-bg{
+  height: 70vh;
+}
+.slimming-content-div-3 {
+  height: 450px;
+  transform: translateY(16px);
+  margin-inline-end: 0px;
+}
+
+.slimming-content-div-5 {
+  height: 605px;
+  transform: translateY(16px);
+  margin-inline-start: 0px;
+}
+
+.slimming-content-div-2 {
+  height: 450px;
+  transform: translateY(16px);
+  margin-inline-end: 0px;
+}
+
+.slimming-content-div-6 {
+  height: 350px;
+  transform: translateY(16px);
+  margin-inline-start: 0px;
 }
 }
 
@@ -9873,7 +10587,9 @@ padding-top: 12px;
   margin-inline-end: 0px; 
 }
 
-.hair-booking-btn {
+.hair-booking-btn,
+.beauty-booking-btn,
+.slimming-booking-btn {
   width: 160px;
   height: 50px;
 }
@@ -9928,6 +10644,58 @@ padding-top: 12px;
   font-size: 25px;
   margin-top: 100px;
 
+}
+
+/* Beauty and Care Section */
+#beauty-care-bg{
+  height: 70vh;
+}
+
+.beauty-banner-text h5{
+  font-size: 25px;
+  margin-top: 100px;
+}
+
+.beauty-content-div-3 {
+  height: 634px;
+  transform: translateY(16px);
+  margin-inline-end: 0px;
+}
+
+.beauty-content-div-5 {
+  height: 476px;
+  transform: translateY(16px);
+  margin-inline-start: 0px;
+}
+
+.beauty-content-div-2 {
+  height: 397px;
+  transform: translateY(16px);
+  margin-inline-end: 0px;
+}
+
+.beauty-content-div-6 {
+  height: 431px;
+  transform: translateY(16px);
+  margin-inline-start: 0px;
+}
+
+.beauty-content-div-7 {
+  height: 448px;
+  transform: translateY(16px);
+  margin-inline-end: 0px;
+}
+
+.beauty-content-div-8 {
+  height: 453px;
+  transform: translateY(16px);
+  margin-inline-start: 0px;
+}
+
+.beauty-content-div-9 {
+  height: 691px;
+  transform: translateY(16px);
+  margin-inline-end: 0px;
 }
 }
 
@@ -10581,7 +11349,9 @@ form select {
   margin-inline-end: 0px; 
 }
 
-.hair-booking-btn {
+.hair-booking-btn,
+.beauty-booking-btn,
+.slimming-booking-btn {
   width: 160px;
   height: 50px;
 }
@@ -10635,6 +11405,86 @@ form select {
 .mind-banner-text h5{
   font-size: 25px;
   margin-top: 100px;
+}
+
+/* Beauty and Care Section */
+#beauty-care-bg{
+  height: 70vh;
+}
+
+.beauty-banner-text h5{
+  font-size: 25px;
+  margin-top: 100px;
+}
+
+.beauty-content-div-3 {
+  height: 634px;
+  transform: translateY(16px);
+  margin-inline-end: 0px;
+}
+
+.beauty-content-div-5 {
+  height: 476px;
+  transform: translateY(16px);
+  margin-inline-start: 0px;
+}
+
+.beauty-content-div-2 {
+  height: 397px;
+  transform: translateY(16px);
+  margin-inline-end: 0px;
+}
+
+.beauty-content-div-6 {
+  height: 431px;
+  transform: translateY(16px);
+  margin-inline-start: 0px;
+}
+
+.beauty-content-div-7 {
+  height: 448px;
+  transform: translateY(16px);
+  margin-inline-end: 0px;
+}
+
+.beauty-content-div-8 {
+  height: 453px;
+  transform: translateY(16px);
+  margin-inline-start: 0px;
+}
+
+.beauty-content-div-9 {
+  height: 691px;
+  transform: translateY(16px);
+  margin-inline-end: 0px;
+}
+/* Slimming and weight loss section */
+
+#slimming-weight-loss-bg{
+  height: 70vh;
+}
+.slimming-content-div-3 {
+  height: 515px;
+  transform: translateY(16px);
+  margin-inline-end: 0px;
+}
+
+.slimming-content-div-5 {
+  height: 676px;
+  transform: translateY(16px);
+  margin-inline-start: 0px;
+}
+
+.slimming-content-div-2 {
+  height: 515px;
+  transform: translateY(16px);
+  margin-inline-end: 0px;
+}
+
+.slimming-content-div-6 {
+  height: 370px;
+  transform: translateY(16px);
+  margin-inline-start: 0px;
 }
 }
 /* Responsive Design for home page end */
