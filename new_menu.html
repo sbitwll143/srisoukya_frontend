@@ -1,1032 +1,1129 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Srisoukya</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Srisoukya</title>
+  <link rel="stylesheet" href="style.css">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
-    <!-- Bootstrap CDN link -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap CDN link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
 
-    <!-- Remixicon -->
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet">
+  <!-- Remixicon -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet">
 </head>
+
 <body>
-    <!-- Header Section Start -->
-    <section id="background-video">
-        <video  loop muted autoplay="autoplay" class="back-video">
-            <source src="assets/Srisoukya video.mp4" type="video/mp4">
-        </video>
-        <!-- Hamburger Manu Start -->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary zindex">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-              <img src="assets/logo/LOGO-02.png" alt="logo" class="logo-size">
-            </a>
-            <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button> -->
-
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="" role="button" ><i class="fa fa-bars" aria-hidden="true" style="color:#000; font-size:35px;"></i></span>
-          </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+  <!-- Header Section Start -->
+  <section id="background-video">
+    <video loop muted autoplay="autoplay" class="back-video">
+      <source src="assets/Srisoukya video.mp4" type="video/mp4">
+    </video>
+    <!-- Hamburger Manu Start -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary zindex">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="assets/logo/LOGO-02.png" alt="logo" class="logo-size">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="" role="button"><i class="fa fa-bars" aria-hidden="true"
+              style="color: goldenrod;; font-size:35px;"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">E-store</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Why Ayurveda</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Treatments
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Abhyangam</a></li>
+                <li>
+                  <hr class="dropdown-divider">
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">About Us</a>
+                <li><a class="dropdown-item" href="#">Pizhichil</a></li>
+                <li>
+                  <hr class="dropdown-divider">
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">E-store</a>
+                <li><a class="dropdown-item" href="#">Podikkizhi</a></li>
+                <li>
+                  <hr class="dropdown-divider">
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Why Ayurveda</a>
+                <li><a class="dropdown-item" href="#">Elakkizhi</a></li>
+                <li>
+                  <hr class="dropdown-divider">
                 </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Treatments
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Abhyangam</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Pizhichil</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Podikkizhi</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Elakkizhi</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Navarakizhi</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Shirodhara</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Kativasthy</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Prishtavasthy</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Greevavasthy</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Urovasthy</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Januvsthy</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Udwarthanam</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Nasyam</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Sarvangaswedanam</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Sirovasthy</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Sarvangadhara</a></li>
-                  </ul>
+                <li><a class="dropdown-item" href="#">Navarakizhi</a></li>
+                <li>
+                  <hr class="dropdown-divider">
                 </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Facilities
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Outpatient Consultation</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Classical Ayurvedic medic...</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Herbal cosmetics</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Natural beauty products</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Health foods</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Kerala Special massage th..</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Classical Panchakarma tre...</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Well experienced Alternat...</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                  </ul>
+                <li><a class="dropdown-item" href="#">Shirodhara</a></li>
+                <li>
+                  <hr class="dropdown-divider">
                 </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Packages
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Rejuvenation package</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Body purification Package</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Whole Spine Protection Pa...</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Anti-Ageing package</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Pre & Post-Menopausal Pac...</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Elderly Health care packa...</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Scalp & Hair Care Package</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Mind and Body relaxation...</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Slimming – Weight Loss Pa...</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Beauty Care Package</a></li>
-                  </ul>
+                <li><a class="dropdown-item" href="#">Kativasthy</a></li>
+                <li>
+                  <hr class="dropdown-divider">
                 </li>
-               
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Our Team</a>
+                <li><a class="dropdown-item" href="#">Prishtavasthy</a></li>
+                <li>
+                  <hr class="dropdown-divider">
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Contact us</a>
+                <li><a class="dropdown-item" href="#">Greevavasthy</a></li>
+                <li>
+                  <hr class="dropdown-divider">
                 </li>
-               
-                
+                <li><a class="dropdown-item" href="#">Urovasthy</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Januvsthy</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Udwarthanam</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Nasyam</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Sarvangaswedanam</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Sirovasthy</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Sarvangadhara</a></li>
               </ul>
-              <form class="d-flex" role="search">
-                <!-- <button class="login-btn me-3">Log in</button>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Facilities
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Outpatient Consultation</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Classical Ayurvedic medic...</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Herbal cosmetics</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Natural beauty products</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Health foods</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Kerala Special massage th..</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Classical Panchakarma tre...</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Well experienced Alternat...</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Packages
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Rejuvenation package</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Body purification Package</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Whole Spine Protection Pa...</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Anti-Ageing package</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Pre & Post-Menopausal Pac...</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Elderly Health care packa...</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Scalp & Hair Care Package</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Mind and Body relaxation...</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Slimming – Weight Loss Pa...</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Beauty Care Package</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Our Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact us</a>
+            </li>
+
+
+          </ul>
+          <form class="d-flex" role="search">
+            <!-- <button class="login-btn me-3">Log in</button>
                 <button class="signup-btn me-3">Sign up</button> -->
-                <button class="book-appointment-btn me-3">Book An Appointment</button>
-            </div>
-          </div>
-        </nav>
-         <!-- Hamburger Manu End -->
-       
-        <div class="banner-text">
-            <h5 class="text-center">Welcome To</h5>
-            <h1 class="text-design">Srisoukya Ayurvedic Center</h1>
-            <p class="explore-now">Explore Now</p>
-            <a href="#package"><img class="down-arrow-img" src="assets/down-arrow/down-arrow.png" alt=""></a>
+            <button class="book-appointment-btn me-3">Book An Appointment</button>
         </div>
-    </section>
-    <!-- Header Section End -->
-
-    <!-- Featured Packages Section Start -->
-    <section class="container section-view" id="package">
-     <div class="package-bg">
-      <img src="assets/feature/bg-image.png" alt="">
-     </div>
-     <div class = "vertical"></div>
-        <div class="feature-text-align">
-            <h1 class="feature-heading">Featured Packages</h1>
-            <p class="section-headline-p">All of our feature products. </p>
-        </div>
-        <div class="container feature-bg">
-            <h1 class="shadow-text">PACKAGES</h1>
-            <div class="row d-flex justify-content-center div-gap-mob">
-              <div class="col-md-6 d-flex mobile-design">
-                <h2 class="verticl-mode">Menopausal</h2>
-                <div class="image-container position-relative hover-animation">
-                  <img src="assets/feature/real-img-5.jpg" alt="Image" class="package-img" >
-                  <div class="overlay position-absolute bottom-0 d-flex flex-column justify-content-center align-items-center overlay-1 overlay-2">
-                    <h5 class="text-design">Pre n Post Menopausal</h5>
-                    <p class="text-design">Menopausal Treatments</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 d-flex">
-                <h2 class="verticl-mode">Scalp & Hair Care</h2>
-                <div class="image-container position-relative hover-animation">
-                  <img src="assets/feature/p-img-1.png" class="package-img" alt="Image" >
-                  <div class="overlay position-absolute bottom-0 d-flex flex-column justify-content-center align-items-center overlay-1 overlay-2">
-                    <h5 class="text-design">Scalp & Hair Care</h5>
-                    <p class="text-design">Scalp & Hair Treatments</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row my-5 d-flex justify-content-center div-gap-mob">
-              <div class="col-md-6 d-flex mobile-design ">
-                <h2 class="verticl-mode">Beauty Care</h2>
-                <div class="image-container position-relative hover-animation">
-                  <img src="assets/feature/p-img-2.png" class="package-img" alt="Image" >
-                  <div class="overlay position-absolute bottom-0 d-flex flex-column justify-content-center align-items-center overlay-1 overlay-2">
-                    <h5 class="text-design">Beauty Care</h5>
-                    <p class="text-design">Beauty Care Treatments</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 d-flex div-gap-mob div-gap-mob-2">
-                <h2 class="verticl-mode">Slimming-Weight Loss</h2>
-                <div class="image-container position-relative hover-animation">
-                  <img src="assets/feature/real-img-4.jpg" class="package-img" alt="Image" >
-                  <div class="overlay position-absolute bottom-0 d-flex flex-column justify-content-center align-items-center overlay-1 overlay-2">
-                    <h5 class="text-design">Slimming-Weight Loss</h5>
-                    <p class="text-design">Slimming-Weight Loss Treatments</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row d-flex justify-content-center div-gap-mob">
-              <div class="col-md-6 d-flex mobile-design">
-                <h2 class="verticl-mode">Elderly Health Care</h2>
-                <div class="image-container position-relative hover-animation">
-                  <img src="assets/feature/p-img-3.png" class="package-img" alt="Image" >
-                  <div class="overlay position-absolute bottom-0 d-flex flex-column justify-content-center align-items-center overlay-1 overlay-2">
-                    <h5 class="text-design">Elderly Health Care</h5>
-                    <p class="text-design">Health care</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 d-flex mobile-design div-gap-mob">
-                <h2 class="verticl-mode">Anti Ageing</h2>
-                <div class="image-container position-relative hover-animation">
-                  <img src="assets/feature/p-img-4.png" class="package-img" alt="Image" >
-                  <div class="overlay position-absolute bottom-0 d-flex flex-column justify-content-center align-items-center overlay-1 overlay-2">
-                    <h5 class="text-design">Anti Ageing</h5>
-                    <p class="text-design">Anti Ageing Treatments</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          
-          <div class="d-flex align-items-center justify-content-center view-more">
-            <button class="view-more-btn mx-auto">View more</button>
-          </div>
-    </section>
-    <!-- Featured Packages Section End -->
-   
-    
-    <!-- Featured Product Section Start -->
-    <section class="container product" >
-      <div class = "vertical"></div>
-        <div class="feature-text-align tablet-responsive">
-            <h1 class="feature-heading">Featured Products</h1>
-            <p class="section-headline-p">Our Featured Products </p>
-        </div>
-        <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="container-sm d-flex">
-                <div class="card h-100 mx-4 card-size">
-                  <div class="heart">
-                    <img src="assets/product/heart.png" alt="">
-                  </div>
-                  <img src="assets/product/p-1.png" class="card-img-top" alt="Your Image">
-                  <div class="card-body">
-                    <p class="card-title product-title">Ananda Signature shower gel</p>
-                    <div class="d-flex justify-content-between">
-                      <div>
-                        <p class="card-text bhd-price">BHD120.23 </p>
-                        <p class="card-text text-decoration-line-through discount-price">BHD120.23</p>
-                      </div>
-                     <div>
-
-                      <button class="new-arrival-btn">Buy Now</button>
-                     </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="card h-100 me-4 card-size">
-                  <div class="heart">
-                    <img src="assets/product/heart.png" alt="">
-                  </div>
-                  <img src="assets/product/p-2.png" class="card-img-top" alt="Your Image">
-                  <div class="card-body">
-                    <p class="card-title product-title">Ananda Signature shower gel</p>
-                    <div class="d-flex justify-content-between">
-                      <div>
-                        <p class="card-text bhd-price">BHD120.23 </p>
-                        <p class="card-text text-decoration-line-through discount-price">BHD120.23</p>
-                      </div>
-                     <div>
-                   
-                      <button class="new-arrival-btn">Buy Now</button>
-                     </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="card h-100 me-4 card-size">
-                  <div class="heart">
-                    <img src="assets/product/heart.png" alt="">
-                  </div>
-                  <img src="assets/product/p-3.png" class="card-img-top" alt="Your Image">
-                  <div class="card-body">
-                    <p class="card-title product-title">Ananda Signature shower gel</p>
-                    <div class="d-flex justify-content-between">
-                      <div>
-                        <p class="card-text bhd-price">BHD120.23 </p>
-                        <p class="card-text text-decoration-line-through discount-price">BHD120.23</p>
-                      </div>
-                     <div>
-                    
-                      <button class="new-arrival-btn">Buy Now</button>
-                     </div>
-                    </div>
-                  </div> 
-                </div>
-                <div class="card h-100 me-4 card-size">
-                  <div class="heart">
-                    <img src="assets/product/heart.png" alt="">
-                  </div>
-                  <img src="assets/product/p-4.png" class="card-img-top" alt="Your Image">
-                  <div class="card-body">
-                    <p class="card-title product-title">Ananda Signature shower gel</p>
-                    <div class="d-flex justify-content-between">
-                      <div>
-                        <p class="card-text bhd-price">BHD120.23 </p>
-                        <p class="card-text text-decoration-line-through discount-price">BHD120.23</p>
-                      </div>
-                     <div>
-                      
-                      <button class="new-arrival-btn">Buy Now</button>
-                     </div>
-                    </div>
-                  </div> 
-                </div>
-        </div>
-            </div>
-            <div class="carousel-item">
-              <div class="container-sm d-flex">
-                <div class="card h-100 mx-4 card-size">
-                  <div class="heart">
-                    <img src="assets/product/heart.png" alt="">
-                  </div>
-                  <img src="assets/product/p-1.png" class="card-img-top" alt="Your Image">
-                  <div class="card-body">
-                    <p class="card-title product-title">Ananda Signature shower gel</p>
-                    <div class="d-flex justify-content-between">
-                      <div>
-                        <p class="card-text bhd-price">BHD120.23 </p>
-                        <p class="card-text text-decoration-line-through discount-price">BHD120.23</p>
-                      </div>
-                     <div>
-                      <button class="new-arrival-btn">Buy Now</button>
-                     </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="card h-100 me-4 card-size">
-                  <div class="heart">
-                    <img src="assets/product/heart.png" alt="">
-                  </div>
-                  <img src="assets/product/p-2.png" class="card-img-top" alt="Your Image">
-                  <div class="card-body">
-                    <p class="card-title product-title">Ananda Signature shower gel</p>
-                    <div class="d-flex justify-content-between">
-                      <div>
-                        <p class="card-text bhd-price">BHD120.23 </p>
-                        <p class="card-text text-decoration-line-through discount-price">BHD120.23</p>
-                      </div>
-                     <div>
-                      <button class="new-arrival-btn">Buy Now</button>
-                     </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="card h-100 me-4 card-size">
-                  <div class="heart">
-                    <img src="assets/product/heart.png" alt="">
-                  </div>
-                  <img src="assets/product/p-3.png" class="card-img-top" alt="Your Image">
-                  <div class="card-body">
-                    <p class="card-title product-title">Ananda Signature shower gel</p>
-                    <div class="d-flex justify-content-between">
-                      <div>
-                        <p class="card-text bhd-price">BHD120.23 </p>
-                        <p class="card-text text-decoration-line-through discount-price">BHD120.23</p>
-                      </div>
-                     <div>
-                      <button class="new-arrival-btn">Buy Now</button>
-                     </div>
-                    </div>
-                  </div> 
-                </div>
-                <div class="card h-100 me-4 card-size">
-                  <div class="heart">
-                    <img src="assets/product/heart.png" alt="">
-                  </div>
-                  <img src="assets/product/p-4.png" class="card-img-top" alt="Your Image">
-                  <div class="card-body">
-                    <p class="card-title product-title">Ananda Signature shower gel</p>
-                    <div class="d-flex justify-content-between">
-                      <div>
-                        <p class="card-text bhd-price">BHD120.23 </p>
-                        <p class="card-text text-decoration-line-through discount-price">BHD120.23</p>
-                      </div>
-                     <div>
-                      <button class="new-arrival-btn">Buy Now</button>
-                     </div>
-                    </div>
-                  </div> 
-                </div>
-        </div>
-            </div>
-            <div class="carousel-item ">
-              <div class="container-sm d-flex">
-                <div class="card h-100 mx-3 card-size">
-                  <div class="heart">
-                    <img src="assets/product/heart.png" alt="">
-                  </div>
-                  <img src="assets/product/p-1.png" class="card-img-top" alt="Your Image">
-                  <div class="card-body">
-                    <p class="card-title product-title">Ananda Signature shower gel</p>
-                    <div class="d-flex justify-content-between">
-                      <div>
-                        <p class="card-text bhd-price">BHD120.23 </p>
-                        <p class="card-text text-decoration-line-through discount-price">BHD120.23</p>
-                      </div>
-                     <div>
-                      <button class="new-arrival-btn">Buy Now</button>
-                     </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="card h-100 me-4 card-size">
-                  <div class="heart">
-                    <img src="assets/product/heart.png" alt="">
-                  </div>
-                  <img src="assets/product/p-2.png" class="card-img-top" alt="Your Image">
-                  <div class="card-body">
-                    <p class="card-title product-title">Ananda Signature shower gel</p>
-                    <div class="d-flex justify-content-between">
-                      <div>
-                        <p class="card-text bhd-price">BHD120.23 </p>
-                        <p class="card-text text-decoration-line-through discount-price">BHD120.23</p>
-                      </div>
-                     <div>
-                      <button class="new-arrival-btn">Buy Now</button>
-                     </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="card h-100 me-4 card-size">
-                  <div class="heart">
-                    <img src="assets/product/heart.png" alt="">
-                  </div>
-                  <img src="assets/product/p-3.png" class="card-img-top" alt="Your Image">
-                  <div class="card-body">
-                    <p class="card-title product-title">Ananda Signature shower gel</p>
-                    <div class="d-flex justify-content-between">
-                      <div>
-                        <p class="card-text bhd-price">BHD120.23 </p>
-                        <p class="card-text text-decoration-line-through discount-price">BHD120.23</p>
-                      </div>
-                     <div>
-                      <button class="new-arrival-btn">Buy Now</button>
-                     </div>
-                    </div>
-                  </div> 
-                </div>
-                <div class="card h-100 me-4 card-size">
-                  <div class="heart">
-                    <img src="assets/product/heart.png" alt="">
-                  </div>
-                  <img src="assets/product/p-4.png" class="card-img-top" alt="Your Image">
-                  <div class="card-body">
-                    <p class="card-title product-title">Ananda Signature shower gel</p>
-                    <div class="d-flex justify-content-between">
-                      <div>
-                        <p class="card-text bhd-price">BHD120.23 </p>
-                        <p class="card-text text-decoration-line-through discount-price">BHD120.23</p>
-                      </div>
-                     <div>
-                      
-                      <button class="new-arrival-btn">Buy Now</button>
-                     </div>
-                    </div>
-                  </div> 
-                </div>
-        </div>
-            </div>
-            
-            
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-            
-           
-    </section>
-    <!-- Featured Product Section End -->
-
-    <!-- New Arrival Section Start -->
-    <section class="container product" >
-      <div class = "vertical"></div>
-        <div class="feature-text-align tablet-responsive">
-            <h1 class="feature-heading">New Arrivals</h1>
-            <p class="section-headline-p">Our New Arrival Products </p>
-        </div>
-        <div id="carouselExampleControls-2" class="carousel carousel-dark slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="container-sm d-flex">
-                <div class="card h-100 mx-4 card-size">
-                  <div class="heart">
-                    <img src="assets/product/heart.png" alt="">
-                  </div>
-                  <img src="assets/product/p-1.png" class="card-img-top" alt="Your Image">
-                  <div class="card-body">
-                    <p class="card-title product-title">Ananda Signature shower gel</p>
-                    <div class="d-flex justify-content-between">
-                      <div>
-                        <p class="card-text bhd-price">BHD120.23 </p>
-                        <p class="card-text text-decoration-line-through discount-price">BHD120.23</p>
-                      </div>
-                     <div>
-                     
-                      <button class="new-arrival-btn">Buy Now</button>
-                     </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="card h-100 me-4 card-size">
-                  <div class="heart">
-                    <img src="assets/product/heart.png" alt="">
-                  </div>
-                  <img src="assets/product/p-2.png" class="card-img-top" alt="Your Image">
-                  <div class="card-body">
-                    <p class="card-title product-title">Ananda Signature shower gel</p>
-                    <div class="d-flex justify-content-between">
-                      <div>
-                        <p class="card-text bhd-price">BHD120.23 </p>
-                        <p class="card-text text-decoration-line-through discount-price">BHD120.23</p>
-                      </div>
-                     <div>
-                     
-                      <button class="new-arrival-btn">Buy Now</button>
-                     </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="card h-100 me-4 card-size">
-                  <div class="heart">
-                    <img src="assets/product/heart.png" alt="">
-                  </div>
-                  <img src="assets/product/p-3.png" class="card-img-top" alt="Your Image">
-                  <div class="card-body">
-                    <p class="card-title product-title">Ananda Signature shower gel</p>
-                    <div class="d-flex justify-content-between">
-                      <div>
-                        <p class="card-text bhd-price">BHD120.23 </p>
-                        <p class="card-text text-decoration-line-through discount-price">BHD120.23</p>
-                      </div>
-                     <div>
-                    
-                      <button class="new-arrival-btn">Buy Now</button>
-                     </div>
-                    </div>
-                  </div> 
-                </div>
-                <div class="card h-100 me-4 card-size">
-                  <div class="heart">
-                    <img src="assets/product/heart.png" alt="">
-                  </div>
-                  <img src="assets/product/p-4.png" class="card-img-top" alt="Your Image">
-                  <div class="card-body">
-                    <p class="card-title product-title">Ananda Signature shower gel</p>
-                    <div class="d-flex justify-content-between">
-                      <div>
-                        <p class="card-text bhd-price">BHD120.23 </p>
-                        <p class="card-text text-decoration-line-through discount-price">BHD120.23</p>
-                      </div>
-                     <div>
-                     
-                      <button class="new-arrival-btn">Buy Now</button>
-                     </div>
-                    </div>
-                  </div> 
-                </div>
-        </div>
-            </div>
-            <div class="carousel-item">
-              <div class="container-sm d-flex">
-                <div class="card h-100 mx-4 card-size">
-                  <div class="heart">
-                    <img src="assets/product/heart.png" alt="">
-                  </div>
-                  <img src="assets/product/p-1.png" class="card-img-top" alt="Your Image">
-                  <div class="card-body">
-                    <p class="card-title product-title">Ananda Signature shower gel</p>
-                    <div class="d-flex justify-content-between">
-                      <div>
-                        <p class="card-text bhd-price">BHD120.23 </p>
-                        <p class="card-text text-decoration-line-through discount-price">BHD120.23</p>
-                      </div>
-                     <div>
-                     
-                      <button class="new-arrival-btn">Buy Now</button>
-                     </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="card h-100 me-4 card-size">
-                  <div class="heart">
-                    <img src="assets/product/heart.png" alt="">
-                  </div>
-                  <img src="assets/product/p-2.png" class="card-img-top" alt="Your Image">
-                  <div class="card-body">
-                    <p class="card-title product-title">Ananda Signature shower gel</p>
-                    <div class="d-flex justify-content-between">
-                      <div>
-                        <p class="card-text bhd-price">BHD120.23 </p>
-                        <p class="card-text text-decoration-line-through discount-price">BHD120.23</p>
-                      </div>
-                     <div>
-                      
-                      <button class="new-arrival-btn">Buy Now</button>
-                     </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="card h-100 me-4 card-size">
-                  <div class="heart">
-                    <img src="assets/product/heart.png" alt="">
-                  </div>
-                  <img src="assets/product/p-3.png" class="card-img-top" alt="Your Image">
-                  <div class="card-body">
-                    <p class="card-title product-title">Ananda Signature shower gel</p>
-                    <div class="d-flex justify-content-between">
-                      <div>
-                        <p class="card-text bhd-price">BHD120.23 </p>
-                        <p class="card-text text-decoration-line-through discount-price">BHD120.23</p>
-                      </div>
-                     <div>
-                     
-                      <button class="new-arrival-btn">Buy Now</button>
-                     </div>
-                    </div>
-                  </div> 
-                </div>
-                <div class="card h-100 me-4 card-size">
-                  <div class="heart">
-                    <img src="assets/product/heart.png" alt="">
-                  </div>
-                  <img src="assets/product/p-4.png" class="card-img-top" alt="Your Image">
-                  <div class="card-body">
-                    <p class="card-title product-title">Ananda Signature shower gel</p>
-                    <div class="d-flex justify-content-between">
-                      <div>
-                        <p class="card-text bhd-price">BHD120.23 </p>
-                        <p class="card-text text-decoration-line-through discount-price">BHD120.23</p>
-                      </div>
-                     <div>
-                      
-                      <button class="new-arrival-btn">Buy Now</button>
-                     </div>
-                    </div>
-                  </div> 
-                </div>
-        </div>
-            </div>
-            <div class="carousel-item ">
-              <div class="container-sm d-flex">
-                <div class="card h-100 mx-3 card-size" >
-                  <div class="heart">
-                    <img src="assets/product/heart.png" alt="">
-                  </div>
-                  <img src="assets/product/p-1.png" class="card-img-top" alt="Your Image">
-                  <div class="card-body">
-                    <p class="card-title product-title">Ananda Signature shower gel</p>
-                    <div class="d-flex justify-content-between">
-                      <div>
-                        <p class="card-text bhd-price">BHD120.23 </p>
-                        <p class="card-text text-decoration-line-through discount-price">BHD120.23</p>
-                      </div>
-                     <div>
-                     
-                      <button class="new-arrival-btn">Buy Now</button>
-                     </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="card h-100 me-4 card-size">
-                  <div class="heart">
-                    <img src="assets/product/heart.png" alt="">
-                  </div>
-                  <img src="assets/product/p-2.png" class="card-img-top" alt="Your Image">
-                  <div class="card-body">
-                    <p class="card-title product-title">Ananda Signature shower gel</p>
-                    <div class="d-flex justify-content-between">
-                      <div>
-                        <p class="card-text bhd-price">BHD120.23 </p>
-                        <p class="card-text text-decoration-line-through discount-price">BHD120.23</p>
-                      </div>
-                     <div>
-                      
-                      <button class="new-arrival-btn">Buy Now</button>
-                     </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="card h-100 me-4 card-size">
-                  <div class="heart">
-                    <img src="assets/product/heart.png" alt="">
-                  </div>
-                  <img src="assets/product/p-3.png" class="card-img-top" alt="Your Image">
-                  <div class="card-body">
-                    <p class="card-title product-title">Ananda Signature shower gel</p>
-                    <div class="d-flex justify-content-between">
-                      <div>
-                        <p class="card-text bhd-price">BHD120.23 </p>
-                        <p class="card-text text-decoration-line-through discount-price">BHD120.23</p>
-                      </div>
-                     <div>
-                      
-                      <button class="new-arrival-btn">Buy Now</button>
-                     </div>
-                    </div>
-                  </div> 
-                </div>
-                <div class="card h-100 me-4 card-size">
-                  <div class="heart">
-                    <img src="assets/product/heart.png" alt="">
-                  </div>
-                  <img src="assets/product/p-4.png" class="card-img-top" alt="Your Image">
-                  <div class="card-body">
-                    <p class="card-title product-title">Ananda Signature shower gel</p>
-                    <div class="d-flex justify-content-between">
-                      <div>
-                        <p class="card-text bhd-price">BHD120.23 </p>
-                        <p class="card-text text-decoration-line-through discount-price">BHD120.23</p>
-                      </div>
-                     <div>
-                      
-                      <button class="new-arrival-btn">Buy Now</button>
-                     </div>
-                    </div>
-                  </div> 
-                </div>
-        </div>
-            </div>
-            
-            
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls-2" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls-2" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-                
-    </section>
-    <!-- New Arrival Section End -->
-
-    <!-- Glimpse of Srisoukya Section Start -->
-      <section class="glimps-section ">
-       
-        <div class = "vertical-2"></div>
-        <div class="glimpse-text-align">
-            <h1 class="feature-heading">Glimpse of srisoukya WC</h1>
-            <p class="section-headline-p">Glimpse of Srisoukya </p>
-        </div>
-      <div class="glimpse-video-section">
-        <video  loop muted autoplay="autoplay" class="glmpse-video">
-          <source src="assets/video/nature.mp4" type="video/mp4">
-      </video>
       </div>
-       </div>
-      </section>
-    <!-- Glimpse of Srisoukya Section End -->
+    </nav>
+    <!-- Hamburger Manu End -->
 
-    <!-- Gallery Section Start -->
-    <section class="gallery-section">
-      <div class = "vertical-2"></div>
-        <div class="gallery-text-align">
-            <h1 class="feature-heading">Treatments</h1>
-            <p class="section-headline-p">Our All Treatments </p>
+    <div class="banner-text">
+      <h5 class="text-center">Welcome To</h5>
+      <h1 class="text-design">Srisoukya Ayurvedic Center</h1>
+      <p class="explore-now">Explore Now</p>
+      <a href="#package"><img class="down-arrow-img" src="assets/down-arrow/down-arrow.png" alt=""></a>
+    </div>
+  </section>
+  <!-- Header Section End -->
+
+  <!-- Featured Packages Section Start -->
+  <section class="container section-view" id="package">
+    <div class="package-bg">
+      <img src="assets/feature/bg-image.png" alt="">
+    </div>
+    <div class="vertical"></div>
+    <div class="feature-text-align">
+      <h1 class="feature-heading">Featured Packages</h1>
+      <p class="section-headline-p">All of our feature products. </p>
+    </div>
+    <div class="container feature-bg">
+      <h1 class="shadow-text">PACKAGES</h1>
+      <div class="row d-flex justify-content-center div-gap-mob">
+        <div class="col-md-6 d-flex mobile-design">
+          <h2 class="verticl-mode">Menopausal</h2>
+          <div class="image-container position-relative hover-animation">
+            <img src="assets/feature/real-img-5.jpg" alt="Image" class="package-img">
+            <div
+              class="overlay position-absolute bottom-0 d-flex flex-column justify-content-center align-items-center overlay-1 overlay-2">
+              <h5 class="text-design">Pre n Post Menopausal</h5>
+              <p class="text-design">Menopausal Treatments</p>
+            </div>
+          </div>
         </div>
-     <div class="gallery-margin">
+        <div class="col-md-6 d-flex">
+          <h2 class="verticl-mode">Scalp & Hair Care</h2>
+          <div class="image-container position-relative hover-animation">
+            <img src="assets/feature/p-img-1.png" class="package-img" alt="Image">
+            <div
+              class="overlay position-absolute bottom-0 d-flex flex-column justify-content-center align-items-center overlay-1 overlay-2">
+              <h5 class="text-design">Scalp & Hair Care</h5>
+              <p class="text-design">Scalp & Hair Treatments</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row my-5 d-flex justify-content-center div-gap-mob">
+        <div class="col-md-6 d-flex mobile-design ">
+          <h2 class="verticl-mode">Beauty Care</h2>
+          <div class="image-container position-relative hover-animation">
+            <img src="assets/feature/p-img-2.png" class="package-img" alt="Image">
+            <div
+              class="overlay position-absolute bottom-0 d-flex flex-column justify-content-center align-items-center overlay-1 overlay-2">
+              <h5 class="text-design">Beauty Care</h5>
+              <p class="text-design">Beauty Care Treatments</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 d-flex div-gap-mob div-gap-mob-2">
+          <h2 class="verticl-mode">Slimming-Weight Loss</h2>
+          <div class="image-container position-relative hover-animation">
+            <img src="assets/feature/real-img-4.jpg" class="package-img" alt="Image">
+            <div
+              class="overlay position-absolute bottom-0 d-flex flex-column justify-content-center align-items-center overlay-1 overlay-2">
+              <h5 class="text-design">Slimming-Weight Loss</h5>
+              <p class="text-design">Slimming-Weight Loss Treatments</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center div-gap-mob">
+        <div class="col-md-6 d-flex mobile-design">
+          <h2 class="verticl-mode">Elderly Health Care</h2>
+          <div class="image-container position-relative hover-animation">
+            <img src="assets/feature/p-img-3.png" class="package-img" alt="Image">
+            <div
+              class="overlay position-absolute bottom-0 d-flex flex-column justify-content-center align-items-center overlay-1 overlay-2">
+              <h5 class="text-design">Elderly Health Care</h5>
+              <p class="text-design">Health care</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 d-flex mobile-design div-gap-mob">
+          <h2 class="verticl-mode">Anti Ageing</h2>
+          <div class="image-container position-relative hover-animation">
+            <img src="assets/feature/p-img-4.png" class="package-img" alt="Image">
+            <div
+              class="overlay position-absolute bottom-0 d-flex flex-column justify-content-center align-items-center overlay-1 overlay-2">
+              <h5 class="text-design">Anti Ageing</h5>
+              <p class="text-design">Anti Ageing Treatments</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="d-flex align-items-center justify-content-center view-more">
+      <button class="view-more-btn mx-auto">View more</button>
+    </div>
+  </section>
+  <!-- Featured Packages Section End -->
+
+
+  <!-- Featured Product Section Start -->
+  <section class="container product">
+    <div class="vertical"></div>
+    <div class="feature-text-align tablet-responsive">
+      <h1 class="feature-heading">Featured Products</h1>
+      <p class="section-headline-p">Our Featured Products </p>
+    </div>
+    <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container-sm d-flex">
+            <div class="card h-100 mx-4 card-size">
+              <div class="heart">
+                <img src="assets/product/heart.png" alt="">
+              </div>
+              <img src="assets/product/p-1.png" class="card-img-top" alt="Your Image">
+              <div class="card-body">
+                <p class="card-title product-title">Ananda Signature shower gel</p>
+                <div class="d-flex justify-content-between">
+                  <div>
+                    <p class="card-text bhd-price">BHD120.23 </p>
+                    <p class="card-text text-decoration-line-through discount-price">BHD120.23</p>
+                  </div>
+                  <div>
+
+                    <button class="new-arrival-btn">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card h-100 me-4 card-size">
+              <div class="heart">
+                <img src="assets/product/heart.png" alt="">
+              </div>
+              <img src="assets/product/p-2.png" class="card-img-top" alt="Your Image">
+              <div class="card-body">
+                <p class="card-title product-title">Ananda Signature shower gel</p>
+                <div class="d-flex justify-content-between">
+                  <div>
+                    <p class="card-text bhd-price">BHD120.23 </p>
+                    <p class="card-text text-decoration-line-through discount-price">BHD120.23</p>
+                  </div>
+                  <div>
+
+                    <button class="new-arrival-btn">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card h-100 me-4 card-size">
+              <div class="heart">
+                <img src="assets/product/heart.png" alt="">
+              </div>
+              <img src="assets/product/p-3.png" class="card-img-top" alt="Your Image">
+              <div class="card-body">
+                <p class="card-title product-title">Ananda Signature shower gel</p>
+                <div class="d-flex justify-content-between">
+                  <div>
+                    <p class="card-text bhd-price">BHD120.23 </p>
+                    <p class="card-text text-decoration-line-through discount-price">BHD120.23</p>
+                  </div>
+                  <div>
+
+                    <button class="new-arrival-btn">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card h-100 me-4 card-size">
+              <div class="heart">
+                <img src="assets/product/heart.png" alt="">
+              </div>
+              <img src="assets/product/p-4.png" class="card-img-top" alt="Your Image">
+              <div class="card-body">
+                <p class="card-title product-title">Ananda Signature shower gel</p>
+                <div class="d-flex justify-content-between">
+                  <div>
+                    <p class="card-text bhd-price">BHD120.23 </p>
+                    <p class="card-text text-decoration-line-through discount-price">BHD120.23</p>
+                  </div>
+                  <div>
+
+                    <button class="new-arrival-btn">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container-sm d-flex">
+            <div class="card h-100 mx-4 card-size">
+              <div class="heart">
+                <img src="assets/product/heart.png" alt="">
+              </div>
+              <img src="assets/product/p-1.png" class="card-img-top" alt="Your Image">
+              <div class="card-body">
+                <p class="card-title product-title">Ananda Signature shower gel</p>
+                <div class="d-flex justify-content-between">
+                  <div>
+                    <p class="card-text bhd-price">BHD120.23 </p>
+                    <p class="card-text text-decoration-line-through discount-price">BHD120.23</p>
+                  </div>
+                  <div>
+                    <button class="new-arrival-btn">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card h-100 me-4 card-size">
+              <div class="heart">
+                <img src="assets/product/heart.png" alt="">
+              </div>
+              <img src="assets/product/p-2.png" class="card-img-top" alt="Your Image">
+              <div class="card-body">
+                <p class="card-title product-title">Ananda Signature shower gel</p>
+                <div class="d-flex justify-content-between">
+                  <div>
+                    <p class="card-text bhd-price">BHD120.23 </p>
+                    <p class="card-text text-decoration-line-through discount-price">BHD120.23</p>
+                  </div>
+                  <div>
+                    <button class="new-arrival-btn">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card h-100 me-4 card-size">
+              <div class="heart">
+                <img src="assets/product/heart.png" alt="">
+              </div>
+              <img src="assets/product/p-3.png" class="card-img-top" alt="Your Image">
+              <div class="card-body">
+                <p class="card-title product-title">Ananda Signature shower gel</p>
+                <div class="d-flex justify-content-between">
+                  <div>
+                    <p class="card-text bhd-price">BHD120.23 </p>
+                    <p class="card-text text-decoration-line-through discount-price">BHD120.23</p>
+                  </div>
+                  <div>
+                    <button class="new-arrival-btn">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card h-100 me-4 card-size">
+              <div class="heart">
+                <img src="assets/product/heart.png" alt="">
+              </div>
+              <img src="assets/product/p-4.png" class="card-img-top" alt="Your Image">
+              <div class="card-body">
+                <p class="card-title product-title">Ananda Signature shower gel</p>
+                <div class="d-flex justify-content-between">
+                  <div>
+                    <p class="card-text bhd-price">BHD120.23 </p>
+                    <p class="card-text text-decoration-line-through discount-price">BHD120.23</p>
+                  </div>
+                  <div>
+                    <button class="new-arrival-btn">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item ">
+          <div class="container-sm d-flex">
+            <div class="card h-100 mx-3 card-size">
+              <div class="heart">
+                <img src="assets/product/heart.png" alt="">
+              </div>
+              <img src="assets/product/p-1.png" class="card-img-top" alt="Your Image">
+              <div class="card-body">
+                <p class="card-title product-title">Ananda Signature shower gel</p>
+                <div class="d-flex justify-content-between">
+                  <div>
+                    <p class="card-text bhd-price">BHD120.23 </p>
+                    <p class="card-text text-decoration-line-through discount-price">BHD120.23</p>
+                  </div>
+                  <div>
+                    <button class="new-arrival-btn">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card h-100 me-4 card-size">
+              <div class="heart">
+                <img src="assets/product/heart.png" alt="">
+              </div>
+              <img src="assets/product/p-2.png" class="card-img-top" alt="Your Image">
+              <div class="card-body">
+                <p class="card-title product-title">Ananda Signature shower gel</p>
+                <div class="d-flex justify-content-between">
+                  <div>
+                    <p class="card-text bhd-price">BHD120.23 </p>
+                    <p class="card-text text-decoration-line-through discount-price">BHD120.23</p>
+                  </div>
+                  <div>
+                    <button class="new-arrival-btn">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card h-100 me-4 card-size">
+              <div class="heart">
+                <img src="assets/product/heart.png" alt="">
+              </div>
+              <img src="assets/product/p-3.png" class="card-img-top" alt="Your Image">
+              <div class="card-body">
+                <p class="card-title product-title">Ananda Signature shower gel</p>
+                <div class="d-flex justify-content-between">
+                  <div>
+                    <p class="card-text bhd-price">BHD120.23 </p>
+                    <p class="card-text text-decoration-line-through discount-price">BHD120.23</p>
+                  </div>
+                  <div>
+                    <button class="new-arrival-btn">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card h-100 me-4 card-size">
+              <div class="heart">
+                <img src="assets/product/heart.png" alt="">
+              </div>
+              <img src="assets/product/p-4.png" class="card-img-top" alt="Your Image">
+              <div class="card-body">
+                <p class="card-title product-title">Ananda Signature shower gel</p>
+                <div class="d-flex justify-content-between">
+                  <div>
+                    <p class="card-text bhd-price">BHD120.23 </p>
+                    <p class="card-text text-decoration-line-through discount-price">BHD120.23</p>
+                  </div>
+                  <div>
+
+                    <button class="new-arrival-btn">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+  </section>
+  <!-- Featured Product Section End -->
+
+  <!-- New Arrival Section Start -->
+  <section class="container product">
+    <div class="vertical"></div>
+    <div class="feature-text-align tablet-responsive">
+      <h1 class="feature-heading">New Arrivals</h1>
+      <p class="section-headline-p">Our New Arrival Products </p>
+    </div>
+    <div id="carouselExampleControls-2" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container-sm d-flex">
+            <div class="card h-100 mx-4 card-size">
+              <div class="heart">
+                <img src="assets/product/heart.png" alt="">
+              </div>
+              <img src="assets/product/p-1.png" class="card-img-top" alt="Your Image">
+              <div class="card-body">
+                <p class="card-title product-title">Ananda Signature shower gel</p>
+                <div class="d-flex justify-content-between">
+                  <div>
+                    <p class="card-text bhd-price">BHD120.23 </p>
+                    <p class="card-text text-decoration-line-through discount-price">BHD120.23</p>
+                  </div>
+                  <div>
+
+                    <button class="new-arrival-btn">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card h-100 me-4 card-size">
+              <div class="heart">
+                <img src="assets/product/heart.png" alt="">
+              </div>
+              <img src="assets/product/p-2.png" class="card-img-top" alt="Your Image">
+              <div class="card-body">
+                <p class="card-title product-title">Ananda Signature shower gel</p>
+                <div class="d-flex justify-content-between">
+                  <div>
+                    <p class="card-text bhd-price">BHD120.23 </p>
+                    <p class="card-text text-decoration-line-through discount-price">BHD120.23</p>
+                  </div>
+                  <div>
+
+                    <button class="new-arrival-btn">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card h-100 me-4 card-size">
+              <div class="heart">
+                <img src="assets/product/heart.png" alt="">
+              </div>
+              <img src="assets/product/p-3.png" class="card-img-top" alt="Your Image">
+              <div class="card-body">
+                <p class="card-title product-title">Ananda Signature shower gel</p>
+                <div class="d-flex justify-content-between">
+                  <div>
+                    <p class="card-text bhd-price">BHD120.23 </p>
+                    <p class="card-text text-decoration-line-through discount-price">BHD120.23</p>
+                  </div>
+                  <div>
+
+                    <button class="new-arrival-btn">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card h-100 me-4 card-size">
+              <div class="heart">
+                <img src="assets/product/heart.png" alt="">
+              </div>
+              <img src="assets/product/p-4.png" class="card-img-top" alt="Your Image">
+              <div class="card-body">
+                <p class="card-title product-title">Ananda Signature shower gel</p>
+                <div class="d-flex justify-content-between">
+                  <div>
+                    <p class="card-text bhd-price">BHD120.23 </p>
+                    <p class="card-text text-decoration-line-through discount-price">BHD120.23</p>
+                  </div>
+                  <div>
+
+                    <button class="new-arrival-btn">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container-sm d-flex">
+            <div class="card h-100 mx-4 card-size">
+              <div class="heart">
+                <img src="assets/product/heart.png" alt="">
+              </div>
+              <img src="assets/product/p-1.png" class="card-img-top" alt="Your Image">
+              <div class="card-body">
+                <p class="card-title product-title">Ananda Signature shower gel</p>
+                <div class="d-flex justify-content-between">
+                  <div>
+                    <p class="card-text bhd-price">BHD120.23 </p>
+                    <p class="card-text text-decoration-line-through discount-price">BHD120.23</p>
+                  </div>
+                  <div>
+
+                    <button class="new-arrival-btn">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card h-100 me-4 card-size">
+              <div class="heart">
+                <img src="assets/product/heart.png" alt="">
+              </div>
+              <img src="assets/product/p-2.png" class="card-img-top" alt="Your Image">
+              <div class="card-body">
+                <p class="card-title product-title">Ananda Signature shower gel</p>
+                <div class="d-flex justify-content-between">
+                  <div>
+                    <p class="card-text bhd-price">BHD120.23 </p>
+                    <p class="card-text text-decoration-line-through discount-price">BHD120.23</p>
+                  </div>
+                  <div>
+
+                    <button class="new-arrival-btn">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card h-100 me-4 card-size">
+              <div class="heart">
+                <img src="assets/product/heart.png" alt="">
+              </div>
+              <img src="assets/product/p-3.png" class="card-img-top" alt="Your Image">
+              <div class="card-body">
+                <p class="card-title product-title">Ananda Signature shower gel</p>
+                <div class="d-flex justify-content-between">
+                  <div>
+                    <p class="card-text bhd-price">BHD120.23 </p>
+                    <p class="card-text text-decoration-line-through discount-price">BHD120.23</p>
+                  </div>
+                  <div>
+
+                    <button class="new-arrival-btn">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card h-100 me-4 card-size">
+              <div class="heart">
+                <img src="assets/product/heart.png" alt="">
+              </div>
+              <img src="assets/product/p-4.png" class="card-img-top" alt="Your Image">
+              <div class="card-body">
+                <p class="card-title product-title">Ananda Signature shower gel</p>
+                <div class="d-flex justify-content-between">
+                  <div>
+                    <p class="card-text bhd-price">BHD120.23 </p>
+                    <p class="card-text text-decoration-line-through discount-price">BHD120.23</p>
+                  </div>
+                  <div>
+
+                    <button class="new-arrival-btn">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item ">
+          <div class="container-sm d-flex">
+            <div class="card h-100 mx-3 card-size">
+              <div class="heart">
+                <img src="assets/product/heart.png" alt="">
+              </div>
+              <img src="assets/product/p-1.png" class="card-img-top" alt="Your Image">
+              <div class="card-body">
+                <p class="card-title product-title">Ananda Signature shower gel</p>
+                <div class="d-flex justify-content-between">
+                  <div>
+                    <p class="card-text bhd-price">BHD120.23 </p>
+                    <p class="card-text text-decoration-line-through discount-price">BHD120.23</p>
+                  </div>
+                  <div>
+
+                    <button class="new-arrival-btn">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card h-100 me-4 card-size">
+              <div class="heart">
+                <img src="assets/product/heart.png" alt="">
+              </div>
+              <img src="assets/product/p-2.png" class="card-img-top" alt="Your Image">
+              <div class="card-body">
+                <p class="card-title product-title">Ananda Signature shower gel</p>
+                <div class="d-flex justify-content-between">
+                  <div>
+                    <p class="card-text bhd-price">BHD120.23 </p>
+                    <p class="card-text text-decoration-line-through discount-price">BHD120.23</p>
+                  </div>
+                  <div>
+
+                    <button class="new-arrival-btn">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card h-100 me-4 card-size">
+              <div class="heart">
+                <img src="assets/product/heart.png" alt="">
+              </div>
+              <img src="assets/product/p-3.png" class="card-img-top" alt="Your Image">
+              <div class="card-body">
+                <p class="card-title product-title">Ananda Signature shower gel</p>
+                <div class="d-flex justify-content-between">
+                  <div>
+                    <p class="card-text bhd-price">BHD120.23 </p>
+                    <p class="card-text text-decoration-line-through discount-price">BHD120.23</p>
+                  </div>
+                  <div>
+
+                    <button class="new-arrival-btn">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card h-100 me-4 card-size">
+              <div class="heart">
+                <img src="assets/product/heart.png" alt="">
+              </div>
+              <img src="assets/product/p-4.png" class="card-img-top" alt="Your Image">
+              <div class="card-body">
+                <p class="card-title product-title">Ananda Signature shower gel</p>
+                <div class="d-flex justify-content-between">
+                  <div>
+                    <p class="card-text bhd-price">BHD120.23 </p>
+                    <p class="card-text text-decoration-line-through discount-price">BHD120.23</p>
+                  </div>
+                  <div>
+
+                    <button class="new-arrival-btn">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls-2"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls-2"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+  </section>
+  <!-- New Arrival Section End -->
+
+  <!-- Glimpse of Srisoukya Section Start -->
+  <section class="glimps-section ">
+
+    <div class="vertical-2"></div>
+    <div class="glimpse-text-align">
+      <h1 class="feature-heading">Glimpse of srisoukya WC</h1>
+      <p class="section-headline-p">Glimpse of Srisoukya </p>
+    </div>
+    <div class="glimpse-video-section">
+      <video loop muted autoplay="autoplay" class="glmpse-video">
+        <source src="assets/video/nature.mp4" type="video/mp4">
+      </video>
+    </div>
+    </div>
+  </section>
+  <!-- Glimpse of Srisoukya Section End -->
+
+  <!-- Gallery Section Start -->
+  <section class="gallery-section">
+    <div class="vertical-2"></div>
+    <div class="gallery-text-align">
+      <h1 class="feature-heading">Treatments</h1>
+      <p class="section-headline-p">Our All Treatments </p>
+    </div>
+    <div class="gallery-margin">
       <div class="row row-cols-3 g-0">
         <div class="col content">
           <div class="content-overlay"></div>
           <img src="assets/gallery/g-1.png" class="img-fluid gallery-img" alt="image description">
           <div class="content-details fadeIn-left">
-            <a href="#"><p>Rejuvenation</p></a>
+            <a href="#">
+              <p>Rejuvenation</p>
+            </a>
           </div>
         </div>
         <div class="col content">
           <div class="content-overlay"></div>
           <img src="assets/gallery/g-2.png" class="img-fluid gallery-img" alt="image description">
           <div class="content-details fadeIn-left">
-            <a href="#"><p>Whole Spine Protection</p></a>
+            <a href="#">
+              <p>Whole Spine Protection</p>
+            </a>
           </div>
         </div>
         <div class="col content">
           <div class="content-overlay"></div>
           <img src="assets/gallery/g-3.png" class="img-fluid gallery-img" alt="image description">
           <div class="content-details fadeIn-left">
-            <a href="#"><p>Body Purification</p></a>
+            <a href="#">
+              <p>Body Purification</p>
+            </a>
           </div>
         </div>
         <div class="col content">
           <div class="content-overlay"></div>
           <img src="assets/gallery/g-4.png" class="img-fluid gallery-img" alt="image description">
           <div class="content-details fadeIn-left">
-            <a href="#"><p>Anti Ageing</p></a>
+            <a href="#">
+              <p>Anti Ageing</p>
+            </a>
           </div>
         </div>
         <div class="col content">
           <div class="content-overlay"></div>
           <img src="assets/gallery/g-5.png" class="img-fluid gallery-img" alt="image description">
           <div class="content-details fadeIn-left">
-            <a href="#"><p>Mind and Body Relaxation</p></a>
+            <a href="#">
+              <p>Mind and Body Relaxation</p>
+            </a>
           </div>
         </div>
         <div class="col content">
           <div class="content-overlay"></div>
           <img src="assets/gallery/g-2.png" class="img-fluid gallery-img" alt="image description">
           <div class="content-details fadeIn-left">
-            <a href="#"><p>Slimming-Weight loss</p></a>
+            <a href="#">
+              <p>Slimming-Weight loss</p>
+            </a>
           </div>
         </div>
       </div>
       <!-- <div class="row row-cols-3 g-0">
         
       </div> -->
-     </div>
-    </section>
-    
-    <!-- Gallery Section End -->
+    </div>
+  </section>
 
-    <!-- Health Issues Section Start -->
-    <section class="health-section">
-      <div class = "vertical-3"></div>
-        <div class="health-text-align">
-            <h1 class="feature-heading">Health Issues</h1>
-            <p class="section-headline-p">Health Issue </p>
-        </div>
-      <div class="consultant-area">
-        <h5>Consult Doctor for your health issues</h5>
-        <div class="hr-line-bg w-50 mx-auto"></div>
-        <div class="container health-service-margin">
-          <div class="row justify-content-center">
-            <div class="col health-col">
-              <img src="assets/health/h-1.png" alt="Image 1" class="mx-auto d-block">
-              <h6 style="margin-top: 5px;" class="text-center">Arthritis</h6>
-            </div>
-            <div class="col health-col">
-              <img src="assets/health/h-2.png" alt="Image 2" class="mx-auto d-block">
-              <h6 style="margin-top: 5px;" class="text-center">Back-Pain</h6>
-            </div>
-            <div class="col health-col">
-              <img src="assets/health/h-3.png" alt="Image 3" class="mx-auto d-block">
-              <h6 style="margin-top: 5px;" class="text-center">Diabetes</h6>
-            </div>
-            <div class="col health-col">
-              <img src="assets/health/h-4.png" alt="Image 4" class="mx-auto d-block">
-              <h6 style="margin-top: 5px;" class="text-center">Hair-Care</h6>
-            </div>
-            <div class="col health-col">
-              <img src="assets/health/h-5.png" alt="Image 5" class="mx-auto d-block">
-              <h6 style="margin-top: 5px;" class="text-center">Kid’s-Health</h6>
-            </div>
-            <div class="col health-col">
-              <img src="assets/health/h-6.png" alt="Image 6" class="mx-auto d-block">
-              <h6 style="margin-top: 5px;" class="text-center">Knee-Pain</h6>
-            </div>
-            <div class="col health-col">
-              <img src="assets/health/h-7.png" alt="Image 7" class="mx-auto d-block">
-              <h6 style="margin-top: 5px;" class="text-center">Migraine</h6>
-            </div>
-            <div class="col health-col">
-              <img src="assets/health/h-8.png" alt="Image 8" class="mx-auto d-block">
-              <h6 style="margin-top: 5px;" class="text-center">PCOD</h6>
-            </div>
-            <div class="col health-col">
-              <img src="assets/health/h-9.png" alt="Image 9" class="mx-auto d-block">
-              <h6 style="margin-top: 5px;" class="text-center">Sexual-Health</h6>
-            </div>
-            <div class="col health-col">
-              <img src="assets/health/h-10.png" alt="Image 10" class="mx-auto d-block">
-              <h6 style="margin-top: 5px;" class="text-center">Shoulder-Pain</h6>
-            </div>
-            <div class="col health-col">
-              <img src="assets/health/h-11.png" alt="Image 11" class="mx-auto d-block">
-              <h6 style="margin-top: 5px;" class="text-center">Sinus</h6>
-            </div>
-            <div class="col health-col">
-              <img src="assets/health/h-12.png" alt="Image 12" class="mx-auto d-block">
-              <h6 style="margin-top: 5px;" class="text-center">Skin-Care</h6>
-            </div>
-            <div class="col health-col">
-              <img src="assets/health/h-13.png" alt="Image 13" class="mx-auto d-block">
-              <h6 style="margin-top: 5px;" class="text-center">Thyroid</h6>
-            </div>
-            <div class="col health-col">
-              <img src="assets/health/h-14.png" alt="Image 14" class="mx-auto d-block">
-              <h6 style="margin-top: 5px;" class="text-center">Women’s-Health</h6>
-            </div>
+  <!-- Gallery Section End -->
+
+  <!-- Health Issues Section Start -->
+  <section class="health-section">
+    <div class="vertical-3"></div>
+    <div class="health-text-align">
+      <h1 class="feature-heading">Health Issues</h1>
+      <p class="section-headline-p">Health Issue </p>
+    </div>
+    <div class="consultant-area">
+      <h5>Consult Doctor for your health issues</h5>
+      <div class="hr-line-bg w-50 mx-auto"></div>
+      <div class="container health-service-margin">
+        <div class="row justify-content-center">
+          <div class="col health-col">
+            <img src="assets/health/h-1.png" alt="Image 1" class="mx-auto d-block">
+            <h6 style="margin-top: 5px;" class="text-center">Arthritis</h6>
           </div>
-          
-          <!-- <div class="row justify-content-center" style="margin-top: 50px;">
+          <div class="col health-col">
+            <img src="assets/health/h-2.png" alt="Image 2" class="mx-auto d-block">
+            <h6 style="margin-top: 5px;" class="text-center">Back-Pain</h6>
+          </div>
+          <div class="col health-col">
+            <img src="assets/health/h-3.png" alt="Image 3" class="mx-auto d-block">
+            <h6 style="margin-top: 5px;" class="text-center">Diabetes</h6>
+          </div>
+          <div class="col health-col">
+            <img src="assets/health/h-4.png" alt="Image 4" class="mx-auto d-block">
+            <h6 style="margin-top: 5px;" class="text-center">Hair-Care</h6>
+          </div>
+          <div class="col health-col">
+            <img src="assets/health/h-5.png" alt="Image 5" class="mx-auto d-block">
+            <h6 style="margin-top: 5px;" class="text-center">Kid’s-Health</h6>
+          </div>
+          <div class="col health-col">
+            <img src="assets/health/h-6.png" alt="Image 6" class="mx-auto d-block">
+            <h6 style="margin-top: 5px;" class="text-center">Knee-Pain</h6>
+          </div>
+          <div class="col health-col">
+            <img src="assets/health/h-7.png" alt="Image 7" class="mx-auto d-block">
+            <h6 style="margin-top: 5px;" class="text-center">Migraine</h6>
+          </div>
+          <div class="col health-col">
+            <img src="assets/health/h-8.png" alt="Image 8" class="mx-auto d-block">
+            <h6 style="margin-top: 5px;" class="text-center">PCOD</h6>
+          </div>
+          <div class="col health-col">
+            <img src="assets/health/h-9.png" alt="Image 9" class="mx-auto d-block">
+            <h6 style="margin-top: 5px;" class="text-center">Sexual-Health</h6>
+          </div>
+          <div class="col health-col">
+            <img src="assets/health/h-10.png" alt="Image 10" class="mx-auto d-block">
+            <h6 style="margin-top: 5px;" class="text-center">Shoulder-Pain</h6>
+          </div>
+          <div class="col health-col">
+            <img src="assets/health/h-11.png" alt="Image 11" class="mx-auto d-block">
+            <h6 style="margin-top: 5px;" class="text-center">Sinus</h6>
+          </div>
+          <div class="col health-col">
+            <img src="assets/health/h-12.png" alt="Image 12" class="mx-auto d-block">
+            <h6 style="margin-top: 5px;" class="text-center">Skin-Care</h6>
+          </div>
+          <div class="col health-col">
+            <img src="assets/health/h-13.png" alt="Image 13" class="mx-auto d-block">
+            <h6 style="margin-top: 5px;" class="text-center">Thyroid</h6>
+          </div>
+          <div class="col health-col">
+            <img src="assets/health/h-14.png" alt="Image 14" class="mx-auto d-block">
+            <h6 style="margin-top: 5px;" class="text-center">Women’s-Health</h6>
+          </div>
+        </div>
+
+        <!-- <div class="row justify-content-center" style="margin-top: 50px;">
            
           </div> -->
-        </div>
       </div>
-     
-    </section>
-    <!-- Health Issues Section End -->
+    </div>
 
-    <!-- Track your Order Section start -->
-    <section class="track-section">
-      <hr>
-      <div >
-        <h2>Track your Order</h2>
-        <p class="text-center">Enter your Order ID in the box below and press the “Track” button.</p>
-        <div class="track-bg">
-          <img src="assets/feature/bg-image.png" alt="">
-         </div>
-        <form>
-          <select>
-            <option selected>Select your Health Issue</option>
-            <option value="1">Arthritis</option>
-            <option value="2">Back-Pain</option>
-            <option value="3">Diabetes</option>
-          </select>
-          
-          <br>
+  </section>
+  <!-- Health Issues Section End -->
+
+  <!-- Track your Order Section start -->
+  <section class="track-section">
+    <hr>
+    <div>
+      <h2>Track your Order</h2>
+      <p class="text-center">Enter your Order ID in the box below and press the “Track” button.</p>
+      <div class="track-bg">
+        <img src="assets/feature/bg-image.png" alt="">
+      </div>
+      <form>
+        <select>
+          <option selected>Select your Health Issue</option>
+          <option value="1">Arthritis</option>
+          <option value="2">Back-Pain</option>
+          <option value="3">Diabetes</option>
+        </select>
+
+        <br>
         <input type="text" placeholder="
 Secret ID (Only For Guest User) *">
-        </form>
-      </div>
-      
-      <div class="d-flex align-items-center justify-content-center" style="padding-bottom: 67px;">
-        <button class="track-btn mx-auto">Submit Button</button>
-      </div>
-      <hr>
-    </section>
-   
-    <!-- Track your Order Section end -->
+      </form>
+    </div>
 
-    <!-- Footer Section Start -->
-     <footer class="footer-bg">
-      <div class="container footer-design">
-        <div class="item footer-item-1">
-          <img src="assets/logo/logo.png" alt="Logo" class="footer-logo">
-          <p>Srisoukya Ayurvedic Center <br> Zinj Manama Bahrain.</p>
-          <ul class="list-unstyled d-flex social-icon">
-            <li><a href="#"><i class="ri-youtube-fill"></i></a></li>
-            <li><a href="#"><i class="ri-twitter-fill"></i></a></li>
-            <li><a href="#"><i class="ri-facebook-circle-fill"></i></a></li>
-            <li><a href="#"><i class="ri-linkedin-box-fill"></i></a></li>
-            
+    <div class="d-flex align-items-center justify-content-center" style="padding-bottom: 67px;">
+      <button class="track-btn mx-auto">Submit Button</button>
+    </div>
+    <hr>
+  </section>
+
+  <!-- Track your Order Section end -->
+
+  <!-- Footer Section Start -->
+  <footer class="footer-bg">
+    <div class="container footer-design">
+      <div class="item footer-item-1">
+        <img src="assets/logo/logo.png" alt="Logo" class="footer-logo">
+        <p>Srisoukya Ayurvedic Center <br> Zinj Manama Bahrain.</p>
+        <ul class="list-unstyled d-flex social-icon">
+          <li><a href="#"><i class="ri-youtube-fill"></i></a></li>
+          <li><a href="#"><i class="ri-twitter-fill"></i></a></li>
+          <li><a href="#"><i class="ri-facebook-circle-fill"></i></a></li>
+          <li><a href="#"><i class="ri-linkedin-box-fill"></i></a></li>
+
+        </ul>
+      </div>
+      <div class="item d-flex justify-content-center footer-item-2">
+        <div>
+          <h5 class="footer-title">Our Address</h5>
+          <div class="d-flex footer-img">
+            <img src="assets/footer/add-1.png" alt="" class="me-2">
+            <span>Srisoukya Ayurvedic Center, Bldg 1005, Rd 3320, Block 333, Zinj, Manama, Kingdom of Bahrain</span>
+          </div>
+          <div class="d-flex align-items-center footer-img">
+            <img src="assets/footer/add-2.png" alt="" class="me-2">
+            <span>+ 973- 77992100</span>
+          </div>
+          <div class="d-flex align-items-center footer-img">
+            <img src="assets/footer/add-3.png" alt="" class="me-2">
+            <span>support@srisoukya.com</span>
+          </div>
+        </div>
+      </div>
+      <div class="item d-flex justify-content-center footer-item-3">
+        <div>
+          <h5 class="footer-title">Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact Us</a></li>
           </ul>
         </div>
-        <div class="item d-flex justify-content-center footer-item-2">
-          <div>
-           <h5 class="footer-title">Our Address</h5>
-           <div class="d-flex footer-img">
-             <img src="assets/footer/add-1.png" alt="" class="me-2">
-             <span>Srisoukya Ayurvedic Center, Bldg 1005, Rd 3320, Block 333, Zinj, Manama,  Kingdom of Bahrain</span>
-           </div>
-           <div class="d-flex align-items-center footer-img">
-             <img src="assets/footer/add-2.png" alt="" class="me-2">
-             <span>+ 973- 77992100</span>
-           </div>
-           <div class="d-flex align-items-center footer-img">
-             <img src="assets/footer/add-3.png" alt="" class="me-2">
-             <span>support@srisoukya.com</span>
-           </div>
-          </div>
-           </div>
-           <div class="item d-flex justify-content-center footer-item-3">
-           <div>
-             <h5 class="footer-title">Quick Links</h5>
-             <ul class="list-unstyled">
-               <li><a href="#">Home</a></li>
-               <li><a href="#">About</a></li>
-               <li><a href="#">Services</a></li>
-               <li><a href="#">Blog</a></li>
-               <li><a href="#">Contact Us</a></li>
-             </ul>
-           </div>
-           </div>
-      
-        <div class="item get-touch-footer footer-item-4">
-          <h5 class="get-touch ml-5">get in touch with us</h5>
-          <p class="get-touch-p">Srisoukya Ayurvedic Center</p>
-          <form action="#">
-            <div class="d-flex align-items-center mr-5 footer-input">
-              <input type="text" placeholder="Email Address" class="fot-input"/>
-            <button class="submit-btn">Subscribe</button>
-            </div>
-          </form>
-        </div>
-        <div class="footer-rights"><p class="">Copyright © 2023 Srisoukya. All Rights Reserved. Made By SBIT WLL, Kingdom of Bahrain</p></div>
       </div>
-    </footer> 
-    
-    <!-- Footer Section End -->
+
+      <div class="item get-touch-footer footer-item-4">
+        <h5 class="get-touch ml-5">get in touch with us</h5>
+        <p class="get-touch-p">Srisoukya Ayurvedic Center</p>
+        <form action="#">
+          <div class="d-flex align-items-center mr-5 footer-input">
+            <input type="text" placeholder="Email Address" class="fot-input" />
+            <button class="submit-btn">Subscribe</button>
+          </div>
+        </form>
+      </div>
+      <div class="footer-rights">
+        <p class="">Copyright © 2023 Srisoukya. All Rights Reserved. Made By SBIT WLL, Kingdom of Bahrain</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Footer Section End -->
 
 
-    <!-- Bootstrap CDN Link -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    
+  <!-- Bootstrap CDN Link -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
 </body>
+
 </html>

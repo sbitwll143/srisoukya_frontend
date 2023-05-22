@@ -4472,7 +4472,7 @@ padding-top: 40px;
 .navbar-toggler:focus{
   outline: none;
   box-shadow: none!important;
-  border: 1px solid #000!important;
+  /* border: 1px solid #000!important; */
   border-radius: 5px!important;
 }
 ul li{
