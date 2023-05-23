@@ -1754,6 +1754,72 @@ textarea.text-field {
   transform: translateY(16px);
   margin-inline-start: -15px;
  }
+
+
+ /*====================================================================================*/
+ /* Outpatient Consultation Section Start */
+ /* Backgroud Image setup */
+ #outpatient-consultation-bg{
+  background-image:url('assets/outpatient-consultation/outconsultation-bg.png');
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    
+ }
+
+.outpatient-gallery{
+  margin-top: 130px!important;
+}
+
+.outpatient-title{
+  background: -webkit-linear-gradient(180deg, #F5E590 0%, #B18B26 51.56%, #CAAC26 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+
+/*====================================================================================*/
+ /* Classic Medicine Section Start */
+ /* Backgroud Image setup */
+ #classic-medicine-bg{
+  background-image:url('assets/classical-ayurvedic-medicine/classical-medicine-bg.png');
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    
+ }
+
+ /*====================================================================================*/
+ /* Herbal Cosmetic Section Start */
+ /* Backgroud Image setup */
+ #herbal-cosmetic-bg{
+  background-image:url('assets/herbal-cosmetic/herbal-bg.png');
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    
+ }
+
+  /*====================================================================================*/
+ /* Natural Beauty Section Start */
+ /* Backgroud Image setup */
+ #natural-beauty-bg{
+  background-image:url('assets/natural-beauty/natural-bg.png');
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    
+ }
  /*=================================================================================*/
 
 /* Responsive Design for home page start */
@@ -3613,6 +3679,10 @@ form select {
   transform: translateY(16px);
   margin-inline-start: -15px;
 }
+
+.outpatient-gallery{
+  margin-top: 80px!important;
+}
 }
 
 @media only screen and (max-width: 950px){
@@ -5059,6 +5129,11 @@ padding-top: 40px;
   height: 350px;
   transform: translateY(16px);
   margin-inline-start: 0px;
+}
+
+/* Outpatient consultation section */
+.outpatient-gallery{
+  margin-top: 80px!important;
 }
 }
 
@@ -6712,6 +6787,11 @@ padding-top: 40px;
   transform: translateY(16px);
   margin-inline-start: 0px;
 }
+
+/* Outpatient consultation section */
+.outpatient-gallery{
+  margin-top: 40px!important;
+}
 }
 
 @media only screen and (max-width: 520px){
@@ -8219,6 +8299,10 @@ padding-top: 12px;
 .mind-banner-text h5{
   font-size: 25px;
 
+}
+/* Outpatient consultation section */
+.outpatient-gallery{
+  margin-top: 40px!important;
 }
 }
 @media only screen and (max-width: 420px){
@@ -11485,6 +11569,11 @@ form select {
   height: 370px;
   transform: translateY(16px);
   margin-inline-start: 0px;
+}
+
+/* Outpatient-consultation section */
+.outpatient-gallery{
+  margin-top: 40px!important;
 }
 }
 /* Responsive Design for home page end */
