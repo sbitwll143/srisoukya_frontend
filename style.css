@@ -1819,7 +1819,149 @@ textarea.text-field {
     
  }
 
+   /*====================================================================================*/
+ /* Health Food Section Start */
+ /* Backgroud Image setup */
+ #health-food-bg{
+  background-image:url('assets/health-food/health-food-bg.png');
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    
+ }
 
+   /*====================================================================================*/
+ /* Abhyagan Section Start */
+ /* Backgroud Image setup */
+ #abhyagan-bg{
+  background-image:url('assets/Abhyangam/Abhyangam-bg.png');
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%; 
+ }
+
+ .side-bg{
+  background-repeat: no-repeat;
+  margin-left: 65%;
+  right: 0;
+  top: 0;
+  width: 100px;
+  height: 200px; 
+ }
+ .side-bg-2{
+  background-repeat: no-repeat;
+  margin-top: -280px;
+  left: 0;
+  bottom: 0;
+  width: 100px;
+  height: 200px; 
+  margin-left: -5%;
+ }
+ .abhya-theraphy-content-div{
+  margin-inline: 55px!important;
+  transform: translateY(-23px);
+  padding: 50px;
+ }
+ .abhyagan-img-section{
+  margin-top: -100px!important;
+  z-index: 3;
+ }
+ .abhyagan-img-1{
+  transform: translateX(48px);
+ }
+
+
+ .abhyagan-img-2{
+  transform: translateX(-20px);
+ }
+
+ .abhya-theraphy{
+  line-height: 35px;
+ }
+
+ .abhya-title{
+  background: -webkit-linear-gradient(180deg, #F5E590 0%, #B18B26 51.56%, #CAAC26 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  font-size: 30px;
+ }
+
+  /* Phizhil Section Start */
+ /* Backgroud Image setup */
+ #pizhichil-bg{
+  background-image:url('assets/pizhichil/Pizhichil-bg.png');
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%; 
+ }
+
+ .pizhichil-appointment-date{
+  margin-top: 250px;
+ }
+
+ /* Podikkizi Section Start */
+ /* Backgroud Image setup */
+ #podikkizi-bg{
+  background-image:url('assets/podikkizi/podikkizi-bg.png');
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%; 
+ }
+
+
+ /* elakizhi Section Start */
+ /* Backgroud Image setup */
+ #elakkizhi-bg{
+  background-image:url('assets/elakizhi/elakkizi-bg.png');
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%; 
+ }
+
+ /* navaraki Section Start */
+ /* Backgroud Image setup */
+ #navaraki-bg{
+  background-image:url('assets/Navarakizhi/navarakizhi-bg.png');
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%; 
+ }
+
+
+ /* Shirodhara Section Start */
+ /* Backgroud Image setup */
+ #shirodhara-bg{
+  background-image:url('assets/Shirodhara/Shirodhara-bg.png');
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%; 
+ }
+
+ /* Kativasthy Section Start */
+ /* Backgroud Image setup */
+ #kativasthy-bg{
+  background-image:url('assets/Kativasthy/Kativasthy-bg.png');
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%; 
+ }
  /*=================================================================================*/
 
 /* Responsive Design for home page start */
@@ -2306,6 +2448,61 @@ footer a {
 .service-text-p {
   font-size: 18px;
   max-width: 90%;
+}
+
+/* Abhyagan section */
+#abhyagan-bg{
+  height: 70vh;
+}
+
+.abhyagan-img-1 {
+  transform: translateX(25px);
+}
+
+.side-bg {
+  background-repeat: no-repeat;
+  margin-left: 80%;
+  right: 0;
+  top: 0;
+  width: 100px;
+  height: 117px;
+}
+.side-bg img, .side-bg-2 img{
+  width: 250px;
+    height: 250px;
+}
+
+.abhyagan-img-2 {
+  margin-left: -16px;
+  transform: translateY(0px);
+}
+
+.abhya-theraphy-content-div {
+  margin-inline: -2px!important;
+  transform: translateY(-29px);
+  width: 100%;
+  padding: 50px;
+  margin-top: 20px;
+  text-align: justify;
+}
+
+.abhya-text {
+  margin-top: 20px;
+}
+.abhya-title{
+  font-size: 30px;
+}
+ul.abhya-theraphy li {
+  font-size: 18px;
+}
+.side-bg-2 {
+  background-repeat: no-repeat;
+  margin-top: -129px;
+  left: 0;
+  bottom: 0;
+  width: 100px;
+  height: 105px;
+  margin-left: 0%;
 }
 }
 @media only screen and (max-width: 1200px){
@@ -3092,6 +3289,61 @@ form select {
   transform: translateY(16px);
   margin-inline-start: -15px;
 }
+
+/* Abhyagan section */
+#abhyagan-bg{
+  height: 70vh;
+}
+
+.abhyagan-img-1 {
+  transform: translateX(20px);
+}
+
+.side-bg {
+  background-repeat: no-repeat;
+  margin-left: 80%;
+  right: 0;
+  top: 0;
+  width: 100px;
+  height: 117px;
+}
+.side-bg img, .side-bg-2 img{
+  width: 250px;
+    height: 250px;
+}
+
+.abhyagan-img-2 {
+  margin-left: -16px;
+  transform: translateY(0px);
+}
+
+.abhya-theraphy-content-div {
+  margin-inline: -2px!important;
+  transform: translateY(-29px);
+  width: 100%;
+  padding: 40px;
+  margin-top: 20px;
+  text-align: justify;
+}
+
+.abhya-text {
+  margin-top: 20px;
+}
+.abhya-title{
+  font-size: 30px;
+}
+ul.abhya-theraphy li {
+  font-size: 18px;
+}
+.side-bg-2 {
+  background-repeat: no-repeat;
+  margin-top: -129px;
+  left: 0;
+  bottom: 0;
+  width: 100px;
+  height: 105px;
+  margin-left: 0%;
+}
 }
 @media only screen and (max-width: 992px){
   .banner-text {
@@ -3683,6 +3935,61 @@ form select {
 
 .outpatient-gallery{
   margin-top: 80px!important;
+}
+
+/* Abhyagan section */
+#abhyagan-bg{
+  height: 70vh;
+}
+
+.abhyagan-img-1 {
+  transform: translateX(16px);
+}
+
+.side-bg {
+  background-repeat: no-repeat;
+  margin-left: 80%;
+  right: 0;
+  top: 0;
+  width: 100px;
+  height: 117px;
+}
+.side-bg img, .side-bg-2 img{
+  width: 250px;
+    height: 250px;
+}
+
+.abhyagan-img-2 {
+  margin-left: -16px;
+  transform: translateY(0px);
+}
+
+.abhya-theraphy-content-div {
+  margin-inline: -2px!important;
+  transform: translateY(-29px);
+  width: 100%;
+  padding: 40px;
+  margin-top: 20px;
+  text-align: justify;
+}
+
+.abhya-text {
+  margin-top: 20px;
+}
+.abhya-title{
+  font-size: 30px;
+}
+ul.abhya-theraphy li {
+  font-size: 18px;
+}
+.side-bg-2 {
+  background-repeat: no-repeat;
+  margin-top: -129px;
+  left: 0;
+  bottom: 0;
+  width: 100px;
+  height: 105px;
+  margin-left: 0%;
 }
 }
 
@@ -5148,6 +5455,66 @@ padding-top: 40px;
 .outpatient-gallery{
   margin-top: 80px!important;
 }
+
+/* Abhyagan section */
+#abhyagan-bg{
+  height: 70vh;
+}
+
+.abhyagan-img-1 {
+  transform: translateX(13px);
+}
+
+.side-bg {
+  background-repeat: no-repeat;
+  margin-left: 80%;
+  right: 0;
+  top: 0;
+  width: 100px;
+  height: 117px;
+}
+.side-bg img, .side-bg-2 img{
+  width: 200px;
+  height: 200px;
+}
+
+.abhyagan-img-2 {
+  margin-left: -12px;
+  transform: translateY(0px);
+}
+
+.abhya-theraphy-content-div {
+  margin-inline: -2px!important;
+  transform: translateY(-29px);
+  width: 100%;
+  padding: 30px;
+  margin-top: 20px;
+  text-align: justify;
+}
+
+.abhya-text {
+  margin-top: 20px;
+}
+.abhya-title{
+  font-size: 25px;
+}
+
+.side-bg-2 {
+  background-repeat: no-repeat;
+  margin-top: -89px;
+  left: 0;
+  bottom: 0;
+  width: 100px;
+  height: 117px;
+  margin-left: 0%;
+}
+
+#pizhichil-bg{
+  height: 70vh;
+}
+.pizhichil-appointment-date{
+  margin-top: 150px;
+ }
 }
 
 @media only screen and (max-width: 767px){
@@ -5426,6 +5793,60 @@ width: 161px;
 .contact-us-appointment {
   margin-top: 300px;
 }
+
+/* Abhyagan section */
+#abhyagan-bg{
+  height: 70vh;
+}
+
+.abhyagan-img-1 {
+  transform: translateX(46px);
+}
+
+.side-bg {
+  background-repeat: no-repeat;
+  margin-left: 85%;
+  right: 0;
+  top: 0;
+  width: 100px;
+  height: 117px;
+}
+.side-bg img, .side-bg-2 img{
+  width: 200px;
+  height: 200px;
+}
+
+.abhyagan-img-2 {
+  transform: translateX(0px);
+  transform: translateY(0px);
+  margin-left: 58px;
+}
+
+.abhya-theraphy-content-div {
+  margin-inline: -2px!important;
+  transform: translateY(-29px);
+  width: 100%;
+  padding: 25px;
+  margin-top: 20px;
+  text-align: justify;
+}
+
+.abhya-text {
+  margin-top: 20px;
+}
+.abhya-title{
+  font-size: 25px;
+}
+
+.side-bg-2 {
+  background-repeat: no-repeat;
+  margin-top: -89px;
+  left: 0;
+  bottom: 0;
+  width: 100px;
+  height: 117px;
+  margin-left: 0%;
+}
 }
 
 @media only screen and (max-width: 720px){
@@ -5467,7 +5888,52 @@ width: 100%;
 
 padding-top: 40px;
 }
+/* Abhyagan section */
+#abhyagan-bg{
+  height: 70vh;
+}
 
+.abhyagan-img-1 {
+  transform: translateX(15px);
+}
+
+.side-bg {
+  background-repeat: no-repeat;
+  margin-left: 85%;
+  right: 0;
+  top: 0;
+  width: 100px;
+  height: 117px;
+}
+.side-bg img, .side-bg-2 img{
+  width: 200px;
+  height: 200px;
+}
+
+.abhyagan-img-2 {
+  transform: translateX(0px);
+  transform: translateY(0px);
+  margin-left: 25px;
+}
+
+
+
+.abhya-text {
+  margin-top: 20px;
+}
+.abhya-title{
+  font-size: 25px;
+}
+
+.side-bg-2 {
+  background-repeat: no-repeat;
+  margin-top: -89px;
+  left: 0;
+  bottom: 0;
+  width: 100px;
+  height: 117px;
+  margin-left: 0%;
+}
 }
 @media only screen and (max-width: 650px){
   
@@ -5825,6 +6291,16 @@ padding-top: 40px;
 
 .elderly-content-h5 {
   margin-top: -67px;
+}
+
+.abhyagan-img-2 {
+  transform: translateX(0px);
+  transform: translateY(0px);
+  margin-left: 1px;
+}
+
+.abhyagan-img-1 {
+  transform: translateX(2px);
 }
 }
 @media only screen and (max-width: 600px){
@@ -6813,6 +7289,66 @@ padding-top: 40px;
 .outpatient-gallery{
   margin-top: 40px!important;
 }
+
+/* Abhyagan section */
+#abhyagan-bg{
+  height: 70vh;
+}
+
+.abhyagan-img-1 {
+  transform: translateX(0px);
+}
+
+.side-bg {
+  background-repeat: no-repeat;
+  margin-left: 85%;
+  right: 0;
+  top: 0;
+  width: 100px;
+  height: 117px;
+}
+.side-bg img, .side-bg-2 img{
+  width: 150px;
+  height: 150px;
+}
+
+.abhyagan-img-2 {
+  transform: translateX(0px);
+  transform: translateY(-20px);
+}
+
+.abhya-theraphy-content-div {
+  margin-inline: -2px!important;
+  transform: translateY(-29px);
+  width: 100%;
+  padding: 10px!important;
+  margin-top: 20px;
+  text-align: justify;
+}
+
+.abhya-text {
+  margin-top: 20px;
+}
+.abhya-title{
+  font-size: 25px;
+}
+
+.side-bg-2 {
+  background-repeat: no-repeat;
+  margin-top: -89px;
+  left: 0;
+  bottom: 0;
+  width: 100px;
+  height: 117px;
+  margin-left: 0%;
+}
+
+#pizhichil-bg{
+  height: 70vh;
+}
+.pizhichil-appointment-date{
+  margin-top: 100px;
+ }
 }
 
 @media only screen and (max-width: 520px){
@@ -8297,6 +8833,68 @@ padding-top: 12px;
   transform: translateY(16px);
   margin-inline-start: 0px;
 }
+
+/* Abhyagan section */
+#abhyagan-bg{
+  height: 70vh;
+}
+
+.abhyagan-img-1 {
+  transform: translateX(0px);
+}
+
+.side-bg {
+  background-repeat: no-repeat;
+  margin-left: 85%;
+  right: 0;
+  top: 0;
+  width: 100px;
+  height: 117px;
+}
+.side-bg img, .side-bg-2 img{
+  width: 120px;
+  height: 120px;
+}
+
+.abhyagan-img-2 {
+  transform: translateX(0px);
+  transform: translateY(-20px);
+}
+
+.abhya-theraphy-content-div {
+  margin-inline: -2px!important;
+  transform: translateY(-29px);
+  width: 100%;
+  padding: 10px!important;
+  margin-top: 20px;
+  text-align: justify;
+}
+
+.abhya-text {
+  margin-top: 20px;
+}
+.abhya-title{
+  font-size: 25px;
+}
+
+.side-bg-2 {
+  background-repeat: no-repeat;
+  margin-top: -89px;
+  left: 0;
+  bottom: 0;
+  width: 100px;
+  height: 117px;
+  margin-left: 0%;
+}
+
+/* pizhichil section */
+
+#pizhichil-bg{
+  height: 70vh;
+}
+.pizhichil-appointment-date{
+  margin-top: 50px;
+ }
 }
 
 @media only screen and (max-width: 450px){
@@ -9924,6 +10522,67 @@ padding-top: 12px;
 .banner-text {
   height: 410px;
 }
+
+/* Abhyagan section */
+#abhyagan-bg{
+  height: 70vh;
+}
+
+.abhyagan-img-1 {
+  transform: translateX(0px);
+}
+
+.side-bg {
+  background-repeat: no-repeat;
+  margin-left: 80%;
+  right: 0;
+  top: 0;
+  width: 100px;
+  height: 117px;
+}
+.side-bg img, .side-bg-2 img{
+  width: 100%;
+}
+
+.abhyagan-img-2 {
+  transform: translateX(0px);
+  transform: translateY(-20px);
+}
+
+.abhya-theraphy-content-div {
+  margin-inline: -2px!important;
+  transform: translateY(-29px);
+  width: 100%;
+  padding: 10px!important;
+  margin-top: 20px;
+  text-align: justify;
+}
+
+.abhya-text {
+  margin-top: 20px;
+}
+.abhya-title{
+  font-size: 25px;
+}
+
+.side-bg-2 {
+  background-repeat: no-repeat;
+  margin-top: -89px;
+  left: 0;
+  bottom: 0;
+  width: 100px;
+  height: 117px;
+  margin-left: 0%;
+}
+/* pizhichil section */
+
+#pizhichil-bg{
+  height: 70vh;
+}
+.pizhichil-appointment-date{
+  margin-top: 50px;
+ }
+
 }
 
 @media only screen and (max-width: 360px) {
@@ -11610,6 +12269,69 @@ form select {
 .outpatient-gallery{
   margin-top: 40px!important;
 }
+
+/* Abhyagan section */
+#abhyagan-bg{
+  height: 70vh;
+}
+
+.abhyagan-img-1 {
+  transform: translateX(0px);
+}
+
+.side-bg {
+  background-repeat: no-repeat;
+  margin-left: 80%;
+  right: 0;
+  top: 0;
+  width: 100px;
+  height: 117px;
+}
+.side-bg img, .side-bg-2 img{
+  width: 120px;
+  height: 120px;
+}
+
+.abhyagan-img-2 {
+  transform: translateX(0px);
+  transform: translateY(-20px);
+}
+
+.abhya-theraphy-content-div {
+  margin-inline: -2px!important;
+  transform: translateY(-29px);
+  width: 100%;
+  padding: 10px!important;
+  margin-top: 20px;
+  text-align: justify;
+}
+
+.abhya-text {
+  margin-top: 20px;
+}
+.abhya-title{
+  font-size: 25px;
+}
+
+.side-bg-2 {
+  background-repeat: no-repeat;
+  margin-top: -89px;
+  left: 0;
+  bottom: 0;
+  width: 100px;
+  height: 117px;
+  margin-left: 0%;
+}
+
+/* pizhichil section */
+
+#pizhichil-bg{
+  height: 70vh;
+}
+.pizhichil-appointment-date{
+  margin-top: 50px;
+ }
+
 }
 /* Responsive Design for home page end */
 
