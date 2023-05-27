@@ -94,7 +94,7 @@
   .banner-text{
     opacity: .8;
     position: absolute;
-    bottom: 0;
+    bottom: -100px;
     left: 0;
     right: 0;
     width: 100%;
@@ -1962,6 +1962,66 @@ textarea.text-field {
     height: 100vh;
     width: 100%; 
  }
+
+  /* Prishtavasthy Section Start */
+ /* Backgroud Image setup */
+ #prishtavasthy-bg{
+  background-image:url('assets/prishtavasthy/Prishtavasthy-bg.png');
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%; 
+ }
+
+  /* Sirovasthy Section Start */
+ /* Backgroud Image setup */
+ #sirovasthy-bg{
+  background-image:url('assets/sirovasthy/sirovasthy-bg.png');
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%; 
+ }
+
+ .sirovasthy-img-2{
+margin-left: -21px;
+  transform: translateY(8px);
+ }
+
+   /* Sarvangadhara Section Start */
+ /* Backgroud Image setup */
+ #sarvangadhara-bg{
+  background-image:url('assets/sarvangadhara/sarvangadhara-bg.png');
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%; 
+ }
+
+   /* Greevavasthy Section Start */
+ /* Backgroud Image setup */
+ #greevavasthy-bg{
+  background-image:url('assets/greevavasthy/greevavasthy-bg.png');
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%; 
+ }
+
+  /* Urovasthy Section Start */
+ /* Backgroud Image setup */
+ #urovasthy-bg{
+  background-image:url('assets/urovasthy/urovasthy-bg.png');
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%; 
+ }
  /*=================================================================================*/
 
 /* Responsive Design for home page start */
@@ -2243,7 +2303,7 @@ font-size: 20px;
   margin-left: 80%;
   right: 0;
   top: 0;
-  margin-top: -50px;
+  margin-top: 190px;
   width: 100px;
   height: 120px;
 }
@@ -2519,7 +2579,7 @@ ul.abhya-theraphy li {
   
   .banner-text {
     background-image: none;
-    bottom: 116px;
+    bottom: -85px;
   }
 
   .nav-link{
@@ -2566,7 +2626,7 @@ font-size: 20px;
   margin-left: 80%;
   right: 0;
   top: 0;
-  margin-top: -50px;
+  margin-top: 190px;
   width: 100px;
   height: 120px;
 }
@@ -2801,7 +2861,7 @@ form select {
     background-image: none;
 }
 #background-video{
-  height: 70vh;
+  height: 100vh!important;
 }
 #background-images{
   height: 90vh;
@@ -2819,7 +2879,7 @@ form select {
 }
 .banner-text {
   background-image: none;
-  bottom: -145px;
+  bottom: 60px;
 }
 
 .package-bg {
@@ -3344,13 +3404,18 @@ ul.abhya-theraphy li {
   height: 105px;
   margin-left: 0%;
 }
+
+.sirovasthy-img-2 {
+  margin-left: -11px;
+  transform: translateY(7px);
+ }
 }
 @media only screen and (max-width: 992px){
   .banner-text {
     height: 340px;
   }
   #background-video{
-    height: 142vh;
+    height: 100vh!important;
   }
   #background-images{
     height: 90vh;
@@ -3991,11 +4056,16 @@ ul.abhya-theraphy li {
   height: 105px;
   margin-left: 0%;
 }
+
+.sirovasthy-img-2 {
+  margin-left: -9px;
+  transform: translateY(6px);
+ }
 }
 
 @media only screen and (max-width: 950px){
   #background-video{
-    height: 45vh!important;
+    height: 100vh!important;
   }
   #background-images{
     height: 90vh;
@@ -4437,10 +4507,15 @@ margin-top: 0;
   transform: translateY(16px);
   margin-inline-start: 0px;
 }
+
+.sirovasthy-img-2 {
+  margin-left: -9px;
+  transform: translateY(6px);
+ }
 }
 @media only screen and (max-width: 850px){
   #background-video{
-    height: 60vh!important;
+    height: 100vh!important;
   }
   #background-images{
     height: 90vh;
@@ -4449,7 +4524,7 @@ margin-top: 0;
     height: 90vh;
   }
   .banner-text {
-    height: 470px;
+    height: 355px;
   }
 
   .logo-size {
@@ -4825,10 +4900,15 @@ padding-top: 40px;
 .booking-content h4 {
   font-size: calc(1rem + .3vw);
 }
+
+.sirovasthy-img-2 {
+  margin-left: -7px;
+  transform: translateY(5px);
+ }
 }
 @media only screen and (max-width: 768px){
   #background-video{
-    height: 50vh!important;
+    height: 100vh!important;
   }
   #background-images{
     height: 80vh;
@@ -5515,6 +5595,11 @@ padding-top: 40px;
 .pizhichil-appointment-date{
   margin-top: 150px;
  }
+
+ .sirovasthy-img-2 {
+  margin-left: -7px;
+  transform: translateY(5px);
+ }
 }
 
 @media only screen and (max-width: 767px){
@@ -5847,6 +5932,12 @@ width: 161px;
   height: 117px;
   margin-left: 0%;
 }
+
+
+  /* sirovashty section */
+  .sirovasthy-img-2 {
+    margin-left: 54px;
+    transform: translateY(0px);
 }
 
 @media only screen and (max-width: 720px){
@@ -6557,7 +6648,7 @@ margin-top: -30px
 
 @media only screen and (max-width: 576px){
   #background-video{
-    height: 70vh!important;
+    height: 90vh!important;
   }
   #background-images{
     height: 80vh;
@@ -7349,6 +7440,16 @@ padding-top: 40px;
 .pizhichil-appointment-date{
   margin-top: 100px;
  }
+
+  /* sirovashty section */
+  .sirovasthy-img-2 {
+    margin-left: 0px;
+    transform: translateY(0px);
+  }
+
+  #sarvangadhara-bg{
+    height: 70vh;
+  }
 }
 
 @media only screen and (max-width: 520px){
@@ -8135,7 +8236,7 @@ left: 180px;
 }
 .banner-text {
   background-image: none;
-  bottom: 160px;
+  bottom: -17px;
 } 
 .track-section {
   margin-block-start: 40px;
@@ -8895,6 +8996,10 @@ padding-top: 12px;
 .pizhichil-appointment-date{
   margin-top: 50px;
  }
+
+ #sarvangadhara-bg{
+  height: 70vh;
+}
 }
 
 @media only screen and (max-width: 450px){
@@ -9693,7 +9798,7 @@ padding-top: 12px;
 
 @media only screen and (max-width: 375px){
   #background-video{
-    height: 80vh;
+    height: 80vh!important;
     
   }
   #background-images{
@@ -10520,7 +10625,7 @@ padding-top: 12px;
   margin-inline-start: 0px;
 }
 .banner-text {
-  height: 410px;
+  height: 189px;
 }
 
 /* Abhyagan section */
@@ -10583,6 +10688,14 @@ padding-top: 12px;
   margin-top: 50px;
  }
 
+  /* sirovashty section */
+  .sirovasthy-img-2 {
+    margin-left: 0px;
+    transform: translateY(0px);}
+
+    #sarvangadhara-bg{
+      height: 70vh;
+    }
 }
 
 @media only screen and (max-width: 360px) {
@@ -11566,7 +11679,7 @@ padding-top: 12px;
   margin-left: 0!important;
 }
 .banner-text {
- height: 365px;
+ height: 10px;
 }
 .package-bg img{
   width: 166px;
@@ -12331,6 +12444,16 @@ form select {
 .pizhichil-appointment-date{
   margin-top: 50px;
  }
+
+ /* sirovashty section */
+ .sirovasthy-img-2 {
+  margin-left: 0px;
+  transform: translateY(0px);
+}
+
+#sarvangadhara-bg{
+  height: 70vh;
+}
 
 }
 /* Responsive Design for home page end */
