@@ -1638,7 +1638,7 @@ textarea.text-field {
   transform: translateY(16px);
   margin-inline-end: -15px;
  }
- .mind-banner-text, .beauty-banner-text{
+ .mind-banner-text, .beauty-banner-text, .well-experienced-banner-text{
   opacity: .8;
   position: absolute;
   bottom: 0;
@@ -1653,7 +1653,9 @@ textarea.text-field {
   text-align: center;
  }
  .mind-banner-text h5,
- .beauty-banner-text h5{
+ .beauty-banner-text h5, .well-experienced-banner-text h5{
+  margin: auto;
+  width: 70%;
   font-size: 40px;
   color: white;
   font-family: 'Lato', sans-serif; 
@@ -2021,6 +2023,90 @@ margin-left: -21px;
     background-size: cover;
     height: 100vh;
     width: 100%; 
+ }
+
+   /* Januvasty Section Start */
+ /* Backgroud Image setup */
+ #januvasty-bg{
+  background-image:url('assets/januvasty/Januvasty-bg.png');
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%; 
+ }
+
+    /* Udvarthanam Section Start */
+ /* Backgroud Image setup */
+ #udvarthanam-bg{
+  background-image:url('assets/udvarthanam/udvarthanam.png');
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%; 
+ }
+
+     /* Nasyam Section Start */
+ /* Backgroud Image setup */
+ #nasyam-bg{
+  background-image:url('assets/nasyam/nasyam-bg.png');
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%; 
+ }
+
+      /* Swedana Section Start */
+ /* Backgroud Image setup */
+ #swedana-bg{
+  background-image:url('assets/swedana/swedana-bg.png');
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%; 
+ }
+
+      /* Kerela-Message-Theraphy Section Start */
+ /* Backgroud Image setup */
+ #kerala-bg{
+  background-image:url('assets/kerela/Kerala-Massage-Therapy.bg.png');
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%; 
+ }
+
+      /* Classic-Message-Theraphy Section Start */
+ /* Backgroud Image setup */
+ #classic-therapy-bg{
+  background-image:url('assets/classic-message-theraphy/Classical-Panchakarma-Therapy-bg.png');
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%; 
+ }
+
+      /* Well-Experienced Section Start */
+ /* Backgroud Image setup */
+ #well-experienced-bg{
+  background-image:url('assets/well-experienced/well-experience-bg.png');
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%; 
+ }
+
+ .well-experienced-content-div{
+  margin-inline: 58px;
+  transform: translateY(-20px);
+  
+  padding: 50px;
  }
  /*=================================================================================*/
 
@@ -4061,6 +4147,12 @@ ul.abhya-theraphy li {
   margin-left: -9px;
   transform: translateY(6px);
  }
+
+ /* Well-Experienced Section */
+.well-experienced-banner-text h5 {
+  width: 90%;
+ 
+}
 }
 
 @media only screen and (max-width: 950px){
@@ -5600,6 +5692,12 @@ padding-top: 40px;
   margin-left: -7px;
   transform: translateY(5px);
  }
+
+ /* Well-Experienced Section */
+.well-experienced-banner-text h5 {
+  width: 100%;
+ 
+}
 }
 
 @media only screen and (max-width: 767px){
@@ -5938,6 +6036,7 @@ width: 161px;
   .sirovasthy-img-2 {
     margin-left: 54px;
     transform: translateY(0px);
+}
 }
 
 @media only screen and (max-width: 720px){
@@ -7450,6 +7549,46 @@ padding-top: 40px;
   #sarvangadhara-bg{
     height: 70vh;
   }
+  /* Udvarthanam section */
+  #udvarthanam-bg{
+    height: 70vh;
+  }
+  /* Nasyam section */
+  #nasyam-bg{
+    height: 70vh;
+  }
+
+   /* Swedana section */
+  #swedana-bg{
+    height: 70vh;
+  }
+
+   /* Kerela-Message-Theraphy section */
+  #kerala-bg{
+    height: 70vh;
+  }
+   /* Classic-Message-Theraphy section */
+  #classic-therapy-bg{
+    height: 70vh;
+  }
+
+   /* Well-Experiencd section */
+  #well-experienced-bg{
+    height: 70vh;
+  }
+
+.well-experienced-banner-text h5 {
+  width: 100%;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.well-experienced-content-div {
+  margin-inline: 58px;
+  transform: translateY(-32px);
+  padding: 29px;
+}
+ 
 }
 
 @media only screen and (max-width: 520px){
@@ -8998,6 +9137,11 @@ padding-top: 12px;
  }
 
  #sarvangadhara-bg{
+  height: 70vh;
+}
+
+/* januvasty section */
+#januvasty-bg{
   height: 70vh;
 }
 }
@@ -10696,6 +10840,8 @@ padding-top: 12px;
     #sarvangadhara-bg{
       height: 70vh;
     }
+
+    
 }
 
 @media only screen and (max-width: 360px) {
@@ -12455,6 +12601,18 @@ form select {
   height: 70vh;
 }
 
+/* Well-Experienced Section */
+.well-experienced-banner-text h5 {
+  width: 100%;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.well-experienced-content-div {
+  margin-inline: 58px;
+  transform: translateY(-32px);
+  padding: 29px;
+}
 }
 /* Responsive Design for home page end */
 
